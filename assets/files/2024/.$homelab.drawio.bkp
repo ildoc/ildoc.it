@@ -1,0 +1,58 @@
+<mxfile host="Electron" modified="2024-03-14T10:56:01.561Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.0.3 Chrome/114.0.5735.289 Electron/25.8.4 Safari/537.36" etag="EFcr0rqKtxys8-E_J4GB" version="22.0.3" type="device">
+  <diagram name="Page-1" id="OgODJ90yU53xLab67bdd">
+    <mxGraphModel dx="860" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GLq3OD3r--ztr6S8l8tt-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="GLq3OD3r--ztr6S8l8tt-1" target="GLq3OD3r--ztr6S8l8tt-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GLq3OD3r--ztr6S8l8tt-18" value="Wifi" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GLq3OD3r--ztr6S8l8tt-17">
+          <mxGeometry x="-0.1587" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GLq3OD3r--ztr6S8l8tt-1" value="Model Fastweb" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GLq3OD3r--ztr6S8l8tt-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GLq3OD3r--ztr6S8l8tt-2" target="GLq3OD3r--ztr6S8l8tt-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GLq3OD3r--ztr6S8l8tt-2" value="Internet" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="50" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GLq3OD3r--ztr6S8l8tt-5" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endFill=0;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=3;" edge="1" parent="1" source="GLq3OD3r--ztr6S8l8tt-1" target="GLq3OD3r--ztr6S8l8tt-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="340" as="sourcePoint" />
+            <mxPoint x="470" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GLq3OD3r--ztr6S8l8tt-9" value="Powerline" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GLq3OD3r--ztr6S8l8tt-5">
+          <mxGeometry x="-0.02" y="4" relative="1" as="geometry">
+            <mxPoint x="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GLq3OD3r--ztr6S8l8tt-10" value="TV" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.tv;" vertex="1" parent="1">
+          <mxGeometry x="630" y="67.5" width="59" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="GLq3OD3r--ztr6S8l8tt-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="GLq3OD3r--ztr6S8l8tt-11" target="GLq3OD3r--ztr6S8l8tt-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GLq3OD3r--ztr6S8l8tt-13" value="HDMI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GLq3OD3r--ztr6S8l8tt-12">
+          <mxGeometry x="0.02" y="1" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GLq3OD3r--ztr6S8l8tt-11" value="Raspberry PI" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GLq3OD3r--ztr6S8l8tt-16" value="Qnap" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="190" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="GLq3OD3r--ztr6S8l8tt-4" value="Sonarr" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="GLq3OD3r--ztr6S8l8tt-16">
+          <mxGeometry x="20" y="50" width="80" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
