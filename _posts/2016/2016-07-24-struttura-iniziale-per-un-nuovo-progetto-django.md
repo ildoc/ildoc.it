@@ -65,7 +65,7 @@ mioProgetto/
     `-- wsgi.py
 ```
 
-Non ho mai trovato molto senso nel creare una folder col nome del progetto... ...all'interno della folder col nome del progetto!, poi, girovagando su Github, mi sono imbattuto nel sorgente del sito [djangopackages.com](http://djangopackages.com) ([qui](https://github.com/pydanny/djangopackages) il sorgente) sviluppato da pydanny, l'autore di [Two Scoops of Django](http://amzn.to/2aiPUq2), che a mio avviso è la BIBBIA di Django.
+Non ho mai trovato molto senso nel creare una folder col nome del progetto... ...all'interno della folder col nome del progetto!, poi, girovagando su Github, mi sono imbattuto nel sorgente del sito [djangopackages.com](https://djangopackages.com) ([qui](https://github.com/pydanny/djangopackages) il sorgente) sviluppato da pydanny, l'autore di [Two Scoops of Django](https://amzn.to/2aiPUq2), che a mio avviso è la BIBBIA di Django.
 
 E ho scoperto che la metodologia usata da pydanny è estremamente funzionale, così ho deciso di adottarla.
 
