@@ -18,11 +18,13 @@ ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
 STATIC_PATHS = [
     'images',
     'extra/robots.txt',
-    'extra/favicon.ico'
+    'extra/favicon.ico',
+    'extra/CNAME'
 ]
 EXTRA_PATH_METADATA = {
     'extra/robots.txt': {'path': 'robots.txt'},
-    'extra/favicon.ico': {'path': 'favicon.ico'}
+    'extra/favicon.ico': {'path': 'favicon.ico'},
+    'extra/CNAME': {'path': 'CNAME'}
 }
 
 PLUGIN_PATHS = ['plugins']
@@ -52,7 +54,7 @@ THEME = 'theme/pelican-blue'
 THEME_STATIC_DIR = THEME + '/static'
 
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = 'feeds/all.atom.xml'
+FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
