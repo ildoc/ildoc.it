@@ -7,7 +7,7 @@ Author: Doc
 Status: Published
 
 Dopo l'[acquisizione di Whatsapp da parte di
-Facebook]({filename}2014-02-20_no_non_voglio_dare_il_mio-numero_di_telefono_a_facebook.md),
+Facebook]({filename}2014-02-20_no_non_voglio_dare_il_mio_numero_di_telefono_a_facebook.md),
 in moltissimi sono rimasti scontenti dall'ennesima mossa del grande
 fratello blu, e hanno cercato alternative alla famosissima app.
 
