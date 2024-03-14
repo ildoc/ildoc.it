@@ -27,6 +27,8 @@ EXTRA_PATH_METADATA = {
     'extra/CNAME': {'path': 'CNAME'}
 }
 
+FAVICON = '/favicon.ico'
+
 PLUGIN_PATHS = ['plugins']
 PLUGINS = ['sitemap']
 
@@ -61,7 +63,8 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-MENUITEMS = (('Home', '/'),)
+MENUITEMS = (('Home', '/'),
+             ('Archives','/archives.html'))
 
 # Social widget
 SOCIAL = (('Twitter', 'https://twitter.com/il_doc'),

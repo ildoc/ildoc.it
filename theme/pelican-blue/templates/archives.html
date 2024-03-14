@@ -1,23 +1,26 @@
-{% extends "base.html" %}
-{% block head %}
-    {{ super() }}
-    <meta name="twitter:creator" content="{{ TWITTER_USERNAME }}">
-    <meta name="twitter:url" content="{{ SITEURL }}/archives.html">
-    <meta name="twitter:title" content="{{ SITENAME }} ~ Archives">
-    <meta name="twitter:description" content="{{ SITENAME }} ~ Archives du site">
+{% extends "base.html" %} {% block head %} {{ super() }}
+<meta name="twitter:creator" content="{{ TWITTER_USERNAME }}">
+<meta name="twitter:url" content="{{ SITEURL }}/archives.html">
+<meta name="twitter:title" content="{{ SITENAME }} ~ Archives">
+<meta name="twitter:description" content="{{ SITENAME }} ~ Archives du site">
 
-    <!-- Facebook Meta Data -->
-    <meta property="og:title" content="{{ SITENAME }} ~ Archives"/>
-    <meta property="og:description" content="{{ SITENAME }} ~ Archives"/>
-    <meta property="og:image" content="{{ AVATAR }}"/>
-{% endblock head %}
-{% block content %}
-    <h1>Archives</h1>
-
-    <dl>
-        {% for article in dates %}
-            <dt>{{ article.locale_date }}</dt>
-            <dd><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></dd>
-        {% endfor %}
-    </dl>
-{% endblock %}
+<!-- Facebook Meta Data -->
+<meta property="og:title" content="{{ SITENAME }} ~ Archives" />
+<meta property="og:description" content="{{ SITENAME }} ~ Archives" />
+<meta property="og:image" content="{{ AVATAR }}" /> {% endblock head %} {% block content %} {% block heading %}
+<h2 class="page_title">Archives</h2>
+{% endblock %} {% for year, date_year in dates|groupby( 'date.year' )|reverse %}
+<a href="#{{ year }}">{{ year }}</a> {% endfor %} {% for year, date_year in dates|groupby( 'date.year' )|reverse %}
+<span id="{{year}}"></span>
+<h2>{{ year }}</h2>
+{% for month, articles in date_year|groupby( 'date.month' ) %}
+<h3>{{ articles[ 0 ].date.strftime( '%B' ) }}</h3>
+<ul>
+    {% for article in articles|reverse %}
+    <li>
+        {{ article.date.strftime('%d') }} - <a href="{{ article.url }}">{{ article.title }}</a> {% if article.disqus_comment_count
+        %} - <small>Comments: {{ article.disqus_comment_count }}</small>{% endif %}
+    </li>
+    {% endfor %}
+</ul>
+{% endfor %} {% endfor %} {% endblock %}
