@@ -1,7 +1,0 @@
-{
-    "python.linting.flake8Enabled": false,
-    "python.formatting.provider": "autopep8",
-    "python.linting.pylintEnabled": false,
-    "python.venvPath": "f:/envs",
-    "python.pythonPath": "f:/envs/ildoc/scripts/python.exe"
-}
