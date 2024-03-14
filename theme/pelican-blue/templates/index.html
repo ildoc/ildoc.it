@@ -19,10 +19,10 @@
             {% if DISPLAY_SUMMARY and article.summary|length > 0 %}
             <p>{{ article.summary }}</p>
             {% endif %}
+            <span class="post_date">{{ article.locale_date }}</span>
             <span>Tags : </span> {% if article.tags %} {% for tag in article.tags %}
             <span><a href="{{ SITEURL }}/{{ tag.url }}" class="post_category">{{ tag }}, </a></span> {% endfor %} {% endif
             %}
-            <span class="post_date">{{ article.locale_date }}</span>
     </li>
     {% endfor %}
 </ol>
