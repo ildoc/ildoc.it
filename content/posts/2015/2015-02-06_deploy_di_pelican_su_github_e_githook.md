@@ -4,6 +4,7 @@ Modified: 2015-03-24 16:09:17
 Tags: git, githook, pelican
 Slug: deploy-di-pelican-su-github-e-githook
 Author: Doc
+Status: Published
 
 Sto ancora giocherellando con [Pelican](http://blog.getpelican.com/) e cercavo un modo per committare i nuovi post UNA volta sola, senza dover committare una seconda volta gli html generati.
 

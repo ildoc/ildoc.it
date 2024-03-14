@@ -4,6 +4,7 @@ Modified: 2015-03-26 13:29:29
 Tags: blog
 Slug: hello-world-1
 Author: Doc
+Status: Published
 
 Questo più che un post è un test per vedere come funziona pelican...
 

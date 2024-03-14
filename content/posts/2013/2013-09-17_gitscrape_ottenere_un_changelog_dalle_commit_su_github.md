@@ -4,6 +4,7 @@ Modified: 2015-03-24 16:09:15
 Tags: beautifulsoup, github, python
 Slug: gitscrape-ottenere-un-changelog-dalle-commit-su-github
 Author: Doc
+Status: Published
 
 Attenzione: a prima vista potrebbe sembrare uno script perfettamente
 inutile (e infatti lo è)

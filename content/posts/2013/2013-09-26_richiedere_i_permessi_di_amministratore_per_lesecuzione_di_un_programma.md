@@ -4,6 +4,7 @@ Modified: 2015-03-24 16:09:16
 Tags: c#, permessi, visual studio
 Slug: richiedere-i-permessi-di-amministratore-per-lesecuzione-di-un-programma
 Author: Doc
+Status: Published
 
 Per eseguire alcune funzioni, come ad esempio lanciare o stoppare dei
 servizi, è necessario disporre dei permessi di amministratore del

@@ -4,6 +4,7 @@ Modified: 2015-03-24 16:09:17
 Tags: cazzate
 Slug: consigli-per-rimanere-in-vita
 Author: Doc
+Status: Published
 
 Non infastidire mai un metallaro, perchè vi ucciderà sicuramente.
 Ma lo potrebbe fare in vari modi, a seconda del suo sottogenere

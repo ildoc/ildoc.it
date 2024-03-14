@@ -4,6 +4,7 @@ Modified: 2015-03-24 16:09:16
 Tags: dcom, kepware, matrikon, opc
 Slug: dcom-e-kepware
 Author: Doc
+Status: Published
 
 Per riuscire a browsare/leggere/scrivere le tag e i loro valori su un
 server kepware è necessario:

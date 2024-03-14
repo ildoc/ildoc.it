@@ -4,6 +4,7 @@ Modified: 2015-03-24 16:09:15
 Tags: blog, natale
 Slug: finalmente-e-lunedi
 Author: Doc
+Status: Published
 
 Strano a dirsi ma è così.  
 Finalmente è passato anche questo natale…

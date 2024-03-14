@@ -4,10 +4,11 @@ Modified: 2015-03-26 13:30:28
 Tags: blog, ovh
 Slug: fuga-da-ovh
 Author: Doc
+Status: Published
 
-Avevo già [parlato bene di ovh](/da-ovh-non-me-laspettavo/), e in questi giorni ho maturato l'idea di completare l'opera e fuggire definitvamente da questo ormai, a mio avviso, scandaloso fornitore di servizi.
+Avevo già [parlato bene di ovh]({filename}2013-12-14_da_ovh_non_me_laspettavo.md), e in questi giorni ho maturato l'idea di completare l'opera e fuggire definitvamente da questo ormai, a mio avviso, scandaloso fornitore di servizi.
 
-Rivisitando il blog con [Pelican](/deploy-di-pelican-su-github-e-githook/) e hostandolo sulle GitHub Pages, puntandoci un custom domain, e quindi mi sono appropinquato sul mio bel managerV5 di ovh, tutto figo, fatto con angular con caricamenti asincroni e compagnia bella.
+Rivisitando il blog con [Pelican]({filename}2015-02-06_deploy_di_pelican_su_github_e_githook.md) e hostandolo sulle GitHub Pages, puntandoci un custom domain, e quindi mi sono appropinquato sul mio bel managerV5 di ovh, tutto figo, fatto con angular con caricamenti asincroni e compagnia bella.
 Modifico il record dns e mi metto in pace ad aspettare la propagazione.
 
 Aspetto.

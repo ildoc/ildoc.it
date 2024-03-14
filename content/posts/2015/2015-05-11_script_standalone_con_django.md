@@ -4,6 +4,7 @@ Modified: 2015-05-12 14:58:55
 Tags: django, virtualenv
 Slug: script-standalone-con-django
 Author: Doc
+Status: Published
 
 Volendo creare un tool di manutenzione/per operazioni batch/ecc. che necessita di interagire con, ad esempio, i modelli di un'app del nostro progetto con Django, è necessario caricare tutto l'ambiente all'interno del quale Django viene eseguito.
 

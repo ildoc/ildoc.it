@@ -4,9 +4,10 @@ Modified: 2015-03-26 13:55:44
 Tags: whatsapp, telegram
 Slug: parliamo-di-telegram
 Author: Doc
+Status: Published
 
 Dopo l'[acquisizione di Whatsapp da parte di
-Facebook](/no-non-voglio-dare-il-mio-numero-di-telefono-a-facebook/),
+Facebook]({filename}2014-02-20_no_non_voglio_dare_il_mio-numero_di_telefono_a_facebook.md),
 in moltissimi sono rimasti scontenti dall'ennesima mossa del grande
 fratello blu, e hanno cercato alternative alla famosissima app.
 

@@ -4,6 +4,7 @@ Modified: 2015-03-24 16:09:15
 Tags: blog
 Slug: ci-risiamo
 Author: Doc
+Status: Published
 
 è di nuovo quel periodo dell'anno in cui mi viene quella cosa per cui mi
 piacerebbe avere un bel blog.  

@@ -4,6 +4,7 @@ Modified: 2015-03-24 16:09:17
 Tags: windows, django, virtualenv
 Slug: django-e-virtualenv-su-windows
 Author: Doc
+Status:Published
 
 Più che un post, questo è un appunto personale...
 Per usare [django](https://www.djangoproject.com/) su windows dietro virtualenv occorre settare il path corretto per l'esecuzione dei file .py, altrimenti verrà utilizzato il "python.exe" di default

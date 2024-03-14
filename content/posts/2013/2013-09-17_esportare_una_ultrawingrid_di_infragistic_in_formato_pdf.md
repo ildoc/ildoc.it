@@ -4,6 +4,7 @@ Modified: 2015-03-24 16:09:15
 Tags: c#, infragistics, pdf
 Slug: esportare-una-ultrawingrid-di-infragistic-in-formato-pdf
 Author: Doc
+Status: Published
 
 Mi sono dovuto picchiare fortissimo con le
 [Infragistics](http://www.infragistics.com/ "Infragisitcs") per riuscire

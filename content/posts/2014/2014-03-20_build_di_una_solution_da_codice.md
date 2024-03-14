@@ -4,9 +4,10 @@ Modified: 2015-03-26 13:50:42
 Tags: c#, visual studio, msdn
 Slug: build-di-una-solution-da-codice
 Author: Doc
+Status: Published
 
 Come seguito al [post
-precedente](/get-latest-da-codice-di-un-progetto-su-tfs/),
+precedente]({filename}2014-03-20_get_latest_da_codice_di_un_progetto_su_tfs.md),
 ecco una funzioncina per buildare una solution da codice.
 
 Questa funzione NON tiene conto di eventuali build configuration e/o di
@@ -85,4 +86,4 @@ sarete nel torto a prescindere.
 Visual Studio non ha bachi, il problema sarà sicuramente sempre colpa
 vostra.
 
-![mabaffanculo](/static/images/posts/mabaffanculo.jpg)
+![mabaffanculo](/images/orsobaffanculo.png)

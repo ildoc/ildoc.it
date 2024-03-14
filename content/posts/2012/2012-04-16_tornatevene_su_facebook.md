@@ -4,6 +4,7 @@ Modified: 2015-03-24 16:09:17
 Tags: facebook, twitter
 Slug: tornatevene-su-facebook
 Author: Doc
+Status: Published
 
 Da un pò di tempo a questa parte, Twitter si è riempito di una marea di
 bimbiminkia che infestano come una piaga ogni angolo del web, spammando

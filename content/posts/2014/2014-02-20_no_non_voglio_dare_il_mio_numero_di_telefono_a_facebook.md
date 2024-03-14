@@ -4,6 +4,7 @@ Modified: 2015-03-26 14:01:05
 Tags: facebook, privacy, whatsapp
 Slug: no-non-voglio-dare-il-mio-numero-di-telefono-a-facebook
 Author: Doc
+Status: Published
 
 E invece Facebook si compra tutta la tua rubrica, e tu non ci puoi fare
 un cazzo.
@@ -24,7 +25,7 @@ A chi frega qualcosa dell'utente finale?
 E' la palese ed ennesima dimostrazione che Facebook non è un servizio
 per gli utenti, ma gli utenti sono un servizio per Facebook.
 
-![mark-zuckerberg](/static/images/posts/mark-zuckerberg-160512.jpg)
+![mark-zuckerberg](/images/mark-zuckerberg-glasses.jpg)
 
 Quindi adesso, per sfuggire al sempre più onnipresente controllo di
 Facebook, bisognerà cancellarsi anche da Whatsapp.
@@ -40,5 +41,5 @@ Quindi roba pensata dagli utenti per gli utenti.
 
 ### Update:
 
-Link segnalato da Zipi -\> [Things that are cheaper than
+Link segnalato da Zipi -> [Things that are cheaper than
 Whatsapp](http://thingsthatarecheaperthanwhatsapp.tumblr.com/)

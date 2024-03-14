@@ -1,9 +1,10 @@
-Title: Left join \"in\"?
+Title: Left join "in"?
 Date: 2013-11-13 17:18:00
 Modified: 2015-03-24 16:09:16
 Tags: join, oracle, regex, sql
 Slug: left-join-in
 Author: Doc
+Status: Published
 
 Mi sono trovato nella condizione di dover fare una join su più campi.  
 Che stavano in una colonna sola.  

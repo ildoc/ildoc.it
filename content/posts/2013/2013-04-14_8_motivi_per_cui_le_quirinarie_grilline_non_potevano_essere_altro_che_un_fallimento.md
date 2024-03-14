@@ -4,6 +4,7 @@ Modified: 2015-03-24 16:09:16
 Tags: grillo, quirinarie
 Slug: 8-motivi-per-cui-le-quirinarie-grilline-non-potevano-essere-altro-che-un-fallimento
 Author: Doc
+Status: Published
 
 Dopo mesi di spam molesto sarà il caso di scrivere qualcosa di
 apparentemente sensato.  
@@ -19,7 +20,7 @@ Ma a parte questo, Grillo ha sempre parlato del web come “espressione di
 democrazia diretta” e ha voluto fare un sondaggio pubblico per decidere
 il nuovo presidente della repubblica.
 
-![è una cagata pazzesca](http://i.imgur.com/Mzxx9wT.gif)
+![è una cagata pazzesca](/images/cagata_pazzesca.jpg)
 
 e vi spiego il perchè:
 

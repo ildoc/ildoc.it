@@ -4,11 +4,12 @@ Modified: 2015-03-24 16:09:17
 Tags: wordpress, easyphp
 Slug: spostare-wordpress-da-locale-a-live
 Author: Doc
+Status: Published
 
 
 Chi si diverte a “smanettare” sul web spesso usa un ambiente locale come
 [Wamp](http://www.wampserver.com/en/) o
-[EasyPHP](http://filippogiomi.it/2012/02/easyphp-un-webserver-in-pochi-click/ "EasyPHP: un webserver in pochi click")
+[EasyPHP](2012-02-25_easyphp_un_webserver_in_pochi_click.md "EasyPHP: un webserver in pochi click")
 per fare prove ed esperimenti.  
 Ma come fare se poi si vuole rendere pubblico il proprio lavoro?  
 Spesso basta semplicemente spostare qualche file nella cartella www del

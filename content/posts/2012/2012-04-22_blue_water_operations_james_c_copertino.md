@@ -4,6 +4,7 @@ Modified: 2015-03-24 16:09:17
 Tags: libri, copertino, recensioni
 Slug: blue-water-operations-james-c-copertino
 Author: Doc
+Status: Published
 
 Una portacontainer battente bandiera francese viene assaltata dai pirati
 al largo della Somalia.  

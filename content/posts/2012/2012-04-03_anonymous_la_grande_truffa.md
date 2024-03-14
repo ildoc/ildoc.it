@@ -4,6 +4,7 @@ Modified: 2015-03-24 16:09:17
 Tags: anonymous, libri, truffa
 Slug: anonymous-la-grande-truffa
 Author: Doc
+Status: Published
 
 Girovagando per Amazon alla ricerca del prossimo libro da leggere, mi
 sono imbattuto in questo breve saggio versione kindle: [Anonymous. La

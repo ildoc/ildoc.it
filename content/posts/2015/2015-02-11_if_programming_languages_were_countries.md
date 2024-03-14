@@ -4,6 +4,7 @@ Modified: 2015-03-24 16:09:17
 Tags: linguaggi di programmazione
 Slug: if-programming-languages-were-countries
 Author: Doc
+Status: Published
 
 Ho trovato questo simpatico post...
 

@@ -4,6 +4,7 @@ Modified: 2015-03-24 16:09:16
 Tags: c#, get latest, tfs
 Slug: get-latest-da-codice-di-un-progetto-su-tfs
 Author: Doc
+Status: Published
 
 Sto scrivendo uno scriptino per, nell'ordine, ottenere l'ultima versione
 di un progetto da TFS, buildarla e farne un publish su IIS.  

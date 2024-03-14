@@ -4,6 +4,7 @@ Modified: 2015-03-24 16:09:16
 Tags: python, numeri primi, eratostene
 Slug: crivello-di-eratostene
 Author: Doc
+Status: Published
 
 C'è poco da dire, con i numeri primi ci ho sempre sballato...  
 Qui di seguito c'è una piccola funzioncina per determinare se un numero

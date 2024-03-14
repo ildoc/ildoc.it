@@ -4,6 +4,7 @@ Modified: 2015-03-24 16:09:17
 Tags: portal2, videogame
 Slug: portal2-best-game-ever
 Author: Doc
+Status: Published
 
 Ho appena finito il gioco in single player, stamattina ho finito la
 co-op.

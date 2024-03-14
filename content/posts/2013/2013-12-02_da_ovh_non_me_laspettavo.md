@@ -4,6 +4,7 @@ Modified: 2015-03-24 16:09:15
 Tags: ovh, vps
 Slug: da-ovh-non-me-laspettavo
 Author: Doc
+Status: Published
 
 Premessa: sono cliente ovh da circa 3 anni.
 

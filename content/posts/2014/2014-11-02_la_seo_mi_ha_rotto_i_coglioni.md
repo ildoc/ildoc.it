@@ -4,6 +4,7 @@ Modified: 2015-03-26 14:13:31
 Tags: wordpress, seo
 Slug: la-seo-mi-ha-rotto-i-coglioni
 Author: Doc
+Status: Published
 
 > *"...è bella e tutto quanto ma alla lunga rompe i coglioni"*
 
@@ -36,7 +37,7 @@ Un fantastico esempio di questa situazione sono le gare di
 posizionamento: alla fine vince chi riesce ad arrivare in cima alla serp
 A PRESCINDERE dal contenuto del sito.  
 Ricordo una gara promossa da giorgiotave (forse instantempo? Si, ci
-avevo provato [anch'io](http://ildoc.it/26102010/instantempo/)) dove in
+avevo provato anch'io dove in
 un certo momento c'era in testa un blog tenuto da un forum di black hat
 seo il cui contenuto erano tipo due o tre post di NULLA.
 

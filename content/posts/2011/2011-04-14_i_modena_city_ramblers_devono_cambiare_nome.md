@@ -4,6 +4,7 @@ Modified: 2015-03-24 16:09:17
 Tags: modena city ramblers
 Slug: i-modena-city-ramblers-devono-cambiare-nome
 Author: Doc
+Status: Published
 
 Ho avuto modo, nei giorni scorsi, di ascoltare tre degli ultimi quattro
 album dei Modena City Ramblers.  
