@@ -7,7 +7,7 @@ Author: Doc
 Status: Published
 
 Come seguito al [post
-precedente]({filename}2014-03-20_get_latest_da_codice_di_un_progetto_su_tfs.md),
+precedente]({filename}2014-03-07_get_latest_da_codice_di_un_progetto_su_tfs.md),
 ecco una funzioncina per buildare una solution da codice.
 
 Questa funzione NON tiene conto di eventuali build configuration e/o di
