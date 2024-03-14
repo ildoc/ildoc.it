@@ -4,15 +4,16 @@ Modified: 2015-03-26 14:14:47
 Tags: imparare a programmare
 Slug: imparare-a-programmare-da-zero-33
 Author: Doc
+Status: Published
 
 Questa è la terza e ultima parte di un trio di post volto a spiegare le
 basi-basi della programmazione.  
 Se parlo di torte e non capite perchè, leggete le parti precedenti :)  
 
 * [Imparare a programmare da zero
-1/3](/imparare-a-programmare-da-zero-13/)
+1/3]({filename}2014-02-09_imparare_a_programmare_da_zero_13.md)
 * [Imparare a programmare da zero
-2/3](/imparare-a-programmare-da-zero-23/)
+2/3]({filename}2014-02-09_imparare_a_programmare_da_zero_23.md)
 
 Primi passi - Strutture comuni
 ------------------------------

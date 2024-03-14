@@ -4,6 +4,7 @@ Modified: 2015-03-24 16:09:15
 Tags: blog, blogger, software, wordpress
 Slug: wordpress-o-blogger
 Author: Doc
+Status: Published
 
 Eccoci qui a parlare di un’annosa questione, un problema che si pone
 chiunque abbia voglia di condividere pensieri e opinioni su internet, ad

@@ -4,6 +4,7 @@ Modified: 2015-03-24 16:09:16
 Tags: bootstrap, jquery
 Slug: gestire-un-menu-di-bootstrap-con-jquery
 Author: Doc
+Status: Published
 
 Diciamocelo, [Bootstrap](http://getbootstrap.com/ "Bootstrap") è una
 figata.  

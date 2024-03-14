@@ -4,6 +4,7 @@ Modified: 2015-03-24 16:09:17
 Tags: libri, mysql, php, programmazione, risorse
 Slug: php-and-mysql-web-development-luke-welling-laura-thomson
 Author: Doc
+Status: Published
 
 [PHP and MySQL Web Development: Luke Welling, Laura
 Thomson](http://amzn.to/1aZ9mG6)  

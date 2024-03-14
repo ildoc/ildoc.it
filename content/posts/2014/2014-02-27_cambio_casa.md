@@ -1,9 +1,10 @@
-Title: Cambio \"casa\"...
+Title: Cambio "casa"...
 Date: 2014-02-27 11:50:00
 Modified: 2015-03-24 16:09:16
 Tags: vps, digitalocean, prometeus
 Slug: cambio-casa
 Author: Doc
+Status: Published
 
 Ecco fatto, con un po' di fatica ho cambiato host.  
 Da DigitalOcean a Prometeus.

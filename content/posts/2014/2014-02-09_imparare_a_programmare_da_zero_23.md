@@ -4,13 +4,14 @@ Modified: 2015-03-26 14:15:27
 Tags: imparare a programmare
 Slug: imparare-a-programmare-da-zero-23
 Author: Doc
+Status: Published
 
 Questa è la seconda parte di un trio di post volto a spiegare le
 basi-basi della programmazione.  
 Se parlo di torte e non capite perchè, leggete le parti precedenti :)  
 
 * [Imparare a programmare da zero
-1/3](/imparare-a-programmare-da-zero-13/)
+1/3]({filename}2014-02-09_imparare_a_programmare_da_zero_13.md)
 
 Linguaggi di programmazione - Cosa sono?
 ----------------------------------------
@@ -100,4 +101,4 @@ pagina di wikipedia sui [linguaggi di programmazione
 esoterici](http://it.wikipedia.org/wiki/Linguaggio_di_programmazione_esoterico)
 
 Continuiamo il discorso nella terza parte -> [Imparare a programmare da
-zero 3/3](/imparare-a-programmare-da-zero-33/)
+zero 3/3]({filename}2014-02-09_imparare_a_programmare_da_zero_33.md)

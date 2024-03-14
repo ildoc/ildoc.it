@@ -4,6 +4,7 @@ Modified: 2015-03-24 16:09:15
 Tags: blog
 Slug: lavori-in-corso
 Author: Doc
+Status: Published
 
 Lo sapevo.
 

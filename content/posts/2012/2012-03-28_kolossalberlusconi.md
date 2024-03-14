@@ -4,6 +4,7 @@ Modified: 2015-03-24 16:09:17
 Tags: twitter, berlusconi, 4 da lulz
 Slug: kolossalberlusconi
 Author: Doc
+Status: Published
 
 L’ex premier è alla disperata ricerca di un regista [per girare un film
 sulla sua

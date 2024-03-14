@@ -4,6 +4,7 @@ Modified: 2015-03-24 16:09:15
 Tags: blog, twitter, backup, drupal, joomla, live spaces, msn, twippo
 Slug: un-po-di-roba-aggiornamenti-al-sitoblog-ecc
 Author: Doc
+Status: Published
 
 Come si usa dire da qualche parte: buonsalve.  
 si, è successo un pò di casino sul sito, è vero…  

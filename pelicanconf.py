@@ -8,7 +8,28 @@ SITENAME = "ildoc's"
 SITETITLE = "ildoc's"
 SITESUBTITLE = ''
 
+DELETE_OUTPUT_DIRECTORY = True
+
 PATH = 'content'
+ARTICLE_PATHS = ['posts']
+ARTICLE_URL = '{date:%Y}/{date:%m}/{date:%d}/{slug}/'
+ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html'
+STATIC_PATHS = [
+    'images',
+    'extra/robots.txt',
+    'extra/favicon.ico'
+]
+EXTRA_PATH_METADATA = {
+    'extra/robots.txt': {'path': 'robots.txt'},
+    'extra/favicon.ico': {'path': 'favicon.ico'}
+}
+
+PLUGIN_PATHS = ['plugins']
+PLUGINS = ['sitemap']
+
+DEFAULT_METADATA = {
+    'status': 'draft',
+}
 
 CC_LICENSE = {
     'name': 'Creative Commons Attribution-ShareAlike',
@@ -46,16 +67,6 @@ SOCIAL = (('Twitter', 'https://twitter.com/il_doc'),
 
 DEFAULT_PAGINATION = 10
 
-STATIC_PATHS = [
-    'images',
-    'extra/robots.txt',
-    'extra/favicon.ico'
-]
-EXTRA_PATH_METADATA = {
-    'extra/robots.txt': {'path': 'robots.txt'},
-    'extra/favicon.ico': {'path': 'favicon.ico'}
-}
-
 DATE_FORMATS = {
     'it': '%a, %d/%m/%Y',
 }
@@ -73,6 +84,7 @@ SITEMAP = {
         'pages': 'monthly'
     }
 }
+
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True

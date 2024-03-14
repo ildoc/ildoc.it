@@ -4,6 +4,7 @@ Modified: 2015-03-24 16:09:15
 Tags: blog
 Slug: back-on-wordpress
 Author: Doc
+Status: Published
 
 Dopo molto girovagare, ecco che alla fine ritorno qua...  
 Ho scoperto come settare i virtualhost in apache, e quindi sono

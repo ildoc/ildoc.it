@@ -4,6 +4,7 @@ Modified: 2015-03-26 14:01:29
 Tags: server, ubuntu, windows
 Slug: windows-rdp-e-ubuntu-server
 Author: Doc
+Status: Published
 
 Mettiamo per assurdo che uno voglia connettersi in desktop remoto da
 Windows a Ubuntu server.  
@@ -36,5 +37,3 @@ scritto) che installiamo con
     sudo apt-get install xrdp
 
 e, ta-daaaan!
-
-![xrdp](/static/images/posts/2014-02-16_17h03_23.png)

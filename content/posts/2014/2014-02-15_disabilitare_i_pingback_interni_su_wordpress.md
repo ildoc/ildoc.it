@@ -4,6 +4,7 @@ Modified: 2015-03-24 16:09:16
 Tags: blog, wordpress, pingback
 Slug: disabilitare-i-pingback-interni-su-wordpress
 Author: Doc
+Status: Published
 
 Aggiungendo un po' di link interni tra un post e l'altro mi sono accorto
 che generavano pingback, pur essendo all'interno dello stesso sito.  

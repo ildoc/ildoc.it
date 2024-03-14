@@ -4,6 +4,7 @@ Modified: 2016-07-24 20:33:16
 Tags: python, django, tutorial
 Slug: struttura-iniziale-per-un-nuovo-progetto-django
 Author: Doc
+Status: Published
 
 Stiamo per iniziare un nuovo progetto con Django e la domanda che ci poniamo è: "C'è un modo per strutturare il progetto in maniera che sia modulare, facile da navigare e da manutenere?"
 

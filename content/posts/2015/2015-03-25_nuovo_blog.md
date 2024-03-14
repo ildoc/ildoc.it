@@ -4,6 +4,7 @@ Modified: 2015-03-25 11:27:06
 Tags: blog, django
 Slug: nuovo-blog
 Author: Doc
+Status: Published
 
 Cos'è cambiato? Nulla, *sembrerebbe*...
 E invece sono passato da pelican a django, mantenendo quasi lo stesso layout.

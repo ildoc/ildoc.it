@@ -4,6 +4,7 @@ Modified: 2015-03-24 16:09:17
 Tags: armi, battlefield, columbine, texas
 Slug: battlefield-4-columbine
 Author: Doc
+Status: Published
 
 la EA sta preparando un nuovo capitolo della saga?  
 no, è solo un’anticipazione dei quello che potrà accadere a breve in

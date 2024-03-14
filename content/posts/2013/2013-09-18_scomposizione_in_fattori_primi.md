@@ -4,9 +4,10 @@ Modified: 2015-03-26 14:17:01
 Tags: python, numeri primi
 Slug: scomposizione-in-fattori-primi
 Author: Doc
+Status: Published
 
 Utilizzando il [Crivello di
-Eratostene](/crivello-di-eratostene/)
+Eratostene]({filename}2013-09-18_crivello_di_eratostene.md)
 precedentemente mostrato, è possibile scrivere una funzione in grado di
 restituire in una lista i [fattori
 primi](http://it.wikipedia.org/wiki/Fattorizzazione) di cui è composto

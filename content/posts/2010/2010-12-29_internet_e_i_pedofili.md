@@ -4,6 +4,7 @@ Modified: 2015-03-24 16:09:15
 Tags: internet, pedofilia
 Slug: internet-e-i-pedofili
 Author: Doc
+Status: Published
 
 Non è un mistero che la pedofilia abbia trovato in internet uno
 strumento di diffusione di materiale e e che sia territorio di caccia

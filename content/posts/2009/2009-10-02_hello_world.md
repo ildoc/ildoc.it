@@ -4,6 +4,7 @@ Modified: 2015-03-24 16:09:14
 Tags: blog, università
 Slug: hello-world
 Author: Doc
+Status: Published
 
 eccomi qui… ho creato sto blog…  
 "ma bravo!"  

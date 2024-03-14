@@ -4,6 +4,7 @@ Modified: 2015-03-24 16:09:16
 Tags: c#, html, htmlagilitypack, linq, xpath
 Slug: creare-una-lista-di-oggetti-partendo-da-una-tabella-html
 Author: Doc
+Status: Published
 
 Al momento sto lavorando con i Coded UI (un giorno spiegherò cosa sono
 e a cosa servono) e ho avuto la necessità di parsare il contenuto di una

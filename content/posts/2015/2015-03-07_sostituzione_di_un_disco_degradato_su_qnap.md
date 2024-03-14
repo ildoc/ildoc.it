@@ -4,6 +4,7 @@ Modified: 2015-04-28 12:26:45
 Tags: nas, qnap
 Slug: sostituzione-di-un-disco-degradato-su-qnap
 Author: Doc
+Status: Published
 
 Dopo 2 anni di servizio, il disco 1 del mio QNAP TS-219P II (un  [WD Red 3TB](http://amzn.to/1wo7f8j)) ha deciso di lasciarmi.
 
