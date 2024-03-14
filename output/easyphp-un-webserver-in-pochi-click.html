@@ -1,0 +1,181 @@
+
+<!DOCTYPE html>
+<html lang="italian">
+<head>
+  <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" type="text/css" href="/theme/stylesheet/style.min.css">
+
+  <link rel="stylesheet" type="text/css" href="/theme/pygments/github.min.css">
+  <link rel="stylesheet" type="text/css" href="/theme/font-awesome/css/font-awesome.min.css">
+
+
+    <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="ildoc's Atom">
+
+
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+
+
+<meta name="author" content="Doc" />
+<meta name="description" content="Primi passi con la programmazione web? Stiamo progettando un sito web? Vogliamo prendere confidenza con un software o un CMS per la nostra community? Ci serve quindi uno spazio dove “giocare”, e probabilmente non abbiamo bisogno di complicarci la vita andando a registrare un dominio, specialmente nel caso volessimo avere …" />
+<meta name="keywords" content="risorse, easyphp, guida, guide">
+
+<meta property="og:site_name" content="ildoc's"/>
+<meta property="og:title" content="EasyPHP: un webserver in pochi click"/>
+<meta property="og:description" content="Primi passi con la programmazione web? Stiamo progettando un sito web? Vogliamo prendere confidenza con un software o un CMS per la nostra community? Ci serve quindi uno spazio dove “giocare”, e probabilmente non abbiamo bisogno di complicarci la vita andando a registrare un dominio, specialmente nel caso volessimo avere …"/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:url" content="/easyphp-un-webserver-in-pochi-click.html"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2012-02-25 09:42:00+01:00"/>
+<meta property="article:modified_time" content="2015-03-24 16:09:17+01:00"/>
+<meta property="article:author" content="/author/doc.html">
+<meta property="article:section" content="misc"/>
+<meta property="article:tag" content="risorse"/>
+<meta property="article:tag" content="easyphp"/>
+<meta property="article:tag" content="guida"/>
+<meta property="article:tag" content="guide"/>
+<meta property="og:image" content="">
+
+  <title>ildoc's &ndash; EasyPHP: un webserver in pochi click</title>
+
+</head>
+<body>
+  <aside>
+    <div>
+      <a href="">
+        <img src="/theme/img/profile.png" alt="ildoc's" title="ildoc's">
+      </a>
+      <h1><a href="">ildoc's</a></h1>
+
+
+      <nav>
+        <ul class="list">
+
+          <li><a href="http://getpelican.com/" target="_blank">Pelican</a></li>
+          <li><a href="http://python.org/" target="_blank">Python.org</a></li>
+          <li><a href="http://jinja.pocoo.org/" target="_blank">Jinja2</a></li>
+          <li><a href="#" target="_blank">You can modify those links in your config file</a></li>
+        </ul>
+      </nav>
+
+      <ul class="social">
+        <li><a class="sc-Twitter" href="https://twitter.com/il_doc" target="_blank"><i class="fa fa-Twitter"></i></a></li>
+        <li><a class="sc-GitHub" href="https://github.com/ildoc" target="_blank"><i class="fa fa-GitHub"></i></a></li>
+      </ul>
+    </div>
+
+
+  </aside>
+  <main>
+
+
+<article class="single">
+  <header>
+      
+    <h1 id="easyphp-un-webserver-in-pochi-click">EasyPHP: un webserver in pochi click</h1>
+    <p>
+          Posted on sab 25 febbraio 2012 in <a href="/category/misc.html">misc</a>
+
+
+    </p>
+  </header>
+
+
+  <div>
+    <p>Primi passi con la programmazione web?<br>
+Stiamo progettando un sito web?<br>
+Vogliamo prendere confidenza con un software o un CMS per la nostra
+community?</p>
+<p>Ci serve quindi uno spazio dove “giocare”, e probabilmente non abbiamo
+bisogno di complicarci la vita andando a registrare un dominio,
+specialmente nel caso volessimo avere la possibilità di lavorare anche
+offline.</p>
+<p>Ecco che quindi ci viene incontro
+<a href="http://easyphp.org/" title="EasyPHP">EasyPHP</a>, una piattaforma completa che
+in qualche minuto ci permette di avere un ambiente di prova completo di
+tutto.</p>
+<p>Una volta
+<a href="http://www.easyphp.org/download.php" title="Download EasyPHP">scaricato</a> e
+installato il pacchetto, avremo a disposizione il servizio dell’ultima
+versione di Apache, l’interprete PHP, un database MySql accessibile
+anche tramite PHPMyAdmin e tanto altro ancora, e non dovremo
+preoccuparci di niente perchè è tutto già configurato!</p>
+<p>A questo punto, accedendo a <a href="http://127.0.0.1/home">http://127.0.0.1/home</a> oppure a
+http://localhost/home dal nostro browser, avremo sottomano il pannello
+di amministrazione di EasyPHP.</p>
+<p>Come si potrà notare, nella Tray Bar sarà comparsa l’icona del
+programma.<br>
+Facendo un click destro sopra di essa e scegliendo “Esplora” si avrà
+accesso alla cartella “www” dove si possono inserire i file che saranno
+visibili all’indirizzo <a href="http://127.0.0.1/">http://127.0.0.1/</a> o http://localhost/.</p>
+<p>Per quanto riguarda il database, l’installazione provvede a creare un
+utente “root” senza password, ed è gestibile tramite l’interfaccia di
+PHPMyAdmin o anche collegandosi con tool esterni come MySql Query
+Browser specificando 127.0.0.1 come ip del server.</p>
+<p>Ed eccoci pronti a sperimentare, proprio come se fossimo su un hosting
+“vero”, con però la comodità di non dover passare per ftp o shell ssh.</p>
+<p>Come si consiglia nel sito ufficiale però, questo è solo uno strumento
+di testing e non è adatto a sopperire alle esigenze di chi cerca un
+webserver vero e proprio per mettere online le proprie cose.<br>
+Per quello è bene installare e configurare tutti i componenti uno per
+uno e non accontentarsi di soluzioni già pronte per evitare di incappare
+in spiacevoli inconvenienti, specialmente per quanto riguarda la
+sicurezza dei dati.</p>
+  </div>
+  <div class="tag-cloud">
+    <p>
+      <a href="/tag/risorse.html">risorse</a>
+      <a href="/tag/easyphp.html">easyphp</a>
+      <a href="/tag/guida.html">guida</a>
+      <a href="/tag/guide.html">guide</a>
+    </p>
+  </div>
+
+
+
+    <div class="addthis_relatedposts_inline">
+
+
+</article>
+
+    <footer>
+<p>
+  &copy;   - This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>
+</p>
+<p>    Powered by <a href="http://getpelican.com" target="_blank">Pelican</a> - <a href="https://github.com/alexandrevicenzi/flex" target="_blank">Flex</a> theme by <a href="http://alexandrevicenzi.com" target="_blank">Alexandre Vicenzi</a>
+</p><p>
+  <a rel="license"
+     href="http://creativecommons.org/licenses/by-sa/4.0/"
+     target="_blank">
+    <img alt="Creative Commons License"
+         title="Creative Commons License"
+         style="border-width:0"
+         src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"
+         width="80"
+         height="15"/>
+  </a>
+</p>    </footer>
+  </main>
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " ildoc's ",
+  "url" : "",
+  "image": "",
+  "description": ""
+}
+</script>
+
+</body>
+</html>

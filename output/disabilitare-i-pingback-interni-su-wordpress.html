@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html lang="italian">
+<head>
+  <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" type="text/css" href="/theme/stylesheet/style.min.css">
+
+  <link rel="stylesheet" type="text/css" href="/theme/pygments/github.min.css">
+  <link rel="stylesheet" type="text/css" href="/theme/font-awesome/css/font-awesome.min.css">
+
+
+    <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="ildoc's Atom">
+
+
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+
+
+<meta name="author" content="Doc" />
+<meta name="description" content="Aggiungendo un po&#39; di link interni tra un post e l&#39;altro mi sono accorto che generavano pingback, pur essendo all&#39;interno dello stesso sito. Qualcuno potrebbe trovarlo utile, per dar modo ai visitatori di vedere facilmente se un articolo ha dei post correlati, io no. Ho già un plugin che si …" />
+<meta name="keywords" content="blog, wordpress, pingback">
+
+<meta property="og:site_name" content="ildoc's"/>
+<meta property="og:title" content="Disabilitare i pingback interni su Wordpress"/>
+<meta property="og:description" content="Aggiungendo un po&#39; di link interni tra un post e l&#39;altro mi sono accorto che generavano pingback, pur essendo all&#39;interno dello stesso sito. Qualcuno potrebbe trovarlo utile, per dar modo ai visitatori di vedere facilmente se un articolo ha dei post correlati, io no. Ho già un plugin che si …"/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:url" content="/disabilitare-i-pingback-interni-su-wordpress.html"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2014-02-15 11:24:00+01:00"/>
+<meta property="article:modified_time" content="2015-03-24 16:09:16+01:00"/>
+<meta property="article:author" content="/author/doc.html">
+<meta property="article:section" content="misc"/>
+<meta property="article:tag" content="blog"/>
+<meta property="article:tag" content="wordpress"/>
+<meta property="article:tag" content="pingback"/>
+<meta property="og:image" content="">
+
+  <title>ildoc's &ndash; Disabilitare i pingback interni su Wordpress</title>
+
+</head>
+<body>
+  <aside>
+    <div>
+      <a href="">
+        <img src="/theme/img/profile.png" alt="ildoc's" title="ildoc's">
+      </a>
+      <h1><a href="">ildoc's</a></h1>
+
+
+      <nav>
+        <ul class="list">
+
+          <li><a href="http://getpelican.com/" target="_blank">Pelican</a></li>
+          <li><a href="http://python.org/" target="_blank">Python.org</a></li>
+          <li><a href="http://jinja.pocoo.org/" target="_blank">Jinja2</a></li>
+          <li><a href="#" target="_blank">You can modify those links in your config file</a></li>
+        </ul>
+      </nav>
+
+      <ul class="social">
+        <li><a class="sc-Twitter" href="https://twitter.com/il_doc" target="_blank"><i class="fa fa-Twitter"></i></a></li>
+        <li><a class="sc-GitHub" href="https://github.com/ildoc" target="_blank"><i class="fa fa-GitHub"></i></a></li>
+      </ul>
+    </div>
+
+
+  </aside>
+  <main>
+
+
+<article class="single">
+  <header>
+      
+    <h1 id="disabilitare-i-pingback-interni-su-wordpress">Disabilitare i pingback interni su Wordpress</h1>
+    <p>
+          Posted on sab 15 febbraio 2014 in <a href="/category/misc.html">misc</a>
+
+
+    </p>
+  </header>
+
+
+  <div>
+    <p>Aggiungendo un po' di link interni tra un post e l'altro mi sono accorto
+che generavano pingback, pur essendo all'interno dello stesso sito.<br>
+Qualcuno potrebbe trovarlo utile, per dar modo ai visitatori di vedere
+facilmente se un articolo ha dei post correlati, io no. Ho già un plugin
+che si occupa appositamente di questo.</p>
+<p>Quindi, cercando, ho trovato questa funzioncina da aggiungere nel
+<strong>functions.php</strong>:</p>
+<div class="highlight"><pre><span></span><span class="x">function disable_internal_pingbacks( &amp;$links ) {</span>
+<span class="x">  $home = get_option( &#39;home&#39; );</span>
+<span class="x">  foreach ( $links as $l =&gt; $link )</span>
+<span class="x">    if ( 0 === strpos( $link, $home ) )</span>
+<span class="x">      unset($links[$l]);</span>
+<span class="x">}</span>
+
+<span class="x">add_action( &#39;pre_ping&#39;, &#39;disable_internal_pingbacks&#39; );</span>
+</pre></div>
+
+
+<p>In pratica non disabilita i pingback, ma li intercetta prima che vengano
+processati da Wordpress e li elimina.<br>
+Alla fine il risultato è quello voluto. Facile, no?</p>
+  </div>
+  <div class="tag-cloud">
+    <p>
+      <a href="/tag/blog.html">blog</a>
+      <a href="/tag/wordpress.html">wordpress</a>
+      <a href="/tag/pingback.html">pingback</a>
+    </p>
+  </div>
+
+
+
+    <div class="addthis_relatedposts_inline">
+
+
+</article>
+
+    <footer>
+<p>
+  &copy;   - This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>
+</p>
+<p>    Powered by <a href="http://getpelican.com" target="_blank">Pelican</a> - <a href="https://github.com/alexandrevicenzi/flex" target="_blank">Flex</a> theme by <a href="http://alexandrevicenzi.com" target="_blank">Alexandre Vicenzi</a>
+</p><p>
+  <a rel="license"
+     href="http://creativecommons.org/licenses/by-sa/4.0/"
+     target="_blank">
+    <img alt="Creative Commons License"
+         title="Creative Commons License"
+         style="border-width:0"
+         src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"
+         width="80"
+         height="15"/>
+  </a>
+</p>    </footer>
+  </main>
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " ildoc's ",
+  "url" : "",
+  "image": "",
+  "description": ""
+}
+</script>
+
+</body>
+</html>

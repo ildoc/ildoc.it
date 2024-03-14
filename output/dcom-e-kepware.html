@@ -1,0 +1,165 @@
+
+<!DOCTYPE html>
+<html lang="italian">
+<head>
+  <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" type="text/css" href="/theme/stylesheet/style.min.css">
+
+  <link rel="stylesheet" type="text/css" href="/theme/pygments/github.min.css">
+  <link rel="stylesheet" type="text/css" href="/theme/font-awesome/css/font-awesome.min.css">
+
+
+    <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="ildoc's Atom">
+
+
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+
+
+<meta name="author" content="Doc" />
+<meta name="description" content="Per riuscire a browsare/leggere/scrivere le tag e i loro valori su un server kepware è necessario: registrare la libreria gbda_aut.dll di grey box per la versione di windows che si sta usando (32/64bit) Download installare un OPC client (es.Matrikon) impostare le dcom del proprio computer …" />
+<meta name="keywords" content="dcom, kepware, matrikon, opc">
+
+<meta property="og:site_name" content="ildoc's"/>
+<meta property="og:title" content="DCOM e Kepware"/>
+<meta property="og:description" content="Per riuscire a browsare/leggere/scrivere le tag e i loro valori su un server kepware è necessario: registrare la libreria gbda_aut.dll di grey box per la versione di windows che si sta usando (32/64bit) Download installare un OPC client (es.Matrikon) impostare le dcom del proprio computer …"/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:url" content="/dcom-e-kepware.html"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2013-09-24 10:08:00+02:00"/>
+<meta property="article:modified_time" content="2015-03-24 16:09:16+01:00"/>
+<meta property="article:author" content="/author/doc.html">
+<meta property="article:section" content="misc"/>
+<meta property="article:tag" content="dcom"/>
+<meta property="article:tag" content="kepware"/>
+<meta property="article:tag" content="matrikon"/>
+<meta property="article:tag" content="opc"/>
+<meta property="og:image" content="">
+
+  <title>ildoc's &ndash; DCOM e Kepware</title>
+
+</head>
+<body>
+  <aside>
+    <div>
+      <a href="">
+        <img src="/theme/img/profile.png" alt="ildoc's" title="ildoc's">
+      </a>
+      <h1><a href="">ildoc's</a></h1>
+
+
+      <nav>
+        <ul class="list">
+
+          <li><a href="http://getpelican.com/" target="_blank">Pelican</a></li>
+          <li><a href="http://python.org/" target="_blank">Python.org</a></li>
+          <li><a href="http://jinja.pocoo.org/" target="_blank">Jinja2</a></li>
+          <li><a href="#" target="_blank">You can modify those links in your config file</a></li>
+        </ul>
+      </nav>
+
+      <ul class="social">
+        <li><a class="sc-Twitter" href="https://twitter.com/il_doc" target="_blank"><i class="fa fa-Twitter"></i></a></li>
+        <li><a class="sc-GitHub" href="https://github.com/ildoc" target="_blank"><i class="fa fa-GitHub"></i></a></li>
+      </ul>
+    </div>
+
+
+  </aside>
+  <main>
+
+
+<article class="single">
+  <header>
+      
+    <h1 id="dcom-e-kepware">DCOM e Kepware</h1>
+    <p>
+          Posted on mar 24 settembre 2013 in <a href="/category/misc.html">misc</a>
+
+
+    </p>
+  </header>
+
+
+  <div>
+    <p>Per riuscire a browsare/leggere/scrivere le tag e i loro valori su un
+server kepware è necessario:</p>
+<ul>
+<li>registrare la libreria gbda_aut.dll di grey box per la versione di windows che si sta usando (32/64bit) <a href="http://gray-box.net/download_daawrapper.php?lang=en">Download</a></li>
+<li>installare un OPC client (es.<a href="http://www.matrikonopc.com/downloads/types/software/index.aspx">Matrikon</a>)</li>
+<li>impostare le dcom del proprio computer come segue:</li>
+<li>start -&gt; esegui -&gt; dcomcnfg</li>
+<li>component services -&gt; computer -&gt; click destro su my computer -&gt; properties</li>
+<li>
+<p>nella scheda com security entrare in ciascuno dei 4 pulsanti (edit limits, edit default) aggiungere gli utenti</p>
+<ul>
+<li>everyone</li>
+<li>self</li>
+<li>system</li>
+<li>network</li>
+<li>interactive</li>
+<li>anonymous logon</li>
+</ul>
+<p>e settare a TUTTI allow a tutto
+  * apply, ok, e riavviare</p>
+</li>
+</ul>
+<p>Non sarà esattamente il metodo corretto, però così funziona...</p>
+  </div>
+  <div class="tag-cloud">
+    <p>
+      <a href="/tag/dcom.html">dcom</a>
+      <a href="/tag/kepware.html">kepware</a>
+      <a href="/tag/matrikon.html">matrikon</a>
+      <a href="/tag/opc.html">opc</a>
+    </p>
+  </div>
+
+
+
+    <div class="addthis_relatedposts_inline">
+
+
+</article>
+
+    <footer>
+<p>
+  &copy;   - This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>
+</p>
+<p>    Powered by <a href="http://getpelican.com" target="_blank">Pelican</a> - <a href="https://github.com/alexandrevicenzi/flex" target="_blank">Flex</a> theme by <a href="http://alexandrevicenzi.com" target="_blank">Alexandre Vicenzi</a>
+</p><p>
+  <a rel="license"
+     href="http://creativecommons.org/licenses/by-sa/4.0/"
+     target="_blank">
+    <img alt="Creative Commons License"
+         title="Creative Commons License"
+         style="border-width:0"
+         src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"
+         width="80"
+         height="15"/>
+  </a>
+</p>    </footer>
+  </main>
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " ildoc's ",
+  "url" : "",
+  "image": "",
+  "description": ""
+}
+</script>
+
+</body>
+</html>

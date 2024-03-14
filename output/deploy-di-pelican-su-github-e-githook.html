@@ -1,0 +1,208 @@
+
+<!DOCTYPE html>
+<html lang="italian">
+<head>
+  <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" type="text/css" href="/theme/stylesheet/style.min.css">
+
+  <link rel="stylesheet" type="text/css" href="/theme/pygments/github.min.css">
+  <link rel="stylesheet" type="text/css" href="/theme/font-awesome/css/font-awesome.min.css">
+
+
+    <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="ildoc's Atom">
+
+
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+
+
+<meta name="author" content="Doc" />
+<meta name="description" content="Sto ancora giocherellando con Pelican e cercavo un modo per committare i nuovi post UNA volta sola, senza dover committare una seconda volta gli html generati. Ci sono riuscito abbastanza facilmente, ecco come: Prerequisiti: Python &gt;= 2.7 Git un account su GitHub tanta pazienza Cominciamo: Setup dell&#39;ambiente Apriamo una shell …" />
+<meta name="keywords" content="git, githook, pelican">
+
+<meta property="og:site_name" content="ildoc's"/>
+<meta property="og:title" content="Deploy di Pelican su GitHub e githook"/>
+<meta property="og:description" content="Sto ancora giocherellando con Pelican e cercavo un modo per committare i nuovi post UNA volta sola, senza dover committare una seconda volta gli html generati. Ci sono riuscito abbastanza facilmente, ecco come: Prerequisiti: Python &gt;= 2.7 Git un account su GitHub tanta pazienza Cominciamo: Setup dell&#39;ambiente Apriamo una shell …"/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:url" content="/deploy-di-pelican-su-github-e-githook.html"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2015-02-06 15:07:00+01:00"/>
+<meta property="article:modified_time" content="2015-03-24 16:09:17+01:00"/>
+<meta property="article:author" content="/author/doc.html">
+<meta property="article:section" content="misc"/>
+<meta property="article:tag" content="git"/>
+<meta property="article:tag" content="githook"/>
+<meta property="article:tag" content="pelican"/>
+<meta property="og:image" content="">
+
+  <title>ildoc's &ndash; Deploy di Pelican su GitHub e githook</title>
+
+</head>
+<body>
+  <aside>
+    <div>
+      <a href="">
+        <img src="/theme/img/profile.png" alt="ildoc's" title="ildoc's">
+      </a>
+      <h1><a href="">ildoc's</a></h1>
+
+
+      <nav>
+        <ul class="list">
+
+          <li><a href="http://getpelican.com/" target="_blank">Pelican</a></li>
+          <li><a href="http://python.org/" target="_blank">Python.org</a></li>
+          <li><a href="http://jinja.pocoo.org/" target="_blank">Jinja2</a></li>
+          <li><a href="#" target="_blank">You can modify those links in your config file</a></li>
+        </ul>
+      </nav>
+
+      <ul class="social">
+        <li><a class="sc-Twitter" href="https://twitter.com/il_doc" target="_blank"><i class="fa fa-Twitter"></i></a></li>
+        <li><a class="sc-GitHub" href="https://github.com/ildoc" target="_blank"><i class="fa fa-GitHub"></i></a></li>
+      </ul>
+    </div>
+
+
+  </aside>
+  <main>
+
+
+<article class="single">
+  <header>
+      
+    <h1 id="deploy-di-pelican-su-github-e-githook">Deploy di Pelican su GitHub e githook</h1>
+    <p>
+          Posted on ven 06 febbraio 2015 in <a href="/category/misc.html">misc</a>
+
+
+    </p>
+  </header>
+
+
+  <div>
+    <p>Sto ancora giocherellando con <a href="http://blog.getpelican.com/">Pelican</a> e cercavo un modo per committare i nuovi post UNA volta sola, senza dover committare una seconda volta gli html generati.</p>
+<p>Ci sono riuscito abbastanza facilmente, ecco come:</p>
+<h2>Prerequisiti:</h2>
+<ul>
+<li><a href="https://www.python.org/downloads/">Python</a> &gt;= 2.7</li>
+<li><a href="http://git-scm.com/">Git</a></li>
+<li>un account su <a href="https://github.com/">GitHub</a></li>
+<li>tanta pazienza</li>
+</ul>
+<p>Cominciamo:</p>
+<h2>Setup dell'ambiente</h2>
+<p>Apriamo una shell e scriviamo</p>
+<div class="highlight"><pre><span></span>pip install virtualenvwrapper
+mkvirtualenv pelican
+pip install pelican markdown
+</pre></div>
+
+
+<p>e dovremmo avere un virtualenv con pelican pronto all'installazione.</p>
+<p><em>God bless virtualenvwrapper</em></p>
+<p>Ora creaimo la cartella dove installeremo pelican:</p>
+<div class="highlight"><pre><span></span>mkdir pelican
+<span class="nb">cd</span> pelican
+pelican-quickstart
+</pre></div>
+
+
+<p>a sto punto partirà l'installazione vera e propria, rispondete a tutte le domande ed è fatta.</p>
+<h2>Deploy su GitHub</h2>
+<p>Su GitHub creiamo due nuovi repository con nome <strong><em>username</em>.github.io</strong> e <strong><em>username</em>.github.io-source</strong>, (dove <em>username</em> è chiaramente il vostro username di github).</p>
+<p>Quello "-source" potete chiamarlo come vi pare.</p>
+<p>Ora linkiamo il "-source" alla folder nella quale abbiamo appena installato pelican e committiamo tutto</p>
+<div class="highlight"><pre><span></span>git init
+<span class="nb">echo</span> <span class="s2">&quot;output&quot;</span> &gt; .gitignore
+git remote add origin git@github.com:username/username.github.io-source.git
+</pre></div>
+
+
+<p>dopodichè creiamo un submodule nella cartella output con</p>
+<div class="highlight"><pre><span></span>git submodule add -f git@github.com:username/username.github.io.git output
+</pre></div>
+
+
+<p>a questo punto entriamo nella folder .git\hooks e creiamo il "trigger" che rigenererà il sito ad ogni push e committerà i file statici sul repository html</p>
+<p>creiamo quindi un nuovo file "pre-push"</p>
+<div class="highlight"><pre><span></span><span class="ch">#!/bin/sh</span>
+<span class="nb">cd</span> output
+git fetch --all
+find * -maxdepth <span class="m">0</span> -name <span class="s1">&#39;.git&#39;</span> -prune -o -exec rm -rf <span class="s1">&#39;{}&#39;</span> <span class="s1">&#39;;&#39;</span>
+<span class="nb">cd</span> ..
+pelican content -s publishconf.py
+<span class="nb">cd</span> output
+git add --all .
+git commit -am <span class="s2">&quot;automatic commit&quot;</span>
+git push origin master
+
+<span class="nb">exit</span> <span class="m">0</span>
+</pre></div>
+
+
+<p>adesso, tornando nella root di pelican potremmo fare</p>
+<div class="highlight"><pre><span></span>git add .
+git commit -am <span class="s2">&quot;hello pelican&quot;</span>
+git push origin master
+</pre></div>
+
+
+<p>e se tutto è ok, dovrebbe partire da sola la seconda commit/push sul repository statico!</p>
+  </div>
+  <div class="tag-cloud">
+    <p>
+      <a href="/tag/git.html">git</a>
+      <a href="/tag/githook.html">githook</a>
+      <a href="/tag/pelican.html">pelican</a>
+    </p>
+  </div>
+
+
+
+    <div class="addthis_relatedposts_inline">
+
+
+</article>
+
+    <footer>
+<p>
+  &copy;   - This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>
+</p>
+<p>    Powered by <a href="http://getpelican.com" target="_blank">Pelican</a> - <a href="https://github.com/alexandrevicenzi/flex" target="_blank">Flex</a> theme by <a href="http://alexandrevicenzi.com" target="_blank">Alexandre Vicenzi</a>
+</p><p>
+  <a rel="license"
+     href="http://creativecommons.org/licenses/by-sa/4.0/"
+     target="_blank">
+    <img alt="Creative Commons License"
+         title="Creative Commons License"
+         style="border-width:0"
+         src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"
+         width="80"
+         height="15"/>
+  </a>
+</p>    </footer>
+  </main>
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " ildoc's ",
+  "url" : "",
+  "image": "",
+  "description": ""
+}
+</script>
+
+</body>
+</html>

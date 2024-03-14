@@ -1,0 +1,184 @@
+
+<!DOCTYPE html>
+<html lang="italian">
+<head>
+  <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" type="text/css" href="/theme/stylesheet/style.min.css">
+
+  <link rel="stylesheet" type="text/css" href="/theme/pygments/github.min.css">
+  <link rel="stylesheet" type="text/css" href="/theme/font-awesome/css/font-awesome.min.css">
+
+
+    <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="ildoc's Atom">
+
+
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+
+
+<meta name="author" content="Doc" />
+<meta name="description" content="Il 95% dei lettori di questo post saranno studenti in fascia di età 12-18 che vogliono creare un videogioco. Il rimanente 5% sarà invece equamente suddiviso tra chi è incuriosito dall&#39;argomento e chi ha sbagliato a cliccare un link trovato chissà dove ed è capitato qui. La mia idea sarebbe …" />
+<meta name="keywords" content="imparare a programmare">
+
+<meta property="og:site_name" content="ildoc's"/>
+<meta property="og:title" content="Imparare a programmare da zero - 1/3"/>
+<meta property="og:description" content="Il 95% dei lettori di questo post saranno studenti in fascia di età 12-18 che vogliono creare un videogioco. Il rimanente 5% sarà invece equamente suddiviso tra chi è incuriosito dall&#39;argomento e chi ha sbagliato a cliccare un link trovato chissà dove ed è capitato qui. La mia idea sarebbe …"/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:url" content="/imparare-a-programmare-da-zero-13.html"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2014-02-09 21:07:00+01:00"/>
+<meta property="article:modified_time" content="2015-03-26 14:15:40+01:00"/>
+<meta property="article:author" content="/author/doc.html">
+<meta property="article:section" content="misc"/>
+<meta property="article:tag" content="imparare a programmare"/>
+<meta property="og:image" content="">
+
+  <title>ildoc's &ndash; Imparare a programmare da zero - 1/3</title>
+
+</head>
+<body>
+  <aside>
+    <div>
+      <a href="">
+        <img src="/theme/img/profile.png" alt="ildoc's" title="ildoc's">
+      </a>
+      <h1><a href="">ildoc's</a></h1>
+
+
+      <nav>
+        <ul class="list">
+
+          <li><a href="http://getpelican.com/" target="_blank">Pelican</a></li>
+          <li><a href="http://python.org/" target="_blank">Python.org</a></li>
+          <li><a href="http://jinja.pocoo.org/" target="_blank">Jinja2</a></li>
+          <li><a href="#" target="_blank">You can modify those links in your config file</a></li>
+        </ul>
+      </nav>
+
+      <ul class="social">
+        <li><a class="sc-Twitter" href="https://twitter.com/il_doc" target="_blank"><i class="fa fa-Twitter"></i></a></li>
+        <li><a class="sc-GitHub" href="https://github.com/ildoc" target="_blank"><i class="fa fa-GitHub"></i></a></li>
+      </ul>
+    </div>
+
+
+  </aside>
+  <main>
+
+
+<article class="single">
+  <header>
+      
+    <h1 id="imparare-a-programmare-da-zero-13">Imparare a programmare da zero - 1/3</h1>
+    <p>
+          Posted on dom 09 febbraio 2014 in <a href="/category/misc.html">misc</a>
+
+
+    </p>
+  </header>
+
+
+  <div>
+    <p>Il 95% dei lettori di questo post saranno studenti in fascia di età
+12-18 che vogliono creare un videogioco.<br>
+Il rimanente 5% sarà invece equamente suddiviso tra chi è incuriosito
+dall'argomento e chi ha sbagliato a cliccare un link trovato chissà dove
+ed è capitato qui.</p>
+<p>La mia idea sarebbe di creare una specie di guida per chi si avvicina al
+mondo della programmazione per la prima volta IN ASSOLUTO, senza legarla
+ad un linguaggio in particolare.<br>
+Vediamo che cosa ne esce.</p>
+<h2>Introduzione - Cos'è un programma?</h2>
+<p>Direi che questa potrebbe essere non "una", ma "la" domanda che si deve
+porre chi vuole capire cosa vuol dire "programmare".</p>
+<p>Allora smarchiamocela subito con una definizione da scolpire nella
+pietra:</p>
+<blockquote>
+<p><strong>Un programma è un insieme finito di istruzioni.</strong></p>
+</blockquote>
+<p>come ad esempio una ricetta per fare una torta.</p>
+<p>Il programma, come la ricetta, prevede una serie di operazioni da
+svolgere in un determinato ordine per arrivare ad ottenere il risultato
+voluto.</p>
+<p>Supponiamo, utilizzando come esempio una tipica situazione domestica, di
+voler insegnare a un robot a fare le torte.<br>
+Perchè? Perchè si.</p>
+<p>Il robot non pensa, non sa niente, non ha una coscienza.<br>
+L'unica cosa che sa fare è eseguire degli ordini, quindi, per spegargli
+come fare la nostra torta dobbiamo cercare di semplificare al massimo le
+operazioni, "smontando" il problema del fare una torta in più parti.<br>
+Ad esempio:  </p>
+<ul>
+<li>Prendere gli ingredienti  </li>
+<li>Preparare l'impasto  </li>
+<li>Infornare l tutto</li>
+</ul>
+<p>Una volta che abbiamo progettato bene il nostro programma-torta,
+dobbiamo trovare il modo per parlare con il robot per fornirgli l'elenco
+delle istruzioni che prevede il nostro algoritmo, in modo che lui,
+azione dopo azione, riesca a preparare la nostra torta.</p>
+<p>Come fare?<br>
+Per riuscire a dialogare con il nostro robot abbiamo bisogno di un
+interprete, che trasformi il nostro linguaggio in un idioma
+comprensibile al robot, il cosiddetto linguaggio macchina, che non è
+altro che un insieme di 0 e di 1.<br>
+(Si, come nei film)</p>
+<p>L'interprete (o gli interpreti) che ci verrà in soccorso sarà un
+linguaggio di programmazione.<br>
+Vediamo cosa sono nella seconda parte -&gt; <a href="/imparare-a-programmare-da-zero-23/">Imparare a programmare da
+zero 2/3</a></p>
+  </div>
+  <div class="tag-cloud">
+    <p>
+      <a href="/tag/imparare-a-programmare.html">imparare a programmare</a>
+    </p>
+  </div>
+
+
+
+    <div class="addthis_relatedposts_inline">
+
+
+</article>
+
+    <footer>
+<p>
+  &copy;   - This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>
+</p>
+<p>    Powered by <a href="http://getpelican.com" target="_blank">Pelican</a> - <a href="https://github.com/alexandrevicenzi/flex" target="_blank">Flex</a> theme by <a href="http://alexandrevicenzi.com" target="_blank">Alexandre Vicenzi</a>
+</p><p>
+  <a rel="license"
+     href="http://creativecommons.org/licenses/by-sa/4.0/"
+     target="_blank">
+    <img alt="Creative Commons License"
+         title="Creative Commons License"
+         style="border-width:0"
+         src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"
+         width="80"
+         height="15"/>
+  </a>
+</p>    </footer>
+  </main>
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " ildoc's ",
+  "url" : "",
+  "image": "",
+  "description": ""
+}
+</script>
+
+</body>
+</html>

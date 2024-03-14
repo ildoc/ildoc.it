@@ -1,0 +1,209 @@
+
+<!DOCTYPE html>
+<html lang="italian">
+<head>
+  <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" type="text/css" href="/theme/stylesheet/style.min.css">
+
+  <link rel="stylesheet" type="text/css" href="/theme/pygments/github.min.css">
+  <link rel="stylesheet" type="text/css" href="/theme/font-awesome/css/font-awesome.min.css">
+
+
+    <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="ildoc's Atom">
+
+
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+
+
+<meta name="author" content="Doc" />
+<meta name="description" content="Per semplificarmi un po&#39; la vita mi sono fatto un piccolo scriptino per facilitarmi la creazione di un nuovo progetto Django, con annesso ambiente virtuale (e pure un .bat per quando sviluppo da windows) #!/bin/bash YEAR=$(date +&#34;%Y&#34;) echo &#34;[+]Creazione env&#34; python3 -m venv /envs/$1 source /envs/$1 …" />
+<meta name="keywords" content="django">
+
+<meta property="og:site_name" content="ildoc's"/>
+<meta property="og:title" content="Script per la creazione di un nuovo progetto Django"/>
+<meta property="og:description" content="Per semplificarmi un po&#39; la vita mi sono fatto un piccolo scriptino per facilitarmi la creazione di un nuovo progetto Django, con annesso ambiente virtuale (e pure un .bat per quando sviluppo da windows) #!/bin/bash YEAR=$(date +&#34;%Y&#34;) echo &#34;[+]Creazione env&#34; python3 -m venv /envs/$1 source /envs/$1 …"/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:url" content="/script-per-la-creazione-di-un-nuovo-progetto-django.html"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2015-10-13 09:39:35+02:00"/>
+<meta property="article:modified_time" content="2015-10-14 19:46:09+02:00"/>
+<meta property="article:author" content="/author/doc.html">
+<meta property="article:section" content="misc"/>
+<meta property="article:tag" content="django"/>
+<meta property="og:image" content="">
+
+  <title>ildoc's &ndash; Script per la creazione di un nuovo progetto Django</title>
+
+</head>
+<body>
+  <aside>
+    <div>
+      <a href="">
+        <img src="/theme/img/profile.png" alt="ildoc's" title="ildoc's">
+      </a>
+      <h1><a href="">ildoc's</a></h1>
+
+
+      <nav>
+        <ul class="list">
+
+          <li><a href="http://getpelican.com/" target="_blank">Pelican</a></li>
+          <li><a href="http://python.org/" target="_blank">Python.org</a></li>
+          <li><a href="http://jinja.pocoo.org/" target="_blank">Jinja2</a></li>
+          <li><a href="#" target="_blank">You can modify those links in your config file</a></li>
+        </ul>
+      </nav>
+
+      <ul class="social">
+        <li><a class="sc-Twitter" href="https://twitter.com/il_doc" target="_blank"><i class="fa fa-Twitter"></i></a></li>
+        <li><a class="sc-GitHub" href="https://github.com/ildoc" target="_blank"><i class="fa fa-GitHub"></i></a></li>
+      </ul>
+    </div>
+
+
+  </aside>
+  <main>
+
+
+<article class="single">
+  <header>
+      
+    <h1 id="script-per-la-creazione-di-un-nuovo-progetto-django">Script per la creazione di un nuovo progetto Django</h1>
+    <p>
+          Posted on mar 13 ottobre 2015 in <a href="/category/misc.html">misc</a>
+
+
+    </p>
+  </header>
+
+
+  <div>
+    <p>Per semplificarmi un po' la vita mi sono fatto un piccolo scriptino per facilitarmi la creazione di un nuovo progetto Django, con annesso ambiente virtuale (e pure un .bat per quando sviluppo da <a href="/django-e-virtualenv-su-windows/">windows</a>)</p>
+<div class="highlight"><pre><span></span><span class="ch">#!/bin/bash</span>
+<span class="nv">YEAR</span><span class="o">=</span><span class="k">$(</span>date +<span class="s2">&quot;%Y&quot;</span><span class="k">)</span>
+
+<span class="nb">echo</span> <span class="s2">&quot;[+]Creazione env&quot;</span>
+python3 -m venv /envs/<span class="nv">$1</span>
+<span class="nb">source</span> /envs/<span class="nv">$1</span>/bin/activate
+<span class="nb">echo</span> <span class="s2">&quot;[+]Aggiornamento pip&quot;</span>
+pip install -q -U pip
+<span class="nb">echo</span> <span class="s2">&quot;[+]Installazione Django&quot;</span>
+pip install -q django
+<span class="nb">cd</span> <span class="nv">$HOME</span>/Projects/
+<span class="nb">echo</span> <span class="s2">&quot;[+]Creazione progetto&quot;</span>
+django-admin startproject <span class="nv">$1</span>
+<span class="nb">cd</span> <span class="nv">$1</span>
+
+<span class="nb">echo</span> <span class="s2">&quot;[+]Creazione cartelle&quot;</span>
+mkdir static
+mkdir templates
+mkdir templates/admin
+
+<span class="nb">echo</span> <span class="s2">&quot;[+]Creazione .gitignore&quot;</span>
+cat <span class="s">&lt;&lt;EOF &gt; .gitignore</span>
+<span class="s">*.py[cod]</span>
+<span class="s">*.sqlite3</span>
+
+<span class="s">assets/</span>
+<span class="s">*/__pycache__</span>
+
+<span class="s">access.log</span>
+<span class="s">error.log</span>
+<span class="s">EOF</span>
+
+cat <span class="s">&lt;&lt;EOF &gt; windows.bat</span>
+<span class="s">start c:\Envs\$1\Scripts\activate.bat</span>
+<span class="s">atom .</span>
+<span class="s">EOF</span>
+
+<span class="nb">echo</span> <span class="s2">&quot;[+]Creazione LICENSE&quot;</span>
+cat <span class="s">&lt;&lt;EOF &gt; LICENSE</span>
+<span class="s">The MIT License (MIT)</span>
+
+<span class="s">Copyright (c) $YEAR $1 (ildoc.it)</span>
+
+<span class="s">Permission is hereby granted, free of charge, to any person obtaining a copy</span>
+<span class="s">of this software and associated documentation files (the &quot;Software&quot;), to deal</span>
+<span class="s">in the Software without restriction, including without limitation the rights</span>
+<span class="s">to use, copy, modify, merge, publish, distribute, sublicense, and/or sell</span>
+<span class="s">copies of the Software, and to permit persons to whom the Software is</span>
+<span class="s">furnished to do so, subject to the following conditions:</span>
+
+<span class="s">The above copyright notice and this permission notice shall be included in all</span>
+<span class="s">copies or substantial portions of the Software.</span>
+
+<span class="s">THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR</span>
+<span class="s">IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,</span>
+<span class="s">FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE</span>
+<span class="s">AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER</span>
+<span class="s">LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,</span>
+<span class="s">OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE</span>
+<span class="s">SOFTWARE.</span>
+<span class="s">EOF</span>
+
+<span class="nb">echo</span> <span class="s2">&quot;[+]Creazione requirements.txt&quot;</span>
+pip freeze &gt; requirements.txt
+<span class="nb">echo</span> <span class="s2">&quot;[+]Init del repository&quot;</span>
+git init
+<span class="nb">echo</span> <span class="s2">&quot;[+]Commit iniziale&quot;</span>
+git add --all
+git commit -m <span class="s2">&quot;first commit&quot;</span>
+<span class="nb">echo</span> <span class="s2">&quot;[+]Avvio di Atom&quot;</span>
+atom .
+</pre></div>
+  </div>
+  <div class="tag-cloud">
+    <p>
+      <a href="/tag/django.html">django</a>
+    </p>
+  </div>
+
+
+
+    <div class="addthis_relatedposts_inline">
+
+
+</article>
+
+    <footer>
+<p>
+  &copy;   - This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>
+</p>
+<p>    Powered by <a href="http://getpelican.com" target="_blank">Pelican</a> - <a href="https://github.com/alexandrevicenzi/flex" target="_blank">Flex</a> theme by <a href="http://alexandrevicenzi.com" target="_blank">Alexandre Vicenzi</a>
+</p><p>
+  <a rel="license"
+     href="http://creativecommons.org/licenses/by-sa/4.0/"
+     target="_blank">
+    <img alt="Creative Commons License"
+         title="Creative Commons License"
+         style="border-width:0"
+         src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"
+         width="80"
+         height="15"/>
+  </a>
+</p>    </footer>
+  </main>
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " ildoc's ",
+  "url" : "",
+  "image": "",
+  "description": ""
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,250 @@
+
+<!DOCTYPE html>
+<html lang="italian">
+<head>
+  <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" type="text/css" href="/theme/stylesheet/style.min.css">
+
+  <link rel="stylesheet" type="text/css" href="/theme/pygments/github.min.css">
+  <link rel="stylesheet" type="text/css" href="/theme/font-awesome/css/font-awesome.min.css">
+
+
+    <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="ildoc's Atom">
+
+
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+
+
+<meta name="author" content="Doc" />
+<meta name="description" content="Stiamo per iniziare un nuovo progetto con Django e la domanda che ci poniamo è: &#34;C&#39;è un modo per strutturare il progetto in maniera che sia modulare, facile da navigare e da manutenere?&#34; Si, e ora vi spiego quello che ho adottato io: L&#39;ambiente virtuale Innanzitutto è necessario contenere e …" />
+<meta name="keywords" content="python, django, tutorial">
+
+<meta property="og:site_name" content="ildoc's"/>
+<meta property="og:title" content="Struttura iniziale per un nuovo progetto Django"/>
+<meta property="og:description" content="Stiamo per iniziare un nuovo progetto con Django e la domanda che ci poniamo è: &#34;C&#39;è un modo per strutturare il progetto in maniera che sia modulare, facile da navigare e da manutenere?&#34; Si, e ora vi spiego quello che ho adottato io: L&#39;ambiente virtuale Innanzitutto è necessario contenere e …"/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:url" content="/struttura-iniziale-per-un-nuovo-progetto-django.html"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2016-07-24 20:33:16+02:00"/>
+<meta property="article:modified_time" content="2016-07-24 20:33:16+02:00"/>
+<meta property="article:author" content="/author/doc.html">
+<meta property="article:section" content="misc"/>
+<meta property="article:tag" content="python"/>
+<meta property="article:tag" content="django"/>
+<meta property="article:tag" content="tutorial"/>
+<meta property="og:image" content="">
+
+  <title>ildoc's &ndash; Struttura iniziale per un nuovo progetto Django</title>
+
+</head>
+<body>
+  <aside>
+    <div>
+      <a href="">
+        <img src="/theme/img/profile.png" alt="ildoc's" title="ildoc's">
+      </a>
+      <h1><a href="">ildoc's</a></h1>
+
+
+      <nav>
+        <ul class="list">
+
+          <li><a href="http://getpelican.com/" target="_blank">Pelican</a></li>
+          <li><a href="http://python.org/" target="_blank">Python.org</a></li>
+          <li><a href="http://jinja.pocoo.org/" target="_blank">Jinja2</a></li>
+          <li><a href="#" target="_blank">You can modify those links in your config file</a></li>
+        </ul>
+      </nav>
+
+      <ul class="social">
+        <li><a class="sc-Twitter" href="https://twitter.com/il_doc" target="_blank"><i class="fa fa-Twitter"></i></a></li>
+        <li><a class="sc-GitHub" href="https://github.com/ildoc" target="_blank"><i class="fa fa-GitHub"></i></a></li>
+      </ul>
+    </div>
+
+
+  </aside>
+  <main>
+
+
+<article class="single">
+  <header>
+      
+    <h1 id="struttura-iniziale-per-un-nuovo-progetto-django">Struttura iniziale per un nuovo progetto Django</h1>
+    <p>
+          Posted on dom 24 luglio 2016 in <a href="/category/misc.html">misc</a>
+
+
+    </p>
+  </header>
+
+
+  <div>
+    <p>Stiamo per iniziare un nuovo progetto con Django e la domanda che ci poniamo è: "C'è un modo per strutturare il progetto in maniera che sia modulare, facile da navigare e da manutenere?"</p>
+<p>Si, e ora vi spiego quello che ho adottato io:</p>
+<h2>L'ambiente virtuale</h2>
+<p>Innanzitutto è necessario contenere e rendere replicabile ovunque il nostro ambiente di sviluppo.</p>
+<p>In python2 c'era un fantastico pacchetto di nome <code>virtualenvwrapper</code>, ma visto che ormai siamo nel 2016 utilizzeremo python3, quindi apriamo una shell e scriviamo (su Linux):</p>
+<div class="highlight"><pre><span></span>python3 -m venv /path/dove/vivrà/il/nostro/ambiente/nomeambiente
+</pre></div>
+
+
+<p>su Windows invece il comando è praticamente uguale:</p>
+<div class="highlight"><pre><span></span>python -m venv C:\path\dove\vivrà\il\nostro\ambiente\nomeambiente
+</pre></div>
+
+
+<p>nel percorso che avete specificato verrà creata una folder che conterrà un'installazione pulita di python3 che andremo a usare per sviluppare il progetto.</p>
+<p>Una volta creato l'ambiente andiamo ad attivarlo, su Linux con:</p>
+<div class="highlight"><pre><span></span>source /path/[...]/nomeambiente/bin/activate
+</pre></div>
+
+
+<p>e su Windows con:</p>
+<div class="highlight"><pre><span></span>C:\path\[...]\nomeambiente\Scripts\activate.bat
+</pre></div>
+
+
+<p>a conferma dell'attivazione troveremo <code>(nomeambiente)</code> all'inizio della riga di comando della nostra shell.</p>
+<p>A questo punto non ci resta che installare Django con:</p>
+<div class="highlight"><pre><span></span>pip install django
+</pre></div>
+
+
+<h2>Creazione del progetto</h2>
+<p>Fin qui ci siamo preparati il "tavolo da lavoro", ora non ci resta che cominciare a costruire.</p>
+<p>Quindi per cominciare iniziamo col creare il nostro progetto:</p>
+<div class="highlight"><pre><span></span>django-admin startproject mioProgetto
+</pre></div>
+
+
+<p>Il comando appena lanciato produrrà lo scheletro di default di Django, in una struttura a mio avviso un po' criptica.</p>
+<div class="highlight"><pre><span></span>mioProgetto/
+|-- manage.py
+`-- postdjango
+    |-- __init__.py
+    |-- settings.py
+    |-- urls.py
+    `-- wsgi.py
+</pre></div>
+
+
+<p>Non ho mai trovato molto senso nel creare una folder col nome del progetto... ...all'interno della folder col nome del progetto!, poi, girovagando su Github, mi sono imbattuto nel sorgente del sito <a href="http://djangopackages.com">djangopackages.com</a> (<a href="https://github.com/pydanny/djangopackages">qui</a> il sorgente) sviluppato da pydanny, l'autore di <a href="http://amzn.to/2aiPUq2">Two Scoops of Django</a>, che a mio avviso è la BIBBIA di Django.</p>
+<p>E ho scoperto che la metodologia usata da pydanny è estremamente funzionale, così ho deciso di adottarla.</p>
+<p>Dunque: il nostro obbiettivo è far fuori la folder col nome del progetto in maniera da rendere il suo contenuto organizzato meglio.</p>
+<p>Quindi cominciamo con lo spostare tutti i file nel livello superiore, e cancelliamo la cartella vuota:</p>
+<div class="highlight"><pre><span></span>postdjango/
+|-- __init__.py
+|-- manage.py
+|-- settings.py
+|-- urls.py
+`-- wsgi.py
+</pre></div>
+
+
+<p>I settings facilmente possono crescere sia di dimensione, sia di numero di file, quindi creiamo una cartella <code>settings</code> apposta, rendiamola un modulo creando al suo interno un file <code>__init__.py</code> e spostiamoci dentro il nostro <code>settings.py</code>, rinominandolo <code>base.py</code>.</p>
+<p>In quest'ultimo file possiamo tenere, ad esempio, tutte le impostazioni che saranno condivide dagli altri settings.</p>
+<p>Giusto per dare un senso a questa suddivisione, possiamo creare un piccolo file <code>nginx.py</code> dove metteremo le configurazioni specifiche al deploy:</p>
+<div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">.base</span> <span class="kn">import</span> <span class="o">*</span>
+
+<span class="n">ALLOWED_HOSTS</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;miosito.it&#39;</span><span class="p">]</span>
+</pre></div>
+
+
+<p>La nostra struttura ora sarà così:</p>
+<div class="highlight"><pre><span></span>mioProgetto/
+|-- settings
+|   |-- base.py
+|   |-- __init__.py
+|   `-- nginx.py
+|-- __init__.py
+|-- manage.py
+|-- urls.py
+`-- wsgi.py
+</pre></div>
+
+
+<p>Più comprensibile, no?</p>
+<p>Ora andiamo a sistemare i riferimenti saltati nei vari file:</p>
+<p>In <code>settings/base.py</code>:</p>
+<div class="highlight"><pre><span></span><span class="c1"># ROOT_URLCONF = &#39;mioProgetto.urls&#39;</span>
+<span class="n">ROOT_URLCONF</span> <span class="o">=</span> <span class="s1">&#39;urls&#39;</span>
+
+<span class="p">[</span><span class="o">...</span><span class="p">]</span>
+
+<span class="c1"># WSGI_APPLICATION = &#39;mioProgetto.wsgi.application&#39;</span>
+<span class="n">WSGI_APPLICATION</span> <span class="o">=</span> <span class="s1">&#39;wsgi.application&#39;</span>
+</pre></div>
+
+
+<p>In <code>manage.py</code>:</p>
+<div class="highlight"><pre><span></span><span class="c1"># os.environ.setdefault(&quot;DJANGO_SETTINGS_MODULE&quot;, &quot;mioProgetto.settings&quot;)</span>
+<span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="o">.</span><span class="n">setdefault</span><span class="p">(</span><span class="s2">&quot;DJANGO_SETTINGS_MODULE&quot;</span><span class="p">,</span> <span class="s2">&quot;settings.base&quot;</span><span class="p">)</span>
+</pre></div>
+
+
+<p>In <code>wsgi.py</code>:</p>
+<div class="highlight"><pre><span></span><span class="c1"># os.environ.setdefault(&quot;DJANGO_SETTINGS_MODULE&quot;, &quot;mioProgetto.settings&quot;)</span>
+<span class="n">os</span><span class="o">.</span><span class="n">environ</span><span class="o">.</span><span class="n">setdefault</span><span class="p">(</span><span class="s2">&quot;DJANGO_SETTINGS_MODULE&quot;</span><span class="p">,</span> <span class="s2">&quot;settings.base&quot;</span><span class="p">)</span>
+</pre></div>
+
+
+<p>Fine. Ora abbiamo una base più coprensibile e possiamo cominciare a costruire il nostro progetto.</p>
+  </div>
+  <div class="tag-cloud">
+    <p>
+      <a href="/tag/python.html">python</a>
+      <a href="/tag/django.html">django</a>
+      <a href="/tag/tutorial.html">tutorial</a>
+    </p>
+  </div>
+
+
+
+    <div class="addthis_relatedposts_inline">
+
+
+</article>
+
+    <footer>
+<p>
+  &copy;   - This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>
+</p>
+<p>    Powered by <a href="http://getpelican.com" target="_blank">Pelican</a> - <a href="https://github.com/alexandrevicenzi/flex" target="_blank">Flex</a> theme by <a href="http://alexandrevicenzi.com" target="_blank">Alexandre Vicenzi</a>
+</p><p>
+  <a rel="license"
+     href="http://creativecommons.org/licenses/by-sa/4.0/"
+     target="_blank">
+    <img alt="Creative Commons License"
+         title="Creative Commons License"
+         style="border-width:0"
+         src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"
+         width="80"
+         height="15"/>
+  </a>
+</p>    </footer>
+  </main>
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " ildoc's ",
+  "url" : "",
+  "image": "",
+  "description": ""
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,354 @@
+
+<!DOCTYPE html>
+<html lang="italian">
+<head>
+  <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" type="text/css" href="/theme/stylesheet/style.min.css">
+
+  <link rel="stylesheet" type="text/css" href="/theme/pygments/github.min.css">
+  <link rel="stylesheet" type="text/css" href="/theme/font-awesome/css/font-awesome.min.css">
+
+
+    <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="ildoc's Atom">
+
+
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+
+
+    <meta name="author" content="Doc" />
+    <meta name="description" content="" />
+<meta property="og:site_name" content="ildoc's"/>
+<meta property="og:type" content="blog"/>
+<meta property="og:title" content="ildoc's"/>
+<meta property="og:description" content=""/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:url" content=""/>
+
+  <title>ildoc's</title>
+
+</head>
+<body>
+  <aside>
+    <div>
+      <a href="">
+        <img src="/theme/img/profile.png" alt="ildoc's" title="ildoc's">
+      </a>
+      <h1><a href="">ildoc's</a></h1>
+
+
+      <nav>
+        <ul class="list">
+
+          <li><a href="http://getpelican.com/" target="_blank">Pelican</a></li>
+          <li><a href="http://python.org/" target="_blank">Python.org</a></li>
+          <li><a href="http://jinja.pocoo.org/" target="_blank">Jinja2</a></li>
+          <li><a href="#" target="_blank">You can modify those links in your config file</a></li>
+        </ul>
+      </nav>
+
+      <ul class="social">
+        <li><a class="sc-Twitter" href="https://twitter.com/il_doc" target="_blank"><i class="fa fa-Twitter"></i></a></li>
+        <li><a class="sc-GitHub" href="https://github.com/ildoc" target="_blank"><i class="fa fa-GitHub"></i></a></li>
+      </ul>
+    </div>
+
+
+  </aside>
+  <main>
+
+
+
+
+<article>
+  <header>
+    <h2><a href="/struttura-iniziale-per-un-nuovo-progetto-django.html#struttura-iniziale-per-un-nuovo-progetto-django">Struttura iniziale per un nuovo progetto Django</a></h2>
+    <p>
+          Posted on dom 24 luglio 2016 in <a href="/category/misc.html">misc</a>
+
+
+          &#8226;     Tagged with
+
+              <a href="/tag/python.html">python</a>,              <a href="/tag/django.html">django</a>,              <a href="/tag/tutorial.html">tutorial</a>
+    </p>
+  </header>
+  <div>
+      <p>Stiamo per iniziare un nuovo progetto con Django e la domanda che ci poniamo è: "C'è un modo per strutturare il progetto in maniera che sia modulare, facile da navigare e da manutenere?"</p>
+<p>Si, e ora vi spiego quello che ho adottato io:</p>
+<h2>L'ambiente virtuale</h2>
+<p>Innanzitutto è necessario contenere e …</p>
+      <br>
+      <a class="btn" href="/struttura-iniziale-per-un-nuovo-progetto-django.html#struttura-iniziale-per-un-nuovo-progetto-django">    Continue reading
+</a>
+  </div>
+  <hr />
+</article>
+<article>
+  <header>
+    <h2><a href="/script-per-la-creazione-di-un-nuovo-progetto-django.html#script-per-la-creazione-di-un-nuovo-progetto-django">Script per la creazione di un nuovo progetto Django</a></h2>
+    <p>
+          Posted on mar 13 ottobre 2015 in <a href="/category/misc.html">misc</a>
+
+
+          &#8226;     Tagged with
+
+              <a href="/tag/django.html">django</a>
+    </p>
+  </header>
+  <div>
+      <p>Per semplificarmi un po' la vita mi sono fatto un piccolo scriptino per facilitarmi la creazione di un nuovo progetto Django, con annesso ambiente virtuale (e pure un .bat per quando sviluppo da <a href="/django-e-virtualenv-su-windows/">windows</a>)</p>
+<div class="highlight"><pre><span></span><span class="ch">#!/bin/bash</span>
+<span class="nv">YEAR</span><span class="o">=</span><span class="k">$(</span>date +<span class="s2">&quot;%Y&quot;</span><span class="k">)</span>
+
+<span class="nb">echo</span> <span class="s2">&quot;[+]Creazione env&quot;</span>
+python3 -m venv /envs/<span class="nv">$1</span>
+<span class="nb">source</span> /envs/<span class="nv">$1 …</span></pre></div>
+      <br>
+      <a class="btn" href="/script-per-la-creazione-di-un-nuovo-progetto-django.html#script-per-la-creazione-di-un-nuovo-progetto-django">    Continue reading
+</a>
+  </div>
+  <hr />
+</article>
+<article>
+  <header>
+    <h2><a href="/script-standalone-con-django.html#script-standalone-con-django">Script standalone con Django</a></h2>
+    <p>
+          Posted on lun 11 maggio 2015 in <a href="/category/misc.html">misc</a>
+
+
+          &#8226;     Tagged with
+
+              <a href="/tag/django.html">django</a>,              <a href="/tag/virtualenv.html">virtualenv</a>
+    </p>
+  </header>
+  <div>
+      <p>Volendo creare un tool di manutenzione/per operazioni batch/ecc. che necessita di interagire con, ad esempio, i modelli di un'app del nostro progetto con Django, è necessario caricare tutto l'ambiente all'interno del quale Django viene eseguito.</p>
+<p>Ciò può essere fatto lanciando la shell di Django dal manage.py del …</p>
+      <br>
+      <a class="btn" href="/script-standalone-con-django.html#script-standalone-con-django">    Continue reading
+</a>
+  </div>
+  <hr />
+</article>
+<article>
+  <header>
+    <h2><a href="/nuovo-blog.html#nuovo-blog">Nuovo blog?</a></h2>
+    <p>
+          Posted on mer 25 marzo 2015 in <a href="/category/misc.html">misc</a>
+
+
+          &#8226;     Tagged with
+
+              <a href="/tag/blog.html">blog</a>,              <a href="/tag/django.html">django</a>
+    </p>
+  </header>
+  <div>
+      <p>Cos'è cambiato? Nulla, <em>sembrerebbe</em>...
+E invece sono passato da pelican a django, mantenendo quasi lo stesso layout.</p>
+<p>Il vantaggio pratico è che posso scrivere i post direttamente dal web, ma la parte divertente è che il motore del blog <a href="https://github.com/ildoc/ildoc.it/">me lo scrivo da solo</a>.</p>
+<p>Riprendendo in mano django dopo il …</p>
+      <br>
+      <a class="btn" href="/nuovo-blog.html#nuovo-blog">    Continue reading
+</a>
+  </div>
+  <hr />
+</article>
+<article>
+  <header>
+    <h2><a href="/sostituzione-di-un-disco-degradato-su-qnap.html#sostituzione-di-un-disco-degradato-su-qnap">Sostituzione di un disco degradato su QNAP</a></h2>
+    <p>
+          Posted on sab 07 marzo 2015 in <a href="/category/misc.html">misc</a>
+
+
+          &#8226;     Tagged with
+
+              <a href="/tag/nas.html">nas</a>,              <a href="/tag/qnap.html">qnap</a>
+    </p>
+  </header>
+  <div>
+      <p>Dopo 2 anni di servizio, il disco 1 del mio QNAP TS-219P II (un  <a href="http://amzn.to/1wo7f8j">WD Red 3TB</a>) ha deciso di lasciarmi.</p>
+<p>Il QNAP è andato in modalità degraded, lucine rosse e beep ovunque...
+Ho comprato un altro disco e poi mi sono messo a scartabellare l'internet per capire come sostituirlo …</p>
+      <br>
+      <a class="btn" href="/sostituzione-di-un-disco-degradato-su-qnap.html#sostituzione-di-un-disco-degradato-su-qnap">    Continue reading
+</a>
+  </div>
+  <hr />
+</article>
+<article>
+  <header>
+    <h2><a href="/django-e-virtualenv-su-windows.html#django-e-virtualenv-su-windows">Django e virtualenv su Windows</a></h2>
+    <p>
+          Posted on lun 02 marzo 2015 in <a href="/category/misc.html">misc</a>
+
+
+          &#8226;     Tagged with
+
+              <a href="/tag/windows.html">windows</a>,              <a href="/tag/django.html">django</a>,              <a href="/tag/virtualenv.html">virtualenv</a>
+    </p>
+  </header>
+  <div>
+      <p>Più che un post, questo è un appunto personale...
+Per usare <a href="https://www.djangoproject.com/">django</a> su windows dietro virtualenv occorre settare il path corretto per l'esecuzione dei file .py, altrimenti verrà utilizzato il "python.exe" di default</p>
+<p>Questa operazione è fattibile con il comando (ovviamente da DENTRO il virtualenv)</p>
+<div class="highlight"><pre><span></span>ftype Python.File<span class="o">=</span><span class="s2">&quot;C …</span></pre></div>
+      <br>
+      <a class="btn" href="/django-e-virtualenv-su-windows.html#django-e-virtualenv-su-windows">    Continue reading
+</a>
+  </div>
+  <hr />
+</article>
+<article>
+  <header>
+    <h2><a href="/fuga-da-ovh.html#fuga-da-ovh">Fuga da Ovh</a></h2>
+    <p>
+          Posted on mar 17 febbraio 2015 in <a href="/category/misc.html">misc</a>
+
+
+          &#8226;     Tagged with
+
+              <a href="/tag/blog.html">blog</a>,              <a href="/tag/ovh.html">ovh</a>
+    </p>
+  </header>
+  <div>
+      <p>Avevo già <a href="/da-ovh-non-me-laspettavo/">parlato bene di ovh</a>, e in questi giorni ho maturato l'idea di completare l'opera e fuggire definitvamente da questo ormai, a mio avviso, scandaloso fornitore di servizi.</p>
+<p>Rivisitando il blog con <a href="/deploy-di-pelican-su-github-e-githook/">Pelican</a> e hostandolo sulle GitHub Pages, puntandoci un custom domain, e quindi mi sono appropinquato sul mio …</p>
+      <br>
+      <a class="btn" href="/fuga-da-ovh.html#fuga-da-ovh">    Continue reading
+</a>
+  </div>
+  <hr />
+</article>
+<article>
+  <header>
+    <h2><a href="/if-programming-languages-were-countries.html#if-programming-languages-were-countries">If programming languages were countries</a></h2>
+    <p>
+          Posted on mer 11 febbraio 2015 in <a href="/category/misc.html">misc</a>
+
+
+          &#8226;     Tagged with
+
+              <a href="/tag/linguaggi-di-programmazione.html">linguaggi di programmazione</a>
+    </p>
+  </header>
+  <div>
+      <p>Ho trovato questo simpatico post...</p>
+<ul>
+<li>Java: USA -- optimistic, powerful, likes to gloss over inconveniences.</li>
+<li>C++: UK -- strong and exacting, but not so good at actually finishing things and tends to get overtaken by Java.</li>
+<li>Python: The Netherlands. "Hey no problem, let'sh do it guysh!"</li>
+<li>Ruby: France. Powerful, stylish and convinced …</li></ul>
+      <br>
+      <a class="btn" href="/if-programming-languages-were-countries.html#if-programming-languages-were-countries">    Continue reading
+</a>
+  </div>
+  <hr />
+</article>
+<article>
+  <header>
+    <h2><a href="/deploy-di-pelican-su-github-e-githook.html#deploy-di-pelican-su-github-e-githook">Deploy di Pelican su GitHub e githook</a></h2>
+    <p>
+          Posted on ven 06 febbraio 2015 in <a href="/category/misc.html">misc</a>
+
+
+          &#8226;     Tagged with
+
+              <a href="/tag/git.html">git</a>,              <a href="/tag/githook.html">githook</a>,              <a href="/tag/pelican.html">pelican</a>
+    </p>
+  </header>
+  <div>
+      <p>Sto ancora giocherellando con <a href="http://blog.getpelican.com/">Pelican</a> e cercavo un modo per committare i nuovi post UNA volta sola, senza dover committare una seconda volta gli html generati.</p>
+<p>Ci sono riuscito abbastanza facilmente, ecco come:</p>
+<h2>Prerequisiti:</h2>
+<ul>
+<li><a href="https://www.python.org/downloads/">Python</a> &gt;= 2.7</li>
+<li><a href="http://git-scm.com/">Git</a></li>
+<li>un account su <a href="https://github.com/">GitHub</a></li>
+<li>tanta pazienza</li>
+</ul>
+<p>Cominciamo:</p>
+<h2>Setup dell'ambiente</h2>
+<p>Apriamo una shell …</p>
+      <br>
+      <a class="btn" href="/deploy-di-pelican-su-github-e-githook.html#deploy-di-pelican-su-github-e-githook">    Continue reading
+</a>
+  </div>
+  <hr />
+</article>
+<article>
+  <header>
+    <h2><a href="/hello-world-1.html#hello-world-1">Hello World?</a></h2>
+    <p>
+          Posted on ven 06 febbraio 2015 in <a href="/category/misc.html">misc</a>
+
+
+          &#8226;     Tagged with
+
+              <a href="/tag/blog.html">blog</a>
+    </p>
+  </header>
+  <div>
+      <p>Questo più che un post è un test per vedere come funziona pelican...</p>
+<p>Non escludo di poterlo adottare al posto di wordpress in quanto:</p>
+<ul>
+<li>funziona <strong>solo</strong> da blog</li>
+<li>è scritto in python</li>
+</ul>
+<p>Effettivamente un blog serve solo pagine statiche, quindi non serve una tonnellata di php, un database, n plugin …</p>
+      <br>
+      <a class="btn" href="/hello-world-1.html#hello-world-1">    Continue reading
+</a>
+  </div>
+</article>
+
+  <div class="pagination">
+    <a class="btn float-left" href="/index2.html">
+      <i class="fa fa-angle-left"></i>     Older Posts
+
+    </a>
+  </div>
+
+
+
+
+    <footer>
+<p>
+  &copy;   - This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>
+</p>
+<p>    Powered by <a href="http://getpelican.com" target="_blank">Pelican</a> - <a href="https://github.com/alexandrevicenzi/flex" target="_blank">Flex</a> theme by <a href="http://alexandrevicenzi.com" target="_blank">Alexandre Vicenzi</a>
+</p><p>
+  <a rel="license"
+     href="http://creativecommons.org/licenses/by-sa/4.0/"
+     target="_blank">
+    <img alt="Creative Commons License"
+         title="Creative Commons License"
+         style="border-width:0"
+         src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"
+         width="80"
+         height="15"/>
+  </a>
+</p>    </footer>
+  </main>
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " ildoc's ",
+  "url" : "",
+  "image": "",
+  "description": ""
+}
+</script>
+
+</body>
+</html>

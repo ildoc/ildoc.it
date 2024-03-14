@@ -1,0 +1,154 @@
+
+<!DOCTYPE html>
+<html lang="italian">
+<head>
+  <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" type="text/css" href="/theme/stylesheet/style.min.css">
+
+  <link rel="stylesheet" type="text/css" href="/theme/pygments/github.min.css">
+  <link rel="stylesheet" type="text/css" href="/theme/font-awesome/css/font-awesome.min.css">
+
+
+    <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="ildoc's Atom">
+
+
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+
+
+<meta name="author" content="Doc" />
+<meta name="description" content="Dopo 2 anni di servizio, il disco 1 del mio QNAP TS-219P II (un WD Red 3TB) ha deciso di lasciarmi. Il QNAP è andato in modalità degraded, lucine rosse e beep ovunque... Ho comprato un altro disco e poi mi sono messo a scartabellare l&#39;internet per capire come sostituirlo …" />
+<meta name="keywords" content="nas, qnap">
+
+<meta property="og:site_name" content="ildoc's"/>
+<meta property="og:title" content="Sostituzione di un disco degradato su QNAP"/>
+<meta property="og:description" content="Dopo 2 anni di servizio, il disco 1 del mio QNAP TS-219P II (un WD Red 3TB) ha deciso di lasciarmi. Il QNAP è andato in modalità degraded, lucine rosse e beep ovunque... Ho comprato un altro disco e poi mi sono messo a scartabellare l&#39;internet per capire come sostituirlo …"/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:url" content="/sostituzione-di-un-disco-degradato-su-qnap.html"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2015-03-07 10:26:00+01:00"/>
+<meta property="article:modified_time" content="2015-04-28 12:26:45+02:00"/>
+<meta property="article:author" content="/author/doc.html">
+<meta property="article:section" content="misc"/>
+<meta property="article:tag" content="nas"/>
+<meta property="article:tag" content="qnap"/>
+<meta property="og:image" content="">
+
+  <title>ildoc's &ndash; Sostituzione di un disco degradato su QNAP</title>
+
+</head>
+<body>
+  <aside>
+    <div>
+      <a href="">
+        <img src="/theme/img/profile.png" alt="ildoc's" title="ildoc's">
+      </a>
+      <h1><a href="">ildoc's</a></h1>
+
+
+      <nav>
+        <ul class="list">
+
+          <li><a href="http://getpelican.com/" target="_blank">Pelican</a></li>
+          <li><a href="http://python.org/" target="_blank">Python.org</a></li>
+          <li><a href="http://jinja.pocoo.org/" target="_blank">Jinja2</a></li>
+          <li><a href="#" target="_blank">You can modify those links in your config file</a></li>
+        </ul>
+      </nav>
+
+      <ul class="social">
+        <li><a class="sc-Twitter" href="https://twitter.com/il_doc" target="_blank"><i class="fa fa-Twitter"></i></a></li>
+        <li><a class="sc-GitHub" href="https://github.com/ildoc" target="_blank"><i class="fa fa-GitHub"></i></a></li>
+      </ul>
+    </div>
+
+
+  </aside>
+  <main>
+
+
+<article class="single">
+  <header>
+      
+    <h1 id="sostituzione-di-un-disco-degradato-su-qnap">Sostituzione di un disco degradato su QNAP</h1>
+    <p>
+          Posted on sab 07 marzo 2015 in <a href="/category/misc.html">misc</a>
+
+
+    </p>
+  </header>
+
+
+  <div>
+    <p>Dopo 2 anni di servizio, il disco 1 del mio QNAP TS-219P II (un  <a href="http://amzn.to/1wo7f8j">WD Red 3TB</a>) ha deciso di lasciarmi.</p>
+<p>Il QNAP è andato in modalità degraded, lucine rosse e beep ovunque...
+Ho comprato un altro disco e poi mi sono messo a scartabellare l'internet per capire come sostituirlo senza perdere i dati.</p>
+<p>Incredibile ma vero, la documentazione di QNAP è la più agghiacciante della storia.
+Recentemente hanno rifatto il sito e non si sono minimamente preoccupati di mantenere i vecchi link, o almeno di reindirizzarli su pagine funzionanti -.-</p>
+<p>Il forum poi, come sempre, non è d'aiuto per un cazzo (<a href="http://forum.qnap.com/viewtopic.php?f=25&amp;t=89512">questa discussione</a> ne è l'esempio)</p>
+<p>Un <a href="http://www.hwupgrade.it/forum/showthread.php?p=40434840">altro thread</a> su HWUpgrade mi ha fatto troppo tornare in mente questo</p>
+<p><center><img alt="Wisdom of the Ancients" src="http://imgs.xkcd.com/comics/wisdom_of_the_ancients.png" title="All long help threads should have a sticky globally-editable post at the top saying 'DEAR PEOPLE FROM THE FUTURE: Here's what we've figured out so far ..."></center></p>
+<p>Comunque, alla fine ho scoperto che non è nemmeno necessario spegnere il qnap: la sostituzione può essere fatta al volo!</p>
+<ul>
+<li>si rimuove il disco danneggiato (ci saranno 2 beep da 1.5 secondi)</li>
+<li>si svitano le 4 viti che lo fissano a supporto e si sostituisce con uno nuovo</li>
+<li>si re-inserisce il nuovo disco (ci saranno di nuovo 2 beep da 1.5 secondi)</li>
+</ul>
+<p>e in automatico il sistema comincerà con il ripristino del RAID</p>
+<p><strong>GOD BLESS RAID 1</strong></p>
+  </div>
+  <div class="tag-cloud">
+    <p>
+      <a href="/tag/nas.html">nas</a>
+      <a href="/tag/qnap.html">qnap</a>
+    </p>
+  </div>
+
+
+
+    <div class="addthis_relatedposts_inline">
+
+
+</article>
+
+    <footer>
+<p>
+  &copy;   - This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>
+</p>
+<p>    Powered by <a href="http://getpelican.com" target="_blank">Pelican</a> - <a href="https://github.com/alexandrevicenzi/flex" target="_blank">Flex</a> theme by <a href="http://alexandrevicenzi.com" target="_blank">Alexandre Vicenzi</a>
+</p><p>
+  <a rel="license"
+     href="http://creativecommons.org/licenses/by-sa/4.0/"
+     target="_blank">
+    <img alt="Creative Commons License"
+         title="Creative Commons License"
+         style="border-width:0"
+         src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"
+         width="80"
+         height="15"/>
+  </a>
+</p>    </footer>
+  </main>
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " ildoc's ",
+  "url" : "",
+  "image": "",
+  "description": ""
+}
+</script>
+
+</body>
+</html>
