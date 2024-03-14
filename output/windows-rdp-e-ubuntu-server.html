@@ -1,0 +1,167 @@
+
+<!DOCTYPE html>
+<html lang="italian">
+<head>
+  <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" type="text/css" href="/theme/stylesheet/style.min.css">
+
+  <link rel="stylesheet" type="text/css" href="/theme/pygments/github.min.css">
+  <link rel="stylesheet" type="text/css" href="/theme/font-awesome/css/font-awesome.min.css">
+
+
+    <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="ildoc's Atom">
+
+
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+
+
+<meta name="author" content="Doc" />
+<meta name="description" content="Mettiamo per assurdo che uno voglia connettersi in desktop remoto da Windows a Ubuntu server. Perchè, ad esempio, non può utilizzare PuTTY perchè la porta 22 è bloccata sulla rete del suo ufficio. Per esempio, eh? Che fare? Tanto per cominciare sarebbe il caso di installare un&#39;inferfaccia grafica su Ubuntu …" />
+<meta name="keywords" content="server, ubuntu, windows">
+
+<meta property="og:site_name" content="ildoc's"/>
+<meta property="og:title" content="Windows rdp e Ubuntu Server"/>
+<meta property="og:description" content="Mettiamo per assurdo che uno voglia connettersi in desktop remoto da Windows a Ubuntu server. Perchè, ad esempio, non può utilizzare PuTTY perchè la porta 22 è bloccata sulla rete del suo ufficio. Per esempio, eh? Che fare? Tanto per cominciare sarebbe il caso di installare un&#39;inferfaccia grafica su Ubuntu …"/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:url" content="/windows-rdp-e-ubuntu-server.html"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2014-02-16 17:04:00+01:00"/>
+<meta property="article:modified_time" content="2015-03-26 14:01:29+01:00"/>
+<meta property="article:author" content="/author/doc.html">
+<meta property="article:section" content="misc"/>
+<meta property="article:tag" content="server"/>
+<meta property="article:tag" content="ubuntu"/>
+<meta property="article:tag" content="windows"/>
+<meta property="og:image" content="">
+
+  <title>ildoc's &ndash; Windows rdp e Ubuntu Server</title>
+
+</head>
+<body>
+  <aside>
+    <div>
+      <a href="">
+        <img src="/theme/img/profile.png" alt="ildoc's" title="ildoc's">
+      </a>
+      <h1><a href="">ildoc's</a></h1>
+
+
+      <nav>
+        <ul class="list">
+
+          <li><a href="http://getpelican.com/" target="_blank">Pelican</a></li>
+          <li><a href="http://python.org/" target="_blank">Python.org</a></li>
+          <li><a href="http://jinja.pocoo.org/" target="_blank">Jinja2</a></li>
+          <li><a href="#" target="_blank">You can modify those links in your config file</a></li>
+        </ul>
+      </nav>
+
+      <ul class="social">
+        <li><a class="sc-Twitter" href="https://twitter.com/il_doc" target="_blank"><i class="fa fa-Twitter"></i></a></li>
+        <li><a class="sc-GitHub" href="https://github.com/ildoc" target="_blank"><i class="fa fa-GitHub"></i></a></li>
+      </ul>
+    </div>
+
+
+  </aside>
+  <main>
+
+
+<article class="single">
+  <header>
+      
+    <h1 id="windows-rdp-e-ubuntu-server">Windows rdp e Ubuntu Server</h1>
+    <p>
+          Posted on dom 16 febbraio 2014 in <a href="/category/misc.html">misc</a>
+
+
+    </p>
+  </header>
+
+
+  <div>
+    <p>Mettiamo per assurdo che uno voglia connettersi in desktop remoto da
+Windows a Ubuntu server.  </p>
+<p>Perchè, ad esempio, non può utilizzare
+<a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html">PuTTY</a>
+perchè la porta 22 è bloccata sulla rete del suo ufficio.  </p>
+<p>Per esempio, eh?</p>
+<p>Che fare?<br>
+Tanto per cominciare sarebbe il caso di installare un'inferfaccia
+grafica su Ubuntu, dal momento che la versione server non ne ha una
+(com'è normale che sia).</p>
+<p>Dal momento che il server potrebbe non essere un missile, la scelta
+ricade quindi su un ambiente desktop il più leggero possibile:
+<a href="http://lxde.org/">LXDE</a></p>
+<p>La installiamo con il comando  </p>
+<div class="highlight"><pre><span></span>sudo apt-get install lxde
+</pre></div>
+
+
+<p>Ok, ma adesso? Come si fa la magia?<br>
+Con il pacchetto <a href="http://www.xrdp.org/">xrdp</a>. (eterna lode a chi l'ha
+scritto) che installiamo con  </p>
+<div class="highlight"><pre><span></span>sudo apt-get install xrdp
+</pre></div>
+
+
+<p>e, ta-daaaan!</p>
+<p><img alt="xrdp" src="/static/images/posts/2014-02-16_17h03_23.png"></p>
+  </div>
+  <div class="tag-cloud">
+    <p>
+      <a href="/tag/server.html">server</a>
+      <a href="/tag/ubuntu.html">ubuntu</a>
+      <a href="/tag/windows.html">windows</a>
+    </p>
+  </div>
+
+
+
+    <div class="addthis_relatedposts_inline">
+
+
+</article>
+
+    <footer>
+<p>
+  &copy;   - This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>
+</p>
+<p>    Powered by <a href="http://getpelican.com" target="_blank">Pelican</a> - <a href="https://github.com/alexandrevicenzi/flex" target="_blank">Flex</a> theme by <a href="http://alexandrevicenzi.com" target="_blank">Alexandre Vicenzi</a>
+</p><p>
+  <a rel="license"
+     href="http://creativecommons.org/licenses/by-sa/4.0/"
+     target="_blank">
+    <img alt="Creative Commons License"
+         title="Creative Commons License"
+         style="border-width:0"
+         src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"
+         width="80"
+         height="15"/>
+  </a>
+</p>    </footer>
+  </main>
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " ildoc's ",
+  "url" : "",
+  "image": "",
+  "description": ""
+}
+</script>
+
+</body>
+</html>

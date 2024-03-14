@@ -1,0 +1,226 @@
+
+<!DOCTYPE html>
+<html lang="italian">
+<head>
+  <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" type="text/css" href="/theme/stylesheet/style.min.css">
+
+  <link rel="stylesheet" type="text/css" href="/theme/pygments/github.min.css">
+  <link rel="stylesheet" type="text/css" href="/theme/font-awesome/css/font-awesome.min.css">
+
+
+    <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="ildoc's Atom">
+
+
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+
+
+    <meta name="author" content="Doc" />
+    <meta name="description" content="" />
+<meta property="og:site_name" content="ildoc's"/>
+<meta property="og:type" content="blog"/>
+<meta property="og:title" content="ildoc's"/>
+<meta property="og:description" content=""/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:url" content=""/>
+
+  <title>ildoc's &ndash;     Tag django
+</title>
+
+</head>
+<body>
+  <aside>
+    <div>
+      <a href="">
+        <img src="/theme/img/profile.png" alt="ildoc's" title="ildoc's">
+      </a>
+      <h1><a href="">ildoc's</a></h1>
+
+
+      <nav>
+        <ul class="list">
+
+          <li><a href="http://getpelican.com/" target="_blank">Pelican</a></li>
+          <li><a href="http://python.org/" target="_blank">Python.org</a></li>
+          <li><a href="http://jinja.pocoo.org/" target="_blank">Jinja2</a></li>
+          <li><a href="#" target="_blank">You can modify those links in your config file</a></li>
+        </ul>
+      </nav>
+
+      <ul class="social">
+        <li><a class="sc-Twitter" href="https://twitter.com/il_doc" target="_blank"><i class="fa fa-Twitter"></i></a></li>
+        <li><a class="sc-GitHub" href="https://github.com/ildoc" target="_blank"><i class="fa fa-GitHub"></i></a></li>
+      </ul>
+    </div>
+
+
+  </aside>
+  <main>
+
+
+
+
+<article>
+  <header>
+    <h2><a href="/struttura-iniziale-per-un-nuovo-progetto-django.html#struttura-iniziale-per-un-nuovo-progetto-django">Struttura iniziale per un nuovo progetto Django</a></h2>
+    <p>
+          Posted on dom 24 luglio 2016 in <a href="/category/misc.html">misc</a>
+
+
+          &#8226;     Tagged with
+
+              <a href="/tag/python.html">python</a>,              <a href="/tag/django.html">django</a>,              <a href="/tag/tutorial.html">tutorial</a>
+    </p>
+  </header>
+  <div>
+      <p>Stiamo per iniziare un nuovo progetto con Django e la domanda che ci poniamo è: "C'è un modo per strutturare il progetto in maniera che sia modulare, facile da navigare e da manutenere?"</p>
+<p>Si, e ora vi spiego quello che ho adottato io:</p>
+<h2>L'ambiente virtuale</h2>
+<p>Innanzitutto è necessario contenere e …</p>
+      <br>
+      <a class="btn" href="/struttura-iniziale-per-un-nuovo-progetto-django.html#struttura-iniziale-per-un-nuovo-progetto-django">    Continue reading
+</a>
+  </div>
+  <hr />
+</article>
+<article>
+  <header>
+    <h2><a href="/script-per-la-creazione-di-un-nuovo-progetto-django.html#script-per-la-creazione-di-un-nuovo-progetto-django">Script per la creazione di un nuovo progetto Django</a></h2>
+    <p>
+          Posted on mar 13 ottobre 2015 in <a href="/category/misc.html">misc</a>
+
+
+          &#8226;     Tagged with
+
+              <a href="/tag/django.html">django</a>
+    </p>
+  </header>
+  <div>
+      <p>Per semplificarmi un po' la vita mi sono fatto un piccolo scriptino per facilitarmi la creazione di un nuovo progetto Django, con annesso ambiente virtuale (e pure un .bat per quando sviluppo da <a href="/django-e-virtualenv-su-windows/">windows</a>)</p>
+<div class="highlight"><pre><span></span><span class="ch">#!/bin/bash</span>
+<span class="nv">YEAR</span><span class="o">=</span><span class="k">$(</span>date +<span class="s2">&quot;%Y&quot;</span><span class="k">)</span>
+
+<span class="nb">echo</span> <span class="s2">&quot;[+]Creazione env&quot;</span>
+python3 -m venv /envs/<span class="nv">$1</span>
+<span class="nb">source</span> /envs/<span class="nv">$1 …</span></pre></div>
+      <br>
+      <a class="btn" href="/script-per-la-creazione-di-un-nuovo-progetto-django.html#script-per-la-creazione-di-un-nuovo-progetto-django">    Continue reading
+</a>
+  </div>
+  <hr />
+</article>
+<article>
+  <header>
+    <h2><a href="/script-standalone-con-django.html#script-standalone-con-django">Script standalone con Django</a></h2>
+    <p>
+          Posted on lun 11 maggio 2015 in <a href="/category/misc.html">misc</a>
+
+
+          &#8226;     Tagged with
+
+              <a href="/tag/django.html">django</a>,              <a href="/tag/virtualenv.html">virtualenv</a>
+    </p>
+  </header>
+  <div>
+      <p>Volendo creare un tool di manutenzione/per operazioni batch/ecc. che necessita di interagire con, ad esempio, i modelli di un'app del nostro progetto con Django, è necessario caricare tutto l'ambiente all'interno del quale Django viene eseguito.</p>
+<p>Ciò può essere fatto lanciando la shell di Django dal manage.py del …</p>
+      <br>
+      <a class="btn" href="/script-standalone-con-django.html#script-standalone-con-django">    Continue reading
+</a>
+  </div>
+  <hr />
+</article>
+<article>
+  <header>
+    <h2><a href="/nuovo-blog.html#nuovo-blog">Nuovo blog?</a></h2>
+    <p>
+          Posted on mer 25 marzo 2015 in <a href="/category/misc.html">misc</a>
+
+
+          &#8226;     Tagged with
+
+              <a href="/tag/blog.html">blog</a>,              <a href="/tag/django.html">django</a>
+    </p>
+  </header>
+  <div>
+      <p>Cos'è cambiato? Nulla, <em>sembrerebbe</em>...
+E invece sono passato da pelican a django, mantenendo quasi lo stesso layout.</p>
+<p>Il vantaggio pratico è che posso scrivere i post direttamente dal web, ma la parte divertente è che il motore del blog <a href="https://github.com/ildoc/ildoc.it/">me lo scrivo da solo</a>.</p>
+<p>Riprendendo in mano django dopo il …</p>
+      <br>
+      <a class="btn" href="/nuovo-blog.html#nuovo-blog">    Continue reading
+</a>
+  </div>
+  <hr />
+</article>
+<article>
+  <header>
+    <h2><a href="/django-e-virtualenv-su-windows.html#django-e-virtualenv-su-windows">Django e virtualenv su Windows</a></h2>
+    <p>
+          Posted on lun 02 marzo 2015 in <a href="/category/misc.html">misc</a>
+
+
+          &#8226;     Tagged with
+
+              <a href="/tag/windows.html">windows</a>,              <a href="/tag/django.html">django</a>,              <a href="/tag/virtualenv.html">virtualenv</a>
+    </p>
+  </header>
+  <div>
+      <p>Più che un post, questo è un appunto personale...
+Per usare <a href="https://www.djangoproject.com/">django</a> su windows dietro virtualenv occorre settare il path corretto per l'esecuzione dei file .py, altrimenti verrà utilizzato il "python.exe" di default</p>
+<p>Questa operazione è fattibile con il comando (ovviamente da DENTRO il virtualenv)</p>
+<div class="highlight"><pre><span></span>ftype Python.File<span class="o">=</span><span class="s2">&quot;C …</span></pre></div>
+      <br>
+      <a class="btn" href="/django-e-virtualenv-su-windows.html#django-e-virtualenv-su-windows">    Continue reading
+</a>
+  </div>
+</article>
+
+  <div class="pagination">
+  </div>
+
+
+
+
+    <footer>
+<p>
+  &copy;   - This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>
+</p>
+<p>    Powered by <a href="http://getpelican.com" target="_blank">Pelican</a> - <a href="https://github.com/alexandrevicenzi/flex" target="_blank">Flex</a> theme by <a href="http://alexandrevicenzi.com" target="_blank">Alexandre Vicenzi</a>
+</p><p>
+  <a rel="license"
+     href="http://creativecommons.org/licenses/by-sa/4.0/"
+     target="_blank">
+    <img alt="Creative Commons License"
+         title="Creative Commons License"
+         style="border-width:0"
+         src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"
+         width="80"
+         height="15"/>
+  </a>
+</p>    </footer>
+  </main>
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " ildoc's ",
+  "url" : "",
+  "image": "",
+  "description": ""
+}
+</script>
+
+</body>
+</html>
