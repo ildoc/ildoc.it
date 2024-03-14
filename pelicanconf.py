@@ -7,6 +7,7 @@ SITEURL = ''
 SITENAME = "ildoc's"
 SITETITLE = "ildoc's"
 SITESUBTITLE = ''
+SITEURL = 'http://localhost:8000'
 
 DELETE_OUTPUT_DIRECTORY = True
 
@@ -46,7 +47,9 @@ DEFAULT_LANG = 'Italian'
 GITHUB_URL = 'http://github.com/ildoc/'
 DISQUS_SITENAME = ''
 
-THEME = 'theme/flex'
+
+THEME = 'theme/pelican-blue'
+THEME_STATIC_DIR = THEME + '/static'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
@@ -56,10 +59,7 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+MENUITEMS = (('Home', '/'),)
 
 # Social widget
 SOCIAL = (('Twitter', 'https://twitter.com/il_doc'),
