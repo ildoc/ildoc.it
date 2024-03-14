@@ -5,7 +5,7 @@ Tags: django
 Slug: script-per-la-creazione-di-un-nuovo-progetto-django
 Author: Doc
 
-Per semplificarmi un po' la vita mi sono fatto un piccolo scriptino per facilitarmi la creazione di un nuovo progetto Django, con annesso ambiente virtuale (e pure un .bat per quando sviluppo da [windows](/django-e-virtualenv-su-windows/))
+Per semplificarmi un po' la vita mi sono fatto un piccolo scriptino per facilitarmi la creazione di un nuovo progetto Django, con annesso ambiente virtuale (e pure un .bat per quando sviluppo da [windows](/django-e-virtualenv-su-windows.html/))
 
     :::bash
     #!/bin/bash

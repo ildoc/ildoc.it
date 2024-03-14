@@ -1,3 +1,2 @@
 pelican content -o output -s pelicanconf.py
-ghp-import output
-git push origin gh-pages
+ghp-import -m "aggiornamento contenuti" - p output
