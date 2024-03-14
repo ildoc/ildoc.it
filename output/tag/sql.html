@@ -1,52 +1,37 @@
-
+  
 <!DOCTYPE html>
 <html lang="italian">
+
 <head>
-  <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic' rel='stylesheet' type='text/css'>
-
-    <link rel="stylesheet" type="text/css" href="/theme/stylesheet/style.min.css">
-
+  <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic' rel='stylesheet' type='text/css'>   <link rel="stylesheet" type="text/css" href="/theme/stylesheet/style.min.css"> 
   <link rel="stylesheet" type="text/css" href="/theme/pygments/github.min.css">
-  <link rel="stylesheet" type="text/css" href="/theme/font-awesome/css/font-awesome.min.css">
-
-
-    <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="ildoc's Atom">
-
-
-
+  <link rel="stylesheet" type="text/css" href="/theme/font-awesome/css/font-awesome.min.css">    <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="ildoc's Atom">   
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="HandheldFriendly" content="True" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="robots" content="index, follow" />
-
-
-    <meta name="author" content="Doc" />
-    <meta name="description" content="" />
-<meta property="og:site_name" content="ildoc's"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />   <meta name="robots" content="index, follow" />     <meta name="author" content="Doc" />
+  <meta name="description" content="" /> <meta property="og:site_name" content="ildoc's"/>
 <meta property="og:type" content="blog"/>
 <meta property="og:title" content="ildoc's"/>
 <meta property="og:description" content=""/>
 <meta property="og:locale" content="en_US"/>
 <meta property="og:url" content=""/>
-
-  <title>ildoc's &ndash;     Tag sql
-</title>
+ 
+  <title>ildoc's &ndash;  Tag sql </title>
 
 </head>
+
 <body>
   <aside>
     <div>
-      <a href="">
+      <a href="/">
         <img src="/theme/img/profile.png" alt="ildoc's" title="ildoc's">
       </a>
-      <h1><a href="">ildoc's</a></h1>
+      <h1><a href="/">ildoc's</a></h1>
 
-
-      <nav>
+       <nav>
         <ul class="list">
-
-          <li><a href="http://getpelican.com/" target="_blank">Pelican</a></li>
+            <li><a href="http://getpelican.com/" target="_blank">Pelican</a></li>
           <li><a href="http://python.org/" target="_blank">Python.org</a></li>
           <li><a href="http://jinja.pocoo.org/" target="_blank">Jinja2</a></li>
           <li><a href="#" target="_blank">You can modify those links in your config file</a></li>
@@ -62,48 +47,32 @@
 
   </aside>
   <main>
-
-
-
-
-<article>
+    <article>
   <header>
-    <h2><a href="/left-join-in.html#left-join-in">Left join \"in\"?</a></h2>
+    <h2><a href="/left-join-in.html">Left join \"in\"?</a></h2>
     <p>
-          Posted on mer 13 novembre 2013 in <a href="/category/misc.html">misc</a>
-
-
-          &#8226;     Tagged with
-
-              <a href="/tag/join.html">join</a>,              <a href="/tag/oracle.html">oracle</a>,              <a href="/tag/regex.html">regex</a>,              <a href="/tag/sql.html">sql</a>
-    </p>
+       Posted on mer 13 novembre 2013 in 
+      <a href="/category/2013.html">2013</a>   &#8226;  Tagged with        <a href="/tag/join.html">join</a>,       <a href="/tag/oracle.html">oracle</a>,       <a href="/tag/regex.html">regex</a>,       <a href="/tag/sql.html">sql</a>       </p>
   </header>
   <div>
-      <p>Mi sono trovato nella condizione di dover fare una join su più campi.<br>
+  <p>Mi sono trovato nella condizione di dover fare una join su più campi.<br>
 Che stavano in una colonna sola.<br>
 Separati da punti e virgola.</p>
 <p>Prima di tentare il suicidio, ho googolato un pò e ho scoperto questo:</p>
 <div class="highlight"><pre><span></span><span class="k">SELECT</span> <span class="o">*</span>  
 <span class="k">FROM</span> <span class="n">tabella1</span> <span class="k">LEFT</span> <span class="k">JOIN</span> <span class="n">tabella2</span> <span class="k">ON</span> <span class="n">tabella2</span><span class="p">.</span><span class="n">colonnaA</span> <span class="k">IN</span> <span class="p">(</span>  
     <span class="k">SELECT</span> <span class="n">REGEXP_SUBSTR</span><span class="p">(</span><span class="n">tabella2 …</span></pre></div>
-      <br>
-      <a class="btn" href="/left-join-in.html#left-join-in">    Continue reading
-</a>
-  </div>
+    <br>
+    <a class="btn" href="/left-join-in.html"> Continue reading </a>   </div>
 </article>
-
-  <div class="pagination">
+   <div class="pagination">
   </div>
-
-
-
-
+  
     <footer>
-<p>
+ <p>
   &copy;   - This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>
 </p>
-<p>    Powered by <a href="http://getpelican.com" target="_blank">Pelican</a> - <a href="https://github.com/alexandrevicenzi/flex" target="_blank">Flex</a> theme by <a href="http://alexandrevicenzi.com" target="_blank">Alexandre Vicenzi</a>
-</p><p>
+<p> Powered by <a href="http://getpelican.com" target="_blank">Pelican</a> - <a href="https://github.com/alexandrevicenzi/flex" target="_blank">Flex</a> theme by <a href="http://alexandrevicenzi.com" target="_blank">Alexandre Vicenzi</a> </p><p>
   <a rel="license"
      href="http://creativecommons.org/licenses/by-sa/4.0/"
      target="_blank">
@@ -114,14 +83,10 @@ Separati da punti e virgola.</p>
          width="80"
          height="15"/>
   </a>
-</p>    </footer>
+</p>     </footer>
   </main>
 
-
-
-
-
-<script type="application/ld+json">
+    <script type="application/ld+json">
 {
   "@context" : "http://schema.org",
   "@type" : "Blog",
@@ -130,7 +95,6 @@ Separati da punti e virgola.</p>
   "image": "",
   "description": ""
 }
-</script>
+</script>  </body>
 
-</body>
 </html>
