@@ -23,4 +23,4 @@ Ho trovato questo simpatico post...
 * R: Liechtenstein. Probably really amazing, especially if you're into big numbers, but no-one knows what it actually does.
 * Awk: North Korea. Stubbornly resists change, and its users appear to be unnaturally fond of it for reasons we can only speculate on.
 
-[[Fonte](http://www.quora.com/If-programming-languages-were-countries-which-country-would-each-language-represent?srid=KO3)]
+[[Fonte](https://www.quora.com/If-programming-languages-were-countries-which-country-would-each-language-represent?srid=KO3)]

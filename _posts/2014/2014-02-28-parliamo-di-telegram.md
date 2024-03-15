@@ -40,7 +40,7 @@ C'è un client per praticamente qualsiasi piattaforma:
 * [Google Chrome](https://chrome.google.com/webstore/detail/telegram-unofficial/clhhggbfdinjmjhajaheehoeibfljjno)  
 * [MacOS](https://itunes.apple.com/us/app/messenger-for-telegram/id747648890?mt=12)  
 * [Linux CLI](https://github.com/vysheng/tg)  
-* [Windows Phone](http://www.windowsphone.com/en-us/store/app/migram-unofficial-telegram/36c719bc-5460-48b1-a61b-c276e9877a09)
+* [Windows Phone](https://www.windowsphone.com/en-us/store/app/migram-unofficial-telegram/36c719bc-5460-48b1-a61b-c276e9877a09)
 
 e soprattutto, il meraviglioso [web client](https://web.telgram.org/), che scavalca tutte le barriere "architettoniche" del software.
 

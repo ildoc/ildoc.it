@@ -7,7 +7,7 @@ tags: facebook, privacy, whatsapp
 E invece Facebook si compra tutta la tua rubrica, e tu non ci puoi fare
 un cazzo.
 
-[Facebook compra Whatsapp per 19 miliardi di dollari](http://www.repubblica.it/tecnologia/2014/02/19/news/rivoluzione_sul_web_facebook_compra_whatsapp_per_19_miliardi-79100980)
+[Facebook compra Whatsapp per 19 miliardi di dollari](https://www.repubblica.it/tecnologia/2014/02/19/news/rivoluzione_sul_web_facebook_compra_whatsapp_per_19_miliardi-79100980)
 
 Perche? Secondo voi con tutti i soldi che ha, Facebook non è in grado di mettere su un team di sviluppo per creare un sistema di messaggistica come Whatsapp?
 
@@ -27,9 +27,9 @@ Opensource e free, senza pubblicità.
 Quindi roba pensata dagli utenti per gli utenti.
 
 * [Telegram](https://telegram.org/): per Android e iPhone (ho giusto scritto un post [qui]({% post_url 2014/2014-02-28-parliamo-di-telegram %}))
-* [Tox](http://tox.im): per Windows e Linux, ancora in fase di sviluppo  
+* [Tox](https://tox.im): per Windows e Linux, ancora in fase di sviluppo  
 * [Cryptocat](https://crypto.cat/): per tutti i browser
 
 ### Update:
 
-Link segnalato da Zipi -> [Things that are cheaper than Whatsapp](http://thingsthatarecheaperthanwhatsapp.tumblr.com/)
+Link segnalato da Zipi -> [Things that are cheaper than Whatsapp](https://thingsthatarecheaperthanwhatsapp.tumblr.com/)

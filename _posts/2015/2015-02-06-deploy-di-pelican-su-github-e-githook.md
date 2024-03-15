@@ -4,14 +4,14 @@ Date: 2015-02-06 15:07:00
 categories: tutorial
 tags: git, githook, pelican
 ---
-Sto ancora giocherellando con [Pelican](http://blog.getpelican.com/) e cercavo un modo per committare i nuovi post UNA volta sola, senza dover committare una seconda volta gli html generati.
+Sto ancora giocherellando con [Pelican](https://blog.getpelican.com/) e cercavo un modo per committare i nuovi post UNA volta sola, senza dover committare una seconda volta gli html generati.
 
 Ci sono riuscito abbastanza facilmente, ecco come:
 
 ## Prerequisiti:
 
 * [Python](https://www.python.org/downloads/) >= 2.7
-* [Git](http://git-scm.com/)
+* [Git](https://git-scm.com/)
 * un account su [GitHub](https://github.com/)
 * tanta pazienza
 
