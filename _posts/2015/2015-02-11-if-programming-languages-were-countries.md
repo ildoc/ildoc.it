@@ -1,11 +1,8 @@
-Title: If programming languages were countries
-Date: 2015-02-11 10:41:00
-Modified: 2015-03-24 16:09:17
-Tags: linguaggi di programmazione
-Slug: if-programming-languages-were-countries
-Author: Doc
-Status: Published
-
+---
+title: If programming languages were countries
+date: 2015-02-11 10:41:00
+tags: fun
+---
 Ho trovato questo simpatico post...
 
 * Java: USA -- optimistic, powerful, likes to gloss over inconveniences.

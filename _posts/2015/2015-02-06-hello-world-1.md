@@ -1,11 +1,9 @@
-Title: Hello World?
-Date: 2015-02-06 10:11:00
-Modified: 2015-03-26 13:29:29
-Tags: blog
-Slug: hello-world-1
-Author: Doc
-Status: Published
-
+---
+title: Hello World?
+date: 2015-02-06 10:11:00
+categories: blog
+tags: blog, pelican
+---
 Questo più che un post è un test per vedere come funziona pelican...
 
 Non escludo di poterlo adottare al posto di wordpress in quanto:
