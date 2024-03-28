@@ -1,10 +1,8 @@
-Title: è davvero-davvero necessario parlare di cyberbullismo?
-Date: 2013-10-07 15:54:00
-Modified: 2015-03-24 16:09:16
-Tags: cyberbullismo
-Slug: e-davvero-davvero-necessario-parlare-di-cyberbullismo
-Author: Doc
-Status: Published
+---
+title: è davvero-davvero necessario parlare di cyberbullismo?
+date: 2013-10-07 15:54:00
+tags: cyberbullismo
+---
 
 ho appena finito di leggere [questo articolo su
 Wired](https://daily.wired.it/news/media/2013/10/07/necessario-parlare-cyberbullismo-violenza-rete-564732.html)
@@ -20,7 +18,7 @@ Petizione che ho firmato, per inciso.
 
 ok, ora riprendo un discorso che ho già fatto:
 
-##IL CYBERBULLISMO NON ESISTE.
+## IL CYBERBULLISMO NON ESISTE.
 
 o perlomeno, non centra NULLA con quanto viene attualmente
 classificato come tale.
@@ -49,7 +47,7 @@ sono principalmente 2:
 e spiego perchè.
 
 
-###1) i social network:
+## 1) i social network:
 
 è verosimile affermare che in italia la moda dei social network sia esplosa verso la fine degli anni 2000. facebook, principale
 responsabile, ha contribuito ad avvicinare alla rete milioni di persone
@@ -131,7 +129,7 @@ comprende.
 
 e qui veniamo alla seconda causa.
 
-###2) il digital divide.
+## 2) il digital divide.
 
 detto senza troppi giri di parole, l’italia è indietro come le
 palle dei cani.

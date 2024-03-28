@@ -1,10 +1,8 @@
-Title: EasyPHP: un webserver in pochi click
+---
+Title: "EasyPHP: un webserver in pochi click"
 Date: 2012-02-25 09:42:00
-Modified: 2015-03-24 16:09:17
-Tags: risorse, easyphp, guida, guide
-Slug: easyphp-un-webserver-in-pochi-click
-Author: Doc
-Status: Published
+Tags: easyphp tutorial
+---
 
 Primi passi con la programmazione web?  
 Stiamo progettando un sito web?  
