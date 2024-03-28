@@ -1,7 +1,6 @@
 ---
 title: Consigli per rimanere in vita
 date: 2007-08-31 13:55:00
-categories: misc
 tags: cazzate
 ---
 Non infastidire mai un metallaro, perchè vi ucciderà sicuramente.

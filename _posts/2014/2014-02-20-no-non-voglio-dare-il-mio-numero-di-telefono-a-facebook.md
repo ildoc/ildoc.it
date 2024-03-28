@@ -1,8 +1,7 @@
 ---
 title: No, non voglio dare il mio numero di telefono a Facebook
 date: 2014-02-20 11:14:00
-categories: rant
-tags: facebook, privacy, whatsapp
+tags: rant facebook privacy whatsapp
 ---
 E invece Facebook si compra tutta la tua rubrica, e tu non ci puoi fare
 un cazzo.

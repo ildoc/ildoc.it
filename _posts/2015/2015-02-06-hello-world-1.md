@@ -1,8 +1,7 @@
 ---
 title: Hello World?
 date: 2015-02-06 10:11:00
-categories: blog
-tags: blog, pelican
+tags: blog pelican
 ---
 Questo più che un post è un test per vedere come funziona pelican...
 

@@ -1,7 +1,6 @@
 ---
 title: Ri-hello world
 date: 2024-03-12 17:29:00
-categories: blog
 tags: github-pages jekyll blog
 ---
 Prova prova 123
@@ -26,3 +25,6 @@ Prossimi step:
 - configurare qualche plugin per commenti e automazioni varie
 - capire come modificare il tema e togliere tutti i riferimenti di twitter (x)
 - scrivere post con una frequenza maggiore di uno ogni 8 anni
+
+
+edit: figata, con i commenti di giscus arriva anche la notifica via mail!

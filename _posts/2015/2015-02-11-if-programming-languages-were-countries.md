@@ -1,7 +1,7 @@
 ---
 title: If programming languages were countries
 date: 2015-02-11 10:41:00
-tags: fun
+tags: cazzate
 ---
 Ho trovato questo simpatico post...
 
