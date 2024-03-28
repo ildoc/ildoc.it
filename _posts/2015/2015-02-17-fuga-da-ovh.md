@@ -1,7 +1,7 @@
 ---
-Title: Fuga da Ovh
-Date: 2015-02-17 23:07:00
-Tags: blog ovh
+title: Fuga da Ovh
+date: 2015-02-17 23:07:00
+tags: blog ovh
 ---
 
 Avevo già [parlato bene di ovh]({% post_url 2013/2013-12-02-da-ovh-non-me-laspettavo %}), e in questi giorni ho maturato l'idea di completare l'opera e fuggire definitvamente da questo ormai, a mio avviso, scandaloso fornitore di servizi.

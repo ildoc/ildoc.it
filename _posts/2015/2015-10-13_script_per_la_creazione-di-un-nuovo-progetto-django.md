@@ -1,7 +1,7 @@
-Title: Script per la creazione di un nuovo progetto Django
-Date: 2015-10-13 09:39:35
-Modified: 2015-10-14 19:46:09
-Tags: django
+---
+title: Script per la creazione di un nuovo progetto Django
+date: 2015-10-13 09:39:35
+tags: django
 ---
 
 Per semplificarmi un po' la vita mi sono fatto un piccolo scriptino per facilitarmi la creazione di un nuovo progetto Django, con annesso ambiente virtuale (e pure un .bat per quando sviluppo da [windows]({% post_url 2015/2015-03-02-django-e-virtualenv-su-windows %}))

@@ -1,7 +1,7 @@
 ---
-Title: "Da OVH non me l'aspettavo..."
-Date: 2013-12-02 17:35:00
-Tags: ovh vps
+title: "Da OVH non me l'aspettavo..."
+date: 2013-12-02 17:35:00
+tags: ovh vps
 ---
 
 Premessa: sono cliente ovh da circa 3 anni.
