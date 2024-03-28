@@ -1,15 +1,13 @@
-Title: Anonymous: la grande truffa(?)
-Date: 2012-04-03 12:58:00
-Modified: 2015-03-24 16:09:17
-Tags: anonymous, libri, truffa
-Slug: anonymous-la-grande-truffa
-Author: Doc
-Status: Published
+---
+title: "Anonymous: la grande truffa(?)"
+date: 2012-04-03 12:58:00
+tags: anonymous libri truffa
+---
 
 Girovagando per Amazon alla ricerca del prossimo libro da leggere, mi
 sono imbattuto in questo breve saggio versione kindle: [Anonymous. La
 grande
-truffa](https://www.amazon.it/gp/product/B007J6Y1KS/ref=as_li_ss_tl?ie=UTF8&tag=filippogiomi-21&linkCode=as2&camp=3370&creative=24114&creativeASIN=B007J6Y1KS "Anonymous. La grande truffa")
+truffa](https://www.amazon.it/gp/product/B007J6Y1KS/ref=as_li_ss_tl?ie=UTF8&tag=l_5fedr6vs-21&linkCode=as2&camp=3370&creative=24114&creativeASIN=B007J6Y1KS "Anonymous. La grande truffa")
 
 Un pò scettico e un pò curioso l’ho acquistato, spinto anche dal
 bassissimo prezzo (solo 89 centesimi).  

@@ -1,10 +1,8 @@
-Title: Viaggio nel deepweb
-Date: 2012-11-11 10:25:00
-Modified: 2015-03-24 16:09:17
-Tags: anonymous, deepweb, tor
-Slug: viaggio-nel-deepweb
-Author: Doc
-Status: Published
+---
+title: Viaggio nel deepweb
+date: 2012-11-11 10:25:00
+tags: anonymous deepweb tor
+---
 
 Qualche anno fa è spuntato fuori Anonymous, il “collettivo hacker” con
 cui ormai i giornalisti vanno a nozze, aggiungendolo allo scarso “elenco
