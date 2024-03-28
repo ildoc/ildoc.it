@@ -1,10 +1,8 @@
-Title: Imparare a programmare da zero - 3/3
-Date: 2014-02-09 21:09:00
-Modified: 2015-03-26 14:14:47
-Tags: imparare a programmare
-Slug: imparare-a-programmare-da-zero-33
-Author: Doc
-Status: Published
+---
+title: Imparare a programmare da zero - 3/3
+date: 2014-02-09 21:09:00
+tags: imparare-a-programmare
+---
 
 Questa è la terza e ultima parte di un trio di post volto a spiegare le
 basi-basi della programmazione.  
