@@ -19,8 +19,6 @@ Parliamo delle “quirinarie” dei grillini:<br>
 "Oh, alla fine siamo in parlamento davvero, chi se lo aspettava… e mò?"
 "Boh"<br>
 
-<a name="more"></a><br>
-
 Ma a parte questo, Grillo ha sempre parlato del web come “espressione di
 democrazia diretta” e ha voluto fare un sondaggio pubblico per decidere
 il nuovo presidente della repubblica.
