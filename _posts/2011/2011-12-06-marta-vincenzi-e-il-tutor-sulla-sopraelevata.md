@@ -1,10 +1,8 @@
-Title: @Marta_Vincenzi e il tutor sulla sopraelevata
-Date: 2011-12-06 09:54:00
-Modified: 2015-03-24 16:09:17
-Tags: genova, sopraelevata
-Slug: marta_vincenzi-e-il-tutor-sulla-sopraelevata
-Author: Doc
-Status: Published
+---
+title: "@Marta_Vincenzi e il tutor sulla sopraelevata"
+date: 2011-12-06 09:54:00
+tags: genova sopraelevata
+---
 
 Stamattina prendo la sopraelevata.
 
