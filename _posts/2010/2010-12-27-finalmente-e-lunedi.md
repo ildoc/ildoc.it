@@ -1,8 +1,7 @@
 ---
 title: Finalmente è lunedì.
 date: 2010-12-27 13:33:00
-categories: blog
-tags: natale
+tags: blog natale
 ---
 Strano a dirsi ma è così.
 

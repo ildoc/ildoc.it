@@ -1,8 +1,7 @@
 ---
 title: Parliamo di Telegram
 date: 2014-02-28 14:16:00
-categories: software
-tags: whatsapp, telegram
+tags: whatsapp telegram
 ---
 Dopo l'[acquisizione di Whatsapp da parte di Facebook]({% post_url 2014/2014-02-20-no-non-voglio-dare-il-mio-numero-di-telefono-a-facebook %}),
 in moltissimi sono rimasti scontenti dall'ennesima mossa del grande fratello blu, e hanno cercato alternative alla famosissima app.

@@ -1,7 +1,6 @@
 ---
 title: Il blog secondo me
 date: 2007-08-09 21:15:00
-categories: blog
 tags: blog
 ---
 Eccolo!!

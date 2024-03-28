@@ -1,8 +1,7 @@
 ---
 title: Ed eccoci di nuovo qui...
 date: 2010-08-11 07:55:00
-categories: blog
-tags: blog, università
+tags: blog università
 ---
 Anno nuovo vita nuova no?
 
