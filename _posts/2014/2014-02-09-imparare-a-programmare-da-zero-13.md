@@ -1,10 +1,8 @@
-Title: Imparare a programmare da zero - 1/3
-Date: 2014-02-09 21:07:00
-Modified: 2015-03-26 14:15:40
-Tags: imparare a programmare
-Slug: imparare-a-programmare-da-zero-13
-Author: Doc
-Status: Published
+---
+title: Imparare a programmare da zero - 1/3
+date: 2014-02-09 21:07:00
+tags: imparare-a-programmare
+---
 
 Il 95% dei lettori di questo post saranno studenti in fascia di età
 12-18 che vogliono creare un videogioco.  
@@ -63,4 +61,4 @@ altro che un insieme di 0 e di 1.
 L'interprete (o gli interpreti) che ci verrà in soccorso sarà un
 linguaggio di programmazione.  
 Vediamo cosa sono nella seconda parte -> [Imparare a programmare da
-zero 2/3]({filename}2014-02-09_imparare_a_programmare_da_zero_23.md)
+zero 2/3]({% post_url 2014/2014-02-09-imparare-a-programmare-da-zero-23 %})

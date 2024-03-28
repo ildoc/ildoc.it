@@ -1,10 +1,8 @@
-Title: Ci risiamo...
-Date: 2013-12-14 19:25:00
-Modified: 2015-03-24 16:09:15
-Tags: blog
-Slug: ci-risiamo
-Author: Doc
-Status: Published
+---
+title: Ci risiamo...
+date: 2013-12-14 19:25:00
+tags: blog
+---
 
 è di nuovo quel periodo dell'anno in cui mi viene quella cosa per cui mi
 piacerebbe avere un bel blog.  

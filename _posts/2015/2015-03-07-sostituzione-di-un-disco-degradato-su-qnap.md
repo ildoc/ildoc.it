@@ -4,7 +4,7 @@ date: 2015-03-07 10:26:00
 tags: nas qnap
 ---
 
-Dopo 2 anni di servizio, il disco 1 del mio QNAP TS-219P II (un  [WD Red 3TB](https://amzn.to/1wo7f8j)) ha deciso di lasciarmi.
+Dopo 2 anni di servizio, il disco 1 del mio QNAP TS-219P II (un [WD Red 3TB](https://amzn.to/1wo7f8j)) ha deciso di lasciarmi.
 
 Il QNAP è andato in modalità degraded, lucine rosse e beep ovunque...
 Ho comprato un altro disco e poi mi sono messo a scartabellare l'internet per capire come sostituirlo senza perdere i dati.

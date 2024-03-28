@@ -1,10 +1,8 @@
-Title: Da OVH non me l'aspettavo...
+---
+Title: "Da OVH non me l'aspettavo..."
 Date: 2013-12-02 17:35:00
-Modified: 2015-03-24 16:09:15
-Tags: ovh, vps
-Slug: da-ovh-non-me-laspettavo
-Author: Doc
-Status: Published
+Tags: ovh vps
+---
 
 Premessa: sono cliente ovh da circa 3 anni.
 
