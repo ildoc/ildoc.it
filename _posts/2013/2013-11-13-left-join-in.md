@@ -1,7 +1,7 @@
 ---
-Title: 'Left join "in"?'
-Date: 2013-11-13 17:18:00
-Tags: join, oracle, regex, sql
+title: 'Left join "in"?'
+date: 2013-11-13 17:18:00
+tags: join, oracle, regex, sql
 ---
 
 Mi sono trovato nella condizione di dover fare una join su più campi.  

@@ -1,7 +1,7 @@
 ---
-Title: "EasyPHP: un webserver in pochi click"
-Date: 2012-02-25 09:42:00
-Tags: easyphp tutorial
+title: "EasyPHP: un webserver in pochi click"
+date: 2012-02-25 09:42:00
+tags: easyphp tutorial
 ---
 
 Primi passi con la programmazione web?  

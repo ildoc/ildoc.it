@@ -1,6 +1,6 @@
 ---
 title: Deploy di Pelican su GitHub e githook
-Date: 2015-02-06 15:07:00
+date: 2015-02-06 15:07:00
 tags: tutorial git githook pelican
 ---
 Sto ancora giocherellando con [Pelican](https://blog.getpelican.com/) e cercavo un modo per committare i nuovi post UNA volta sola, senza dover committare una seconda volta gli html generati.
