@@ -10,10 +10,8 @@ Questa è la terza e ultima parte di un trio di post volto a spiegare le
 basi-basi della programmazione.  
 Se parlo di torte e non capite perchè, leggete le parti precedenti :)  
 
-* [Imparare a programmare da zero
-1/3]({filename}2014-02-09_imparare_a_programmare_da_zero_13.md)
-* [Imparare a programmare da zero
-2/3]({filename}2014-02-09_imparare_a_programmare_da_zero_23.md)
+* [Imparare a programmare da zero 1/3]({% post_url 2014/2014-02-09-imparare-a-programmare-da-zero-13 %})
+* [Imparare a programmare da zero 2/3]({% post_url 2014/2014-02-09-imparare-a-programmare-da-zero-23 %})
 
 Primi passi - Strutture comuni
 ------------------------------
