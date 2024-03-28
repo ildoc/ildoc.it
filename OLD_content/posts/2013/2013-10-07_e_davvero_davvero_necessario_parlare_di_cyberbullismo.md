@@ -7,14 +7,14 @@ Author: Doc
 Status: Published
 
 ho appena finito di leggere [questo articolo su
-Wired](http://daily.wired.it/news/media/2013/10/07/necessario-parlare-cyberbullismo-violenza-rete-564732.html)
+Wired](https://daily.wired.it/news/media/2013/10/07/necessario-parlare-cyberbullismo-violenza-rete-564732.html)
 in cui ci si sbraccia ancora per parlare di “cyberbullismo”, una parola
 che richiama sempre molta attenzione.
 
 Premessa: wired da qualche tempo ha lanciato una petizione su
 change.org chiedendo ai media di non "demonizzare" la rete, accusandola
 di cose che succedono nella vita reale.
-([Link](http://www.change.org/it/petizioni/cari-media-non-date-la-colpa-ad-ask-fm-e-al-web-per-il-cyberbullismo))
+([Link](https://www.change.org/it/petizioni/cari-media-non-date-la-colpa-ad-ask-fm-e-al-web-per-il-cyberbullismo))
 
 Petizione che ho firmato, per inciso.
 
@@ -113,7 +113,7 @@ vetro in mezzo al bronx, sono nati lindi e pinti, con la pretesa di
 mantenere un’atmosfera positiva (vi siete mai domandati del perchè non
 ci sia il tasto “non mi piace” su facebook?
 
-orrido “articolo” related -> [](http://www.ilmessaggero.it/tecnologia/hitech/facebook_dislike_tasto_non_mi_piace/notizie/310051.shtml)<http://www.ilmessaggero.it/tecnologia/hitech/facebook_dislike_tasto_non_mi_piace/notizie/310051.shtml></a>)
+orrido “articolo” related -> [](https://www.ilmessaggero.it/tecnologia/hitech/facebook_dislike_tasto_non_mi_piace/notizie/310051.shtml)<https://www.ilmessaggero.it/tecnologia/hitech/facebook_dislike_tasto_non_mi_piace/notizie/310051.shtml></a>)
 
 i social network hanno ammazzato centinaia di community e migliaia
 di blog, portando milioni di nuovi abitanti in una “piccola” città già
@@ -146,7 +146,7 @@ nelle scuole l’informatica viene messa allo stesso piano dell’ora
 di religione o di educazione fisica.
 
 (io ero iscritto in una sezione
-[PNI](http://it.wikipedia.org/wiki/Piano_nazionale_informatica) di un
+[PNI](https://it.wikipedia.org/wiki/Piano_nazionale_informatica) di un
 liceo scientifico e facevamo 1 ora di informatica alla settimana, quando
 la prof ne aveva voglia. l’esimia gelmini ha pensato bene di sopprimere
 del tutto questo tipo di sezioni con la fantastica riforma del
@@ -199,7 +199,7 @@ attenzione, con ripercussioni non intendo mettere il broncio
 
  
 
-e il progetto tabby (<http://www.tabby.eu/>) è aria fritta
+e il progetto tabby (<https://www.tabby.eu/>) è aria fritta
 sovvenzionata dall’unione europea.
 
 tra l’altro il sito è assolutamente a senso unico, senza alcuna

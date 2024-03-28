@@ -9,7 +9,7 @@ Status: Published
 Girovagando per Amazon alla ricerca del prossimo libro da leggere, mi
 sono imbattuto in questo breve saggio versione kindle: [Anonymous. La
 grande
-truffa](http://www.amazon.it/gp/product/B007J6Y1KS/ref=as_li_ss_tl?ie=UTF8&tag=filippogiomi-21&linkCode=as2&camp=3370&creative=24114&creativeASIN=B007J6Y1KS "Anonymous. La grande truffa")
+truffa](https://www.amazon.it/gp/product/B007J6Y1KS/ref=as_li_ss_tl?ie=UTF8&tag=filippogiomi-21&linkCode=as2&camp=3370&creative=24114&creativeASIN=B007J6Y1KS "Anonymous. La grande truffa")
 
 Un pò scettico e un pò curioso l’ho acquistato, spinto anche dal
 bassissimo prezzo (solo 89 centesimi).  

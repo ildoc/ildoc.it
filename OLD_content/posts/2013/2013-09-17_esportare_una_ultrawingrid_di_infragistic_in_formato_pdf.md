@@ -7,7 +7,7 @@ Author: Doc
 Status: Published
 
 Mi sono dovuto picchiare fortissimo con le
-[Infragistics](http://www.infragistics.com/ "Infragisitcs") per riuscire
+[Infragistics](https://www.infragistics.com/ "Infragisitcs") per riuscire
 a esportare una UltraWinGrid in un Pdf.
 
 Alla fine ho messo insieme una roba che assomiglia a una classe, con una

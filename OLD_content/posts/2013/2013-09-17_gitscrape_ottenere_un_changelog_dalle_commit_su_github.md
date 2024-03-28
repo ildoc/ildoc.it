@@ -14,7 +14,7 @@ progetto che stavo facendo, ma non avevo voglia di fare OGNI VOLTA
 copia/incolla delle modifiche, datarle, suddividerle e cazzi vari.
 
 Allora ho scritto questo, facendo uso di
-[BeautifulSoup](http://www.crummy.com/software/BeautifulSoup/ "BeautifulSoup").
+[BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/ "BeautifulSoup").
 
     :::python
     from bs4 import BeautifulSoup  

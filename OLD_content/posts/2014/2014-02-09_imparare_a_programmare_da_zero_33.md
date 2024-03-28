@@ -102,7 +102,7 @@ Bene, arrivati fin qui magari vi è venuta voglia di provare da soli,
 eh?  
 Quello che posso consigliare è aspettare ancora un attimo a buttarsi su
 un linguaggio in particolare e soffermarsi ancora un momento sulle basi
-logiche utilizzando il portale <http://code.org/learn>.
+logiche utilizzando il portale <https://code.org/learn>.
 
 Code.org è un progetto molto interessante portato avanti con il
 contributo dei "big" dell'informatica attuale con lo scopo di diffondere
@@ -118,13 +118,13 @@ quello che consiglierei è partire con uno di alto livello, tipo Python,
 nel quale ritroverete facilmente tutti i "comportamenti" che avete
 osservato nei tutorial di Code.org.
 
-Come link stavolta consiglio <http://learnpythonthehardway.org/> o
-<http://www.codecademy.com/tracks/python>.  
+Come link stavolta consiglio <https://learnpythonthehardway.org/> o
+<https://www.codecademy.com/tracks/python>.  
 Il metodo di studio proposto da quei siti funziona benone :)
 
 Se durante l'approfondimento del mondo della programmazione voleste
 mettere alla prova le conoscenze che avete acquisito, potete cimentarvi
-nelle sfide di [Project Euler](http://projecteuler.net/problems) o
-[CodeAbbey](http://codeabbey.com/).
+nelle sfide di [Project Euler](https://projecteuler.net/problems) o
+[CodeAbbey](https://codeabbey.com/).
 
 Buon divertimento!

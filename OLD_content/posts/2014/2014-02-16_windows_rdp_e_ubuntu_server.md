@@ -10,7 +10,7 @@ Mettiamo per assurdo che uno voglia connettersi in desktop remoto da
 Windows a Ubuntu server.  
 
 Perchè, ad esempio, non può utilizzare
-[PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html)
+[PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/download.html)
 perchè la porta 22 è bloccata sulla rete del suo ufficio.  
 
 Per esempio, eh?
@@ -22,7 +22,7 @@ grafica su Ubuntu, dal momento che la versione server non ne ha una
 
 Dal momento che il server potrebbe non essere un missile, la scelta
 ricade quindi su un ambiente desktop il più leggero possibile:
-[LXDE](http://lxde.org/)
+[LXDE](https://lxde.org/)
 
 La installiamo con il comando  
 
@@ -30,7 +30,7 @@ La installiamo con il comando
     sudo apt-get install lxde
 
 Ok, ma adesso? Come si fa la magia?  
-Con il pacchetto [xrdp](http://www.xrdp.org/). (eterna lode a chi l'ha
+Con il pacchetto [xrdp](https://www.xrdp.org/). (eterna lode a chi l'ha
 scritto) che installiamo con  
 
     :::bash

@@ -17,26 +17,26 @@ specialmente nel caso volessimo avere la possibilità di lavorare anche
 offline.
 
 Ecco che quindi ci viene incontro
-[EasyPHP](http://easyphp.org/ "EasyPHP"), una piattaforma completa che
+[EasyPHP](https://easyphp.org/ "EasyPHP"), una piattaforma completa che
 in qualche minuto ci permette di avere un ambiente di prova completo di
 tutto.
 
 Una volta
-[scaricato](http://www.easyphp.org/download.php "Download EasyPHP") e
+[scaricato](https://www.easyphp.org/download.php "Download EasyPHP") e
 installato il pacchetto, avremo a disposizione il servizio dell’ultima
 versione di Apache, l’interprete PHP, un database MySql accessibile
 anche tramite PHPMyAdmin e tanto altro ancora, e non dovremo
 preoccuparci di niente perchè è tutto già configurato!
 
-A questo punto, accedendo a <http://127.0.0.1/home> oppure a
-http://localhost/home dal nostro browser, avremo sottomano il pannello
+A questo punto, accedendo a <https://127.0.0.1/home> oppure a
+https://localhost/home dal nostro browser, avremo sottomano il pannello
 di amministrazione di EasyPHP.
 
 Come si potrà notare, nella Tray Bar sarà comparsa l’icona del
 programma.  
 Facendo un click destro sopra di essa e scegliendo “Esplora” si avrà
 accesso alla cartella “www” dove si possono inserire i file che saranno
-visibili all’indirizzo <http://127.0.0.1/> o http://localhost/.
+visibili all’indirizzo <https://127.0.0.1/> o https://localhost/.
 
 Per quanto riguarda il database, l’installazione provvede a creare un
 utente “root” senza password, ed è gestibile tramite l’interfaccia di

@@ -59,7 +59,7 @@ di community legate ad argomenti delicati, come ad esempio il carding,
 ossia le frodi con le carte di credito.
 
 In merito ho avuto l’occasione di leggere il libro
-[Mafia.com](http://www.amazon.it/gp/product/8804619368/ref=as_li_ss_tl?ie=UTF8&tag=ner08-21&linkCode=as2&camp=3370&creative=24114&creativeASIN=8804619368)
+[Mafia.com](https://www.amazon.it/gp/product/8804619368/ref=as_li_ss_tl?ie=UTF8&tag=ner08-21&linkCode=as2&camp=3370&creative=24114&creativeASIN=8804619368)
 in cui si racconta dei siti di carding russi e ucraini, della loro
 storia e delle vicende di personaggi importanti di quelle community.
 Consigliato.
@@ -69,7 +69,7 @@ Ci sono vari sistemi: reti decentralizzate (freenet), protocolli di
 onion routing (tor), software di distribuzione p2p (osiris) e molti
 altri, noti, meno noti e completamente sconosciuti.
 
-[Tor](http://it.wikipedia.org/wiki/Tor_(software)) forse è la più
+[Tor](https://it.wikipedia.org/wiki/Tor_(software)) forse è la più
 estesa, anche perchè è relativamente facile da raggiungere, infatti è
 sufficiente scaricare il pacchetto dal sito del progetto
 ([](https://www.torproject.org/)<https://www.torproject.org/></a>,
@@ -87,18 +87,18 @@ aiutare, quindi come si fa?
 Alla vecchia maniera, con le liste di link.
 
 Per questo possiamo fare riferimento a “The hidden wiki”
-([kpvz7ki2v5agwt35.onion/wiki/index.php/Main\_Page](http://kpvz7ki2v5agwt35.onion/wiki/index.php/Main_Page)),
+([kpvz7ki2v5agwt35.onion/wiki/index.php/Main\_Page](https://kpvz7ki2v5agwt35.onion/wiki/index.php/Main_Page)),
 una lunga lista di link suddivisi bene o male in categorie.  
 Una buon’anima ne ha messo online una versione aggiornata, mantenuta e
 meglio organizzata
-([](http://3suaolltfj2xjksb.onion/hiddenwiki/index.php/Main_Page)<http://3suaolltfj2xjksb.onion/hiddenwiki/index.php/Main_Page></a>)
+([](https://3suaolltfj2xjksb.onion/hiddenwiki/index.php/Main_Page)<https://3suaolltfj2xjksb.onion/hiddenwiki/index.php/Main_Page></a>)
 
 Da qui possiamo cominciare a dare un’occhiata di quello che si può
 trovare nel deep web.
 
 Purtroppo a fare da padrona è la pedopornografia ([ma attenzione ad
 associarla agli
-anon](http://it.wikipedia.org/wiki/Anonymous#Operazione_Darknet)), ma si
+anon](https://it.wikipedia.org/wiki/Anonymous#Operazione_Darknet)), ma si
 trovano anche tantissime attività commerciali di <u>qualsiasi</u> tipo
 (carte di credito, account, droghe, oggetti rubati, armi, omicidi su
 commissione, traffico di organi, identità false, documenti falsi, ecc.),
@@ -119,4 +119,4 @@ partecipo a nessuna community (emi fido poco dei link che trovo).
 
 Se volete dare un’occhiata senza dover installare nulla potete farlo
 attraverso questo link:
-[](http://3suaolltfj2xjksb.onion.to/hiddenwiki/index.php/Main_Page)<http://3suaolltfj2xjksb.onion.to/hiddenwiki/index.php/Main_Page></a>
+[](https://3suaolltfj2xjksb.onion.to/hiddenwiki/index.php/Main_Page)<https://3suaolltfj2xjksb.onion.to/hiddenwiki/index.php/Main_Page></a>

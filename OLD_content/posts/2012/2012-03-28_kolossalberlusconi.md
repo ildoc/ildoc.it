@@ -8,7 +8,7 @@ Status: Published
 
 L’ex premier è alla disperata ricerca di un regista [per girare un film
 sulla sua
-vita](http://nonleggerlo.blogspot.it/2012/03/la-mano-giusta.html "Non leggere questo blog!: La mano giusta")
+vita](https://nonleggerlo.blogspot.it/2012/03/la-mano-giusta.html "Non leggere questo blog!: La mano giusta")
 (che sarà sicuramente obbiettivissimo e svelerà tutti i retroscena sui
 punti meno chiari di questi ultimi 18 anni alla faccia dei sui
 detrattori, SICURAMENTE)
@@ -72,4 +72,4 @@ Quo evadis?
 Scusate ma non ho resistito…
 
 (lista by: [Non leggere questo
-Blog!](http://nonleggerlo.blogspot.it/ "Non leggere questo Blog!"))
+Blog!](https://nonleggerlo.blogspot.it/ "Non leggere questo Blog!"))

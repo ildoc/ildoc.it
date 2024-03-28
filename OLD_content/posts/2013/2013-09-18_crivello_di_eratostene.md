@@ -9,7 +9,7 @@ Status: Published
 C'è poco da dire, con i numeri primi ci ho sempre sballato...  
 Qui di seguito c'è una piccola funzioncina per determinare se un numero
 è primo oppure no utilizzando il [Crivello di
-Eratostene](http://it.wikipedia.org/wiki/Crivello_di_Eratostene "Crivello di Eratostene"):
+Eratostene](https://it.wikipedia.org/wiki/Crivello_di_Eratostene "Crivello di Eratostene"):
 
     :::python
     import math  

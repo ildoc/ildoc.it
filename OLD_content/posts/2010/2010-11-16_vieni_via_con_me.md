@@ -9,13 +9,13 @@ Status: Published
 Avrei voluto, avrei potuto scrivere del concerto che sono andato a
 vedere a milano, avrei potuto scrivere del perchè ultimamente non sto
 più considerando molto questo blog e di cosa sia
-[NerdNest!](http://nerdnest.it), avrei potuto scrivere dei fatti miei,
+[NerdNest!](https://nerdnest.it), avrei potuto scrivere dei fatti miei,
 avrei potuto scrivere di milioni di cose differenti, ma dopo ieri sera
 non posso a meno di fare delle considerazioni su un programma che
 secondo il mio modestissimo parere è stato un successo e un capolavoro:
 Vieni via con me.  
 E per farlo riporto testualmente le parole che ho scritto sul forum
-[NerdNest!](http://nerdnest.it).
+[NerdNest!](https://nerdnest.it).
 
 ieri sera, mentre la becera italietta dei guardoni si crogiolava
 nell’ignoranza e nell’abissale inutilità sociale del grande fratello, su
@@ -55,4 +55,4 @@ rincuora, dall’altro mi preoccupa.
 
 7 milioni sono ancora troppi.
 
-[](http://nerdnest.it/showthread.php?38-Vieni-via-con-me)<http://nerdnest.it/showthread.php?38-Vieni-via-con-me></a>
+[](https://nerdnest.it/showthread.php?38-Vieni-via-con-me)<https://nerdnest.it/showthread.php?38-Vieni-via-con-me></a>

@@ -98,7 +98,7 @@ Note:
 linguaggio contemporaneamente  
 * Date un'occhiata a dove si può spingere il delirio e leggetevi la
 pagina di wikipedia sui [linguaggi di programmazione
-esoterici](http://it.wikipedia.org/wiki/Linguaggio_di_programmazione_esoterico)
+esoterici](https://it.wikipedia.org/wiki/Linguaggio_di_programmazione_esoterico)
 
 Continuiamo il discorso nella terza parte -> [Imparare a programmare da
 zero 3/3]({filename}2014-02-09_imparare_a_programmare_da_zero_33.md)

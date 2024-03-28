@@ -6,7 +6,7 @@ Slug: gestire-un-menu-di-bootstrap-con-jquery
 Author: Doc
 Status: Published
 
-Diciamocelo, [Bootstrap](http://getbootstrap.com/ "Bootstrap") è una
+Diciamocelo, [Bootstrap](https://getbootstrap.com/ "Bootstrap") è una
 figata.  
 Avrei qualcosa da ridire in merito alla insensata e inspiegabile scelta
 di non garantire la retrocompatibilità con la 2.3.2, ma sostanzialmente
@@ -50,4 +50,4 @@ url con parametri (es. blog.php?id=123) utilizzando
     if (activePage.indexOf(currentPage) != -1)
 
 Comunque, cazzomenefrega, io continuerò a usare la
-[2.3.2](http://getbootstrap.com/2.3.2/)
+[2.3.2](https://getbootstrap.com/2.3.2/)

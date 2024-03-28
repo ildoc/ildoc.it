@@ -7,4 +7,4 @@ Status: Draft
 
 Finalmente oggi sono riuscito a migrare django su nginx+uWSGI seguendo faticosamente [questa guida](https://uwsgi.readthedocs.org/en/latest/tutorials/Django_and_nginx.html).
 
-Era un po' di tempo che volevo migrare da Apache a [nginx](http://nginx.org/), un po' per curiosità, un po' per rimanere al passo coi tempi ma ho sempre temuto moltissimo 
+Era un po' di tempo che volevo migrare da Apache a [nginx](https://nginx.org/), un po' per curiosità, un po' per rimanere al passo coi tempi ma ho sempre temuto moltissimo 

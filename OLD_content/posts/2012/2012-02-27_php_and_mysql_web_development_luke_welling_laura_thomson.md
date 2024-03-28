@@ -7,7 +7,7 @@ Author: Doc
 Status: Published
 
 [PHP and MySQL Web Development: Luke Welling, Laura
-Thomson](http://amzn.to/1aZ9mG6)  
+Thomson](https://amzn.to/1aZ9mG6)  
 **Pagine**: 968  
 **Editore**: Addison Wesley; 4th revised edition. edizione (ottobre
 2008)  
@@ -16,7 +16,7 @@ Thomson](http://amzn.to/1aZ9mG6)
 **ISBN-13**: 978-0672329166
 
 [Link ad
-Amazon.it](http://amzn.to/1MRtgS7)
+Amazon.it](https://amzn.to/1MRtgS7)
 
 Cercavo un libro per imparare il php, ne ho trovati molti, ma questo mi
 ha colpito più degli altri.  

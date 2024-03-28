@@ -44,7 +44,7 @@ Per funzionare ha bisogno di aver referenziate le librerie
             System.Net.NetworkCredential credential = new System.Net.NetworkCredential("username", "password", "dominio");
 
             //Configurazione del server
-            string TFSServerPath = "http://server_di_tfs:8080";
+            string TFSServerPath = "https://server_di_tfs:8080";
 
             //Autenticazione nel tfs
             tfs = new TeamFoundationServer(TFSServerPath, credential);

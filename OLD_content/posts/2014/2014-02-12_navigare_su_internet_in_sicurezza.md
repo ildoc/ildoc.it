@@ -13,4 +13,4 @@ Ne consiglio la visione a tutti
 <iframe width="640" height="360" src="//www.youtube.com/embed/fCtLMGod0Ok" frameborder="0" allowfullscreen></iframe>
 
 [Buono a sapersi - Guida per la sicurezza
-online](http://www.google.it/goodtoknow/)
+online](https://www.google.it/goodtoknow/)

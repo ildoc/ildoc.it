@@ -9,9 +9,9 @@ Status: Published
 > *"...è bella e tutto quanto ma alla lunga rompe i coglioni"*
 
 Cercavo un plugin per dare una sistemata al seo di questo blog e mi sono
-imbattuto in [HeadSpace2](http://wordpress.org/plugins/headspace2/) che,
+imbattuto in [HeadSpace2](https://wordpress.org/plugins/headspace2/) che,
 a detta di [Francesco
-Gavello](http://francescogavello.it/25-plugin-che-hanno-fatto-crescere-il-mio-blog-durante-questi-anni)
+Gavello](https://francescogavello.it/25-plugin-che-hanno-fatto-crescere-il-mio-blog-durante-questi-anni)
 (leggete il suo blog), è uno dei top-top-top plugin.
 
 Lo installo e vado diretto alla pagina delle impostazioni.
@@ -41,16 +41,16 @@ avevo provato anch'io dove in
 un certo momento c'era in testa un blog tenuto da un forum di black hat
 seo il cui contenuto erano tipo due o tre post di NULLA.
 
-Andate a vedere <http://www.instantempo.it/>.  
+Andate a vedere <https://www.instantempo.it/>.  
 Un blog di nulla, con articoli di qualunque genere postati in
 automatico su argomenti a caso MA indicizzati benissimo.  
 Figata, eh?  
 Sarebbe da suggerire per l'elenco di [The useless
-web](http://www.theuselessweb.com/).
+web](https://www.theuselessweb.com/).
 
 Ok, ma quello è un esempio della seo portata all'estremo, andiamo a
 prendere un esempio reale, un forum, una community attiva... tipo
-[giorgiotave.it](http://giorgiotave.it).  
+[giorgiotave.it](https://giorgiotave.it).  
 Sito indicizzato benissimo, figata paura, ma andando a guardare bene il
 forum vedi che il 90% delle discussioni non hanno risposte, se non
 cazziatoni di mod e admin perchè lo sventurato utente in questione ha
