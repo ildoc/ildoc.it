@@ -25,7 +25,7 @@ Ma a parte questo, Grillo ha sempre parlato del web come “espressione di
 democrazia diretta” e ha voluto fare un sondaggio pubblico per decidere
 il nuovo presidente della repubblica.
 
-![è una cagata pazzesca](/images/cagata_pazzesca.jpg)
+![è una cagata pazzesca](/assets/img/posts/2013/cagata_pazzesca.jpg)
 
 e vi spiego il perchè:
 
