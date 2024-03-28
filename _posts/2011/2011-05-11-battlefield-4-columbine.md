@@ -1,10 +1,8 @@
-Title: Battlefield 4: Columbine
-Date: 2011-05-11 17:11:00
-Modified: 2015-03-24 16:09:17
-Tags: armi, battlefield, columbine, texas
-Slug: battlefield-4-columbine
-Author: Doc
-Status: Published
+---
+title: "Battlefield 4: Columbine"
+date: 2011-05-11 17:11:00
+tags: armi battlefield columbine texas
+---
 
 la EA sta preparando un nuovo capitolo della saga?  
 no, è solo un’anticipazione dei quello che potrà accadere a breve in
@@ -28,6 +26,6 @@ quello che è successo al Virginia Tech, dove un folle ha falciato 32
 persone. Non voglio che pazzi scatenati salgano in cima ad una torre e
 comincino a fare il tiro a segno contro studenti indifesi”.</span>
 
-quindi boh,entra in classe, ti copro io
+quindi boh, entra in classe, ti copro io
 
 [![](https://img.listal.com/image/1062061/600full-saving-private-ryan-screenshot.jpg)](https://img.listal.com/image/1062061/600full-saving-private-ryan-screenshot.jpg)

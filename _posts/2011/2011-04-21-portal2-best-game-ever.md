@@ -1,10 +1,8 @@
-Title: Portal2: Best game ever.
-Date: 2011-04-21 21:31:00
-Modified: 2015-03-24 16:09:17
-Tags: portal2, videogame
-Slug: portal2-best-game-ever
-Author: Doc
-Status: Published
+---
+title: "Portal2: Best game ever."
+date: 2011-04-21 21:31:00
+tags: portal2 videogame
+---
 
 Ho appena finito il gioco in single player, stamattina ho finito la
 co-op.
