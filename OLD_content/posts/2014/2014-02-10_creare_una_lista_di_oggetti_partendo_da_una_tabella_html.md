@@ -70,7 +70,7 @@ A questo punto il mio scopo era creare una lista di oggetti
 IndustrySegment contenente tanti oggetti quante righe della tabella e,
 dopo lunghe e articolate bestemmie, sono giunto a questa funzione,
 sfruttando la comodissima libreria
-[HtmlAgilityPack](http://htmlagilitypack.codeplex.com/)
+[HtmlAgilityPack](https://htmlagilitypack.codeplex.com/)
 
     :::c#
     public List GetIndustrySegments(string HtmlDellaPagina)

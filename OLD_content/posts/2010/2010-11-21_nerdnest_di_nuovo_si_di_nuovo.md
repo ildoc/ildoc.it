@@ -63,7 +63,7 @@ vede), non avrebbe avuto molto senso tenere quei 5000 e passa messaggi
 quasi esclusivamente di cazzate se l’obbiettivo è mettere su una cosa
 seria..
 
-Per cui ecco: <http://nerdnest.it> pian piano sta prendendo forma.  
+Per cui ecco: <https://nerdnest.it> pian piano sta prendendo forma.  
 Gli affezionatissimi sono tornati e stanno dando una mano, e in un paio
 di settimane siamo già sulla buona strada.
 
@@ -72,6 +72,6 @@ volete saperne di più sull’elettronica o sulla programmazione, se volete
 scoprire come creare e gestire un blog o un forum, come si fa un sito
 internet, quali sono le migliori app per il vostro telefonino o
 qualsiasi altra cosa (anche discutere di politica, attualità, video
-divertenti, fatti curiosi…) vi aspettiamo su <http://nerdnest.it>
+divertenti, fatti curiosi…) vi aspettiamo su <https://nerdnest.it>
 
 ;)

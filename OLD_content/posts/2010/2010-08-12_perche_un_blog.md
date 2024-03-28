@@ -18,7 +18,7 @@ facevi tempo a finire una settimana enigmistica prima di poter avere
 tutta la pagina caricata ma era bello così, eravamo bimbiminkia e quello
 era “il nostro blog”.
 
-[gionni666.spaces.live.com](http://gionni666.spaces.live.com/)
+[gionni666.spaces.live.com](https://gionni666.spaces.live.com/)
 
 il nostro spazio da riempire con foto, elenchi, video e stronzate varie.
 
@@ -43,7 +43,7 @@ e sono come sms, vuoti, stupidi, privi di qualsiasi articolazione.
 
 "xk m ai lasciato?"
 
-![](http://www.rosalio.it/wp-content/adioPupa1.jpg)
+![](https://www.rosalio.it/wp-content/adioPupa1.jpg)
 
 questo è il genere di messaggi che girano…
 

@@ -18,7 +18,7 @@ console si ottengono SEMPRE risultati diversi.
 
 Ho chiesto all'inutile-come-sempre supporto msdn, ma mi solo solo fatto
 del gran nervoso, ecco il
-[link](http://social.msdn.microsoft.com/Forums/vstudio/en-US/0f2bb4fc-c9dd-4dfc-8791-338ceac04c1c/remove-projects-from-a-solution-programmatically)
+[link](https://social.msdn.microsoft.com/Forums/vstudio/en-US/0f2bb4fc-c9dd-4dfc-8791-338ceac04c1c/remove-projects-from-a-solution-programmatically)
 alla discussione.
 
     :::c#

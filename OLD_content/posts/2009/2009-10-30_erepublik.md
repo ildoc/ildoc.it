@@ -9,7 +9,7 @@ Status: Hidden
 <div style="clear: both;text-align: center">
 
 <span
-style="font-size: 13px;line-height: 18px;margin-left: 1em;margin-right: 1em">![](http://www.idrinkmusic.com.ar/wp-content/uploads/2008/08/erepublik-logo.png)</span>
+style="font-size: 13px;line-height: 18px;margin-left: 1em;margin-right: 1em">![](https://www.idrinkmusic.com.ar/wp-content/uploads/2008/08/erepublik-logo.png)</span>
 
 </div>
 
@@ -25,7 +25,7 @@ style="font-size: 13px;line-height: 18px">
 
 <span style="font-size: small"><span
 style="font-size: 13px;line-height: 18px"><span
-style="color: #666666;font-family: Arial;line-height: 19px">[](http://www.erepublik.com/en/referrer/Doc90)[www.erepublik.com](http://www.erepublik.com)</a></span></span></span>
+style="color: #666666;font-family: Arial;line-height: 19px">[](https://www.erepublik.com/en/referrer/Doc90)[www.erepublik.com](https://www.erepublik.com)</a></span></span></span>
 
 </div>
 
@@ -50,11 +50,11 @@ militari nelle loro nazioni, basate su quelle esistenti nel mondo reale.
 è stato programmato in PHP, utilizzando il framework Symfony, e funziona
 su tutti i browser moderni. Attualmente lo staff è composto da 30 membri
 oltre i fondatori. Link utili: - [Wiki
-ufficiale](http://wiki.erepublik.com/index.php/Main_Page) - [La storia
+ufficiale](https://wiki.erepublik.com/index.php/Main_Page) - [La storia
 di eRepublik dalla nascita del Nuovo Mondo a
-oggi](http://wiki.erepublik.com/index.php/History/Italiano) - [Forum
-ufficiale](http://www.erepublik.com/en/forum) - [Blog
-ufficiale](http://blog.erepublik.com/)</span>  
+oggi](https://wiki.erepublik.com/index.php/History/Italiano) - [Forum
+ufficiale](https://www.erepublik.com/en/forum) - [Blog
+ufficiale](https://blog.erepublik.com/)</span>  
 <span
 style="font-family: 'Lucida Grande', 'Trebuchet MS', Helvetica, Arial, sans-serif;font-size: small"><span
 style="font-size: 13px;line-height: 18px">  

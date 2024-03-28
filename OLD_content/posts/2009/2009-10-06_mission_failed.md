@@ -8,7 +8,7 @@ Status: Hidden
 
 <div style="clear: both;text-align: center">
 
-[![](http://www.legorobotcomics.com/comics/62.jpg)](http://www.legorobotcomics.com/comics/62.jpg)
+[![](https://www.legorobotcomics.com/comics/62.jpg)](https://www.legorobotcomics.com/comics/62.jpg)
 
 </div>
 

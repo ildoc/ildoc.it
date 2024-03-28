@@ -10,7 +10,7 @@ Utilizzando il [Crivello di
 Eratostene]({filename}2013-09-18_crivello_di_eratostene.md)
 precedentemente mostrato, è possibile scrivere una funzione in grado di
 restituire in una lista i [fattori
-primi](http://it.wikipedia.org/wiki/Fattorizzazione) di cui è composto
+primi](https://it.wikipedia.org/wiki/Fattorizzazione) di cui è composto
 un numero:
 
     :::python

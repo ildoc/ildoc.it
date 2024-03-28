@@ -18,7 +18,7 @@ io li ho provati entrambe, tant’è vero che la precedente versione di
 queto blog era proprio su blogger.  
 per cui andiamo in ordine cronologico…
 
-[](http://blogger.com/)<http://blogger.com/></a>
+[](https://blogger.com/)<https://blogger.com/></a>
 
 semplice, pulito e di facile utilizzo. credo un bel punto di partenza
 per tutti coloro che hanno poca confidenza con le applicazioni web, non
@@ -48,8 +48,8 @@ migliorare le performance del nostro blog o ampliare la gamma delle sue
 possibilità e, la pecca più grossa di tutte: la larghezza della pagina è
 fissa e non dinamica.
 
-[](http://wordpress.com)<http://wordpress.com/></a> e
-[](http://wordpress.org)<http://wordpress.org/></a>
+[](https://wordpress.com)<https://wordpress.com/></a> e
+[](https://wordpress.org)<https://wordpress.org/></a>
 
 su wordpress.com è possibile scaricare una copia gratuita del software
 per poi installarselo su un host proprio, mentre wordpress.org fornisce

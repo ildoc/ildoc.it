@@ -8,7 +8,7 @@ Status: Published
 
 
 Chi si diverte a “smanettare” sul web spesso usa un ambiente locale come
-[Wamp](http://www.wampserver.com/en/) o
+[Wamp](https://www.wampserver.com/en/) o
 [EasyPHP](2012-02-25_easyphp_un_webserver_in_pochi_click.md "EasyPHP: un webserver in pochi click")
 per fare prove ed esperimenti.  
 Ma come fare se poi si vuole rendere pubblico il proprio lavoro?  
@@ -25,7 +25,7 @@ Ed ecco come ho fatto, in pochi e semplici passaggi:
 1.  Ho disabilitato TUTTI i plugin dal Wordpress nell’ambiente di prova
 2.  Ho esportato il database in un file .sql
 3.  Ho editato il file andando a sostituire tutte le occorrenze di
-    “http://127.0.0.1” con “http://miosito.it”
+    “https://127.0.0.1” con “https://miosito.it”
 4.  Ho installato un Wordpress nuovo di zecca sul mio host
 5.  Ho sostituito la cartella wp-content del nuovo Wordpress con quella
     dell’ambiente di prova

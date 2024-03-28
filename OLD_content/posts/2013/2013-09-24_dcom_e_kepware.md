@@ -9,8 +9,8 @@ Status: Published
 Per riuscire a browsare/leggere/scrivere le tag e i loro valori su un
 server kepware è necessario:
 
-* registrare la libreria gbda\_aut.dll di grey box per la versione di windows che si sta usando (32/64bit) [Download](http://gray-box.net/download_daawrapper.php?lang=en)
-* installare un OPC client (es.[Matrikon](http://www.matrikonopc.com/downloads/types/software/index.aspx))
+* registrare la libreria gbda\_aut.dll di grey box per la versione di windows che si sta usando (32/64bit) [Download](https://gray-box.net/download_daawrapper.php?lang=en)
+* installare un OPC client (es.[Matrikon](https://www.matrikonopc.com/downloads/types/software/index.aspx))
 * impostare le dcom del proprio computer come segue:
   * start -> esegui -> dcomcnfg
   * component services -> computer -> click destro su my computer -> properties
