@@ -1,10 +1,8 @@
-Title: PHP and MySQL Web Development - Luke Welling, Laura Thomson
-Date: 2012-02-27 14:13:00
-Modified: 2015-03-24 16:09:17
-Tags: libri, mysql, php, programmazione, risorse
-Slug: php-and-mysql-web-development-luke-welling-laura-thomson
-Author: Doc
-Status: Published
+---
+title: PHP and MySQL Web Development - Luke Welling, Laura Thomson
+date: 2012-02-27 14:13:00
+tags: libri mysql php programmazione risorse
+---
 
 [PHP and MySQL Web Development: Luke Welling, Laura
 Thomson](https://amzn.to/1aZ9mG6)  

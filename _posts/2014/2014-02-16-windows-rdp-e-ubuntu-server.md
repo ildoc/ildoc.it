@@ -1,10 +1,8 @@
-Title: Windows rdp e Ubuntu Server
-Date: 2014-02-16 17:04:00
-Modified: 2015-03-26 14:01:29
-Tags: server, ubuntu, windows
-Slug: windows-rdp-e-ubuntu-server
-Author: Doc
-Status: Published
+---
+title: Windows rdp e Ubuntu Server
+date: 2014-02-16 17:04:00
+tags: server ubuntu windows
+---
 
 Mettiamo per assurdo che uno voglia connettersi in desktop remoto da
 Windows a Ubuntu server.  
@@ -26,14 +24,16 @@ ricade quindi su un ambiente desktop il più leggero possibile:
 
 La installiamo con il comando  
 
-    :::bash
-    sudo apt-get install lxde
+```bash
+sudo apt-get install lxde
+```
 
 Ok, ma adesso? Come si fa la magia?  
 Con il pacchetto [xrdp](https://www.xrdp.org/). (eterna lode a chi l'ha
 scritto) che installiamo con  
 
-    :::bash
-    sudo apt-get install xrdp
+```bash
+sudo apt-get install xrdp
+```
 
 e, ta-daaaan!

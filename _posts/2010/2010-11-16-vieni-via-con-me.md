@@ -1,10 +1,8 @@
-Title: Vieni via con me
-Date: 2010-11-16 10:20:00
-Modified: 2015-03-24 16:09:15
-Tags: accanimento terapeutico, eutanasia, fabio fazio, grande fratello, mafia, rai 3, roberto saviano
-Slug: vieni-via-con-me
-Author: Doc
-Status: Published
+---
+title: Vieni via con me
+date: 2010-11-16 10:20:00
+tags: accanimento-terapeutico eutanasia fabio-fazio grande-fratello mafia rai-3 roberto-saviano
+---
 
 Avrei voluto, avrei potuto scrivere del concerto che sono andato a
 vedere a milano, avrei potuto scrivere del perchè ultimamente non sto

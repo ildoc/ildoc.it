@@ -1,10 +1,8 @@
-Title: Un pò di roba - Aggiornamenti al sito/blog ecc.
-Date: 2010-11-02 20:46:00
-Modified: 2015-03-24 16:09:15
-Tags: blog, twitter, backup, drupal, joomla, live spaces, msn, twippo
-Slug: un-po-di-roba-aggiornamenti-al-sitoblog-ecc
-Author: Doc
-Status: Published
+---
+title: Un pò di roba - Aggiornamenti al sito/blog ecc.
+date: 2010-11-02 20:46:00
+tags: blog twitter backup drupal joomla live-spaces msn twippo
+---
 
 Come si usa dire da qualche parte: buonsalve.  
 si, è successo un pò di casino sul sito, è vero…  

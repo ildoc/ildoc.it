@@ -1,10 +1,8 @@
-Title: #kolossalberlusconi
-Date: 2012-03-28 10:23:00
-Modified: 2015-03-24 16:09:17
-Tags: twitter, berlusconi, 4 da lulz
-Slug: kolossalberlusconi
-Author: Doc
-Status: Published
+---
+title: "#kolossalberlusconi"
+date: 2012-03-28 10:23:00
+tags: twitter berlusconi 4-da-lulz
+---
 
 L’ex premier è alla disperata ricerca di un regista [per girare un film
 sulla sua

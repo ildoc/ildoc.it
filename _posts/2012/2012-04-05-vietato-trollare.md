@@ -1,10 +1,8 @@
-Title: Vietato trollare?
-Date: 2012-04-05 08:58:00
-Modified: 2015-03-24 16:09:17
-Tags: arizona, libertà di parola, news
-Slug: vietato-trollare
-Author: Doc
-Status: Published
+---
+title: Vietato trollare?
+date: 2012-04-05 08:58:00
+tags: arizona, libertà di parola, news
+---
 
 In Arizona è al varo una proposta di legge che farà senz’altro
 discutere.  

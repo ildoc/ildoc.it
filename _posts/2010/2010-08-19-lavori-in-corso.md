@@ -1,10 +1,8 @@
-Title: Lavori in corso...
-Date: 2010-08-19 17:16:00
-Modified: 2015-03-24 16:09:15
-Tags: blog
-Slug: lavori-in-corso
-Author: Doc
-Status: Published
+---
+title: Lavori in corso...
+date: 2010-08-19 17:16:00
+tags: blog
+---
 
 Lo sapevo.
 
@@ -86,6 +84,6 @@ messaggi, perchè non sai se il discorso finisce o sta per finire…
 
 e quindi lasci li tutto in sospeso, a metà…
 
-cazzo, mica parlaimo come terminator, con il punto in fondo alle frasi!
+cazzo, mica parliamo come terminator, con il punto in fondo alle frasi!
 
 eccristo…

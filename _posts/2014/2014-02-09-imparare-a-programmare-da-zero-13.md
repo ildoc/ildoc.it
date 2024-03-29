@@ -44,7 +44,7 @@ Ad esempio:
 
 * Prendere gli ingredienti  
 * Preparare l'impasto  
-* Infornare l tutto
+* Infornare il tutto
 
 Una volta che abbiamo progettato bene il nostro programma-torta,
 dobbiamo trovare il modo per parlare con il robot per fornirgli l'elenco
