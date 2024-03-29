@@ -14,7 +14,7 @@ Gavello](https://francescogavello.it/25-plugin-che-hanno-fatto-crescere-il-mio-b
 
 Lo installo e vado diretto alla pagina delle impostazioni.
 
-![sticazzi della seo](/static/images/posts/2014-02-11_20h27_46.png)
+![sticazzi della seo](/assets/img/posts/2014/2014-02-11_20h27_46.png)
 
 Dove ciascuna delle voci contiene da 3 a 5 campi da compilare.  
 Oltre ai campi base titolo-descrizione in ciascun post.
