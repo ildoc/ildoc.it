@@ -1,8 +1,6 @@
 ---
-layout: post
 title: Hello world?
 date: 2009-10-02 11:22:00
-categories: blog, università
 tags: blog
 ---
 eccomi qui… ho creato sto blog…  

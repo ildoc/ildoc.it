@@ -1,10 +1,8 @@
-Title: La SEO mi ha rotto i coglioni
-Date: 2014-11-02 20:47:00
-Modified: 2015-03-26 14:13:31
-Tags: wordpress, seo
-Slug: la-seo-mi-ha-rotto-i-coglioni
-Author: Doc
-Status: Published
+---
+title: La SEO mi ha rotto i coglioni
+date: 2014-11-02 20:47:00
+tags: wordpress seo
+---
 
 > *"...è bella e tutto quanto ma alla lunga rompe i coglioni"*
 

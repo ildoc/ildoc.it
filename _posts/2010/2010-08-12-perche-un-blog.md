@@ -1,10 +1,8 @@
-Title: Perchè un blog?
-Date: 2010-08-12 08:03:00
-Modified: 2015-03-24 16:09:15
-Tags: blog, facebook, social network, twitter
-Slug: perche-un-blog
-Author: Doc
-Status: Published
+---
+title: Perchè un blog?
+date: 2010-08-12 08:03:00
+tags: blog facebook social-network twitter
+---
 
 qualche anno fa ce ne avevo uno, ce l’avevamo tutti.
 

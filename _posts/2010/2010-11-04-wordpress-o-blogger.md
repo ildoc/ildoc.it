@@ -1,10 +1,8 @@
-Title: WordPress o Blogger?
-Date: 2010-11-04 23:12:00
-Modified: 2015-03-24 16:09:15
-Tags: blog, blogger, software, wordpress
-Slug: wordpress-o-blogger
-Author: Doc
-Status: Published
+---
+title: WordPress o Blogger?
+date: 2010-11-04 23:12:00
+tags: blog blogger wordpress
+---
 
 Eccoci qui a parlare di un’annosa questione, un problema che si pone
 chiunque abbia voglia di condividere pensieri e opinioni su internet, ad

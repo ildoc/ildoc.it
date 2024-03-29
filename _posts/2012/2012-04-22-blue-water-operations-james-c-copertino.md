@@ -1,10 +1,8 @@
-Title: Blue Water Operations - James C. Copertino
-Date: 2012-04-22 11:28:00
-Modified: 2015-03-24 16:09:17
-Tags: libri, copertino, recensioni
-Slug: blue-water-operations-james-c-copertino
-Author: Doc
-Status: Published
+---
+title: Blue Water Operations - James C. Copertino
+date: 2012-04-22 11:28:00
+tags: libri copertino recensioni
+---
 
 Una portacontainer battente bandiera francese viene assaltata dai pirati
 al largo della Somalia.  

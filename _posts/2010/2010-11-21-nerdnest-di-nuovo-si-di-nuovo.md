@@ -1,10 +1,8 @@
-Title: NerdNest!: di nuovo? Si, di nuovo.
-Date: 2010-11-21 13:30:00
-Modified: 2015-03-24 16:09:15
-Tags: blog, forum, nerdnest, wantedgov
-Slug: nerdnest-di-nuovo-si-di-nuovo
-Author: Doc
-Status: Published
+---
+title: "NerdNest!: di nuovo? Si, di nuovo."
+date: 2010-11-21 13:30:00
+tags: blog forum nerdnest wantedgov
+---
 
 Avevo iniziato a scrivere questo post un pò di tempo fa dal mio
 cellulare, ma poi ho avuto “altre” cose per la testa e l’ho mollato

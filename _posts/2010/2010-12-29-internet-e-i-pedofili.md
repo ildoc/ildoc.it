@@ -1,10 +1,8 @@
-Title: Internet e i pedofili.
-Date: 2010-12-29 17:19:00
-Modified: 2015-03-24 16:09:15
-Tags: internet, pedofilia
-Slug: internet-e-i-pedofili
-Author: Doc
-Status: Published
+---
+title: Internet e i pedofili.
+date: 2010-12-29 17:19:00
+tags: internet pedofilia
+---
 
 Non è un mistero che la pedofilia abbia trovato in internet uno
 strumento di diffusione di materiale e e che sia territorio di caccia

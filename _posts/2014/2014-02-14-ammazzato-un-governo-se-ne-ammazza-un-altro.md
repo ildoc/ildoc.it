@@ -1,10 +1,8 @@
-Title: Ammazzato un governo, se ne ammazza un altro
-Date: 2014-02-14 08:27:00
-Modified: 2015-03-24 16:09:16
-Tags: berlusconi, casini, governo, m5s, renzi
-Slug: ammazzato-un-governo-se-ne-ammazza-un-altro
-Author: Doc
-Status: Published
+---
+title: Ammazzato un governo, se ne ammazza un altro
+date: 2014-02-14 08:27:00
+tags: berlusconi casini governo m5s renzi
+---
 
 L'hanno fatta.  
 La peggiore cazzata che potevano fare l'hanno fatta.  
