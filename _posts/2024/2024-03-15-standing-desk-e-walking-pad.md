@@ -95,6 +95,7 @@ Ha un'[app ufficiale](https://play.google.com/store/apps/details?id=com.kingsmit
 Provando a smanettarci un po' ho visto che comunica in BLE con il telefono e che c'è [un progetto su Github](https://github.com/ph4r05/ph4-walkingpad) di un tizio che ha fatto il reverse engineering della messaggistica per riuscire poi a pilotare il tutto da Python, e su questo progetto ne sono stati costruiti altri per riuscire a integrare le statistiche di utilizzo dentro Home Assistant... Chissà, sarebbe interessante.
 
 ### Pro
+- Molto silenzioso
 - Si sposta facilmente
 - La manutenzione è veramente minima
 
