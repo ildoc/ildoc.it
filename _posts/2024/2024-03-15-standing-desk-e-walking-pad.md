@@ -1,5 +1,5 @@
 ---
-title: Standing desk e walinkg pad
+title: Standing desk e walking pad
 date: 2024-04-08 10:21:00
 tags: standing-desk walkingpad ufficio smart-working
 img_path: /assets/img/posts/2024
