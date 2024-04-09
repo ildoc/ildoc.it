@@ -50,7 +50,7 @@ google_site_verification: # fill in to your verification string
 analytics:
   umami:
     id: ac5b974e-9376-4360-a895-136c603672d7
-    domain: stats.ildoc.it
+    domain: https://stats.ildoc.it
 
 google_analytics:
   id: # fill in your Google Analytics ID
