@@ -45,5 +45,6 @@
     {%- endcapture -%}
 
     {{ site.data.locales[include.lang].meta | replace: ':PLATFORM', _platform | replace: ':THEME', _theme }}
+    {% if jekyll.environment == 'production' %}yes{% else %}{{jekyll.environment}}{% endif %}
   </p>
 </footer>
