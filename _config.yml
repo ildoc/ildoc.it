@@ -28,9 +28,6 @@ url: "https://ildoc.it"
 github:
   username: ildoc # change to your github username
 
-# twitter:
-#   username: il_doc # change to your twitter username
-
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
@@ -48,6 +45,12 @@ google_site_verification: # fill in to your verification string
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
+
+# Web Analytics Settings
+analytics:
+  umami:
+    id: ac5b974e-9376-4360-a895-136c603672d7
+    domain: stats.ildoc.it
 
 google_analytics:
   id: # fill in your Google Analytics ID
