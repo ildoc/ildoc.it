@@ -2,7 +2,7 @@
 title: Standing desk e walking pad
 date: 2024-04-08 10:21:00
 tags: standing-desk walkingpad ufficio smart-working
-img_path: /assets/img/posts/2024
+media_subpath: /assets/img/posts/2024
 ---
 Facendo il Software Developer, riconosco di essere molto fortunato e privilegiato: la pandemia non ha impattato quasi nulla sul mio lavoro e, guardando al bicchiere mezzo pieno, ha dato un boost pazzesco allo smart working.
 
