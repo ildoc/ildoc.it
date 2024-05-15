@@ -99,7 +99,7 @@ E così Ansible è pronto, ora c'è da configurare una chiave ssh e pusharla sul
 ssh-keygen
 ```
 
-e poi 
+e poi si pushano le chiavi sulle macchine con 
 
 ```bash
 ssh-copy-id filippo@192.168.0.180
@@ -234,7 +234,7 @@ kube-02   Ready    control-plane,etcd,master   1h      v1.29.4+k3s1
 kube-03   Ready    control-plane,etcd,master   1h      v1.29.4+k3s1
 ```
 
-## 4. The end?
+### 4. The end?
 
 E questo è stato soltanto il setup iniziale! C'è ancora parecchia infrastruttura da mettere in piedi e ancora un mare di cose da imparare!
 
