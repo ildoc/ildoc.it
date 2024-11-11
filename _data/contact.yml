@@ -27,6 +27,10 @@
 #   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
 #   url:  ''                  # Fill with your Linkedin homepage
 #
-# - type: stack-overflow
-#   icon: 'fab fa-stack-overflow'
-#   url:  ''                  # Fill with your stackoverflow homepage
+- type: stack-overflow
+  icon: 'fab fa-stack-overflow'
+  url:  'https://stackexchange.com/users/1672100/doc'                  # Fill with your stackoverflow homepage
+
+# - type: reddit
+#   icon: 'fa-brands fa-reddit'
+#   url: ''                   # Fill with your Reddit profile link
