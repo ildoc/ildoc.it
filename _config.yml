@@ -194,8 +194,10 @@ exclude:
   - tools
   - README.md
   - LICENSE
-  - "*.config.js"
-  - package*.json
+  - "*.js"
+  - "package*.json"
+  - purgecss.js
+  - rollup.config.js
   - docker-compose.yml
   - OLD_content
 
