@@ -30,11 +30,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          submodules: recursive
-          # fetch-depth: 0
-          # If using the 'assets' git submodule from Chirpy Starter, uncomment above
-          # (See: https://github.com/cotes2020/chirpy-starter/tree/main/assets)
+      - name: Checkout submodules
+        run: git submodule update --init --recursive
+        # If using the 'assets' git submodule from Chirpy Starter, uncomment above
+        # (See: https://github.com/cotes2020/chirpy-starter/tree/main/assets)
 
       - name: Setup Pages
         id: pages
