@@ -28,14 +28,19 @@ Tutto questo per tipo 10 minuti prima del colpo di scena:
 "no ma non importa, ti assumeremmo sulla sede di Genova". 
 
 Quindi comunque in presenza ma per lavorare da remoto 🙈
+
 Ovviamente abbiamo interrotto qui, siamo nel 2026 e ci sono tutti gli strumenti necessari, il full remote per me funziona benissimo e non sono disposto a tornare in ufficio, specialmente poi per passare le giornate in call su teams quando posso farlo da casa in pigiama.
 
 Però chissà come sarebbe andato avanti il processo di selezione e quante altre volte avrei dovuto elencare quello che ho fatto negli ultimi 16 anni 😂
 
 Uno si sbatte a curare il profilo Linkedin e questo non viene neanche letto.
+
 Bisogna ANCORA inserire le stesse esperienze in 90 posti diversi.
+
 Il primo colloquio conoscitivo per ruoli tecnici viene ANCORA fatto da persone che non hanno la minima idea di che cosa si stia parlando, quindi potenzialmente viene scartata molta gente valida perchè non hanno trasmesso le "vibes giuste" o non hanno menzionato esplicitamente tutte le parole sulla lista data in mano al recruiter.
+
 Forzare la gente ad andare in ufficio è (a mio personalissimo avviso) segnale di un management che non funziona o è nostalgico di mondo che ormai è cambiato.
+
 Questi obsoleti, farraginosi e iper-burocraticizzati processi di recruiting non fanno che confermare quella sensazione, comune a molti candidati tecnici, che l'HR e i "Senior talent acquisition" siano solo un ostacolo da superare prima di arrivare a parlare con qualcuno tecnicamente competente sul ruolo.
 
 Alla RAL non ci siamo neanche arrivati
