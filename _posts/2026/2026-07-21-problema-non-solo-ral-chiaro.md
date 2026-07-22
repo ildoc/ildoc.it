@@ -5,7 +5,7 @@ tags: hr recruiting linkedin
 ---
 Il problema non è solo la RAL in chiaro...
 
-L'altro giorno qui su LinkedIn mi scrive un manager di una società di consulenza ENORME, "ciao sono xxx, ho un progetto in partenza con le tecnologie x, y e z, se ti può interessare inviami il tuo cv alla mia e-mail".
+L'altro giorno qui su LinkedIn mi scrive un manager di una società di consulenza ENORME (+300k dipendenti nel mondo), "ciao sono xxx, ho un progetto in partenza con le tecnologie x, y e z, se ti può interessare inviami il tuo cv alla mia e-mail".
 
 Siamo su LinkedIn, nel mio profilo ci sono già tutte le mie esperienze, però vabbè, il progetto sembra interessante e il cv (che è un copia-incolla del mio profilo) immagino che probabilmente servirà per HR e invio il pdf alla mail indicata.
 
